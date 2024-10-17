@@ -1,0 +1,13 @@
+<div
+  aria-label="#NAME# | #CITY#, #STATE# | 2025 Ford Super Duty Trims"
+  class="img-background img-cover bg-main border-x text-white"
+  id="heroSection"
+  role="img">
+  <div class="container">
+    <h1 class="h3 margin-x text-uppercase">
+      <span class="heading-xl">2025 Ford Super Duty<sup>&reg;</sup></span>
+      <br />
+      <span class="heading-x2">Trims</span>
+    </h1>
+  </div>
+</div>
