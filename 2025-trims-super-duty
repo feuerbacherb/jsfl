@@ -125,4 +125,127 @@
       </div>
     </div>
   </div>
+  <div class="container cc-brand-bg">
+    <div class="ford-font">
+      <h3>FAQs</h3>
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true" style="color: black">
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="h0">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c0" aria-expanded="false" aria-controls="c0">
+                Where can I build and price a 2025 Ford Super Duty?
+              </a>
+            </h4>
+          </div>
+          <div id="c0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h0">
+            <div class="panel-body">
+              At Johnson Sewell Ford, we have a number of helpful sales representatives who can walk you through the process of ordering a Super Duty<sup
+                >&reg;</sup
+              >
+              pickup that will meet your specific needs.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="h1">
+            <h4 class="panel-title">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#c1" aria-expanded="false" aria-controls="c1">
+                Does the 2025 F-250<sup>&reg;</sup> have a diesel engine option?
+              </a>
+            </h4>
+          </div>
+          <div id="c1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h1">
+            <div class="panel-body">
+              <p>
+                Yes. There are two available diesel engines, the 6.7L PowerStroke® V8 Turbo Diesel, and a 6.7L High Output PowerStroke® V8 Turbo Diesel engine.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="h2">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c2" aria-expanded="false" aria-controls="c2">
+                What cab choices are available on a 2025 Super Duty<sup>&reg;</sup> pickup?
+              </a>
+            </h4>
+          </div>
+          <div id="c2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h2">
+            <div class="panel-body">
+              <p>Cab options include:</p>
+              <ul>
+                <li>Regular Cab</li>
+                <li>Super Cab</li>
+                <li>Crew Cab</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="h3">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c3" aria-expanded="false" aria-controls="c3">
+                What are the exterior dimensions of a 2025 Super Duty<sup>&reg;</sup> pickup?
+              </a>
+            </h4>
+          </div>
+          <div id="c3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h3">
+            <div class="panel-body">
+              <p>
+                The overall exterior length dimensions on a Super Duty<sup>&reg;</sup> pickup range between 231.8-inch XL Regular Cab model up to 266.2-inch
+                Platinum<sup>&reg;</sup> Crew Cab model.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="h4">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c4" aria-expanded="false" aria-controls="c4">
+                What are the 2025 Super Duty<sup>&reg;</sup> color options?
+              </a>
+            </h4>
+          </div>
+          <div id="c4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h4">
+            <div class="panel-body">
+              <p>Color choices available:</p>
+              <ul>
+                <li>Agate Black</li>
+                <li>Antimatter Blue</li>
+                <li>Carbonized Gray</li>
+                <li>Avalanche</li>
+                <li>Oxford White</li>
+                <li>Race Red</li>
+                <li>Ruby Red</li>
+                <li>Darkened Bronze Metallic</li>
+                <li>Star White Metallic</li>
+                <li>Glacier Gray</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="h5">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c5" aria-expanded="false" aria-controls="c5">
+                Why buy a Ford Super Duty versus a GMC HD?
+              </a>
+            </h4>
+          </div>
+          <div id="c5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h5">
+            <div class="panel-body">
+              <p>
+                When comparing the Ford Super Duty to the GMC Heavy Duty (HD) lineup, the Ford Super Duty emerges as the clear winner in several key areas. With
+                powerful engine options like the 7.3-liter V8 and the high-output 6.7-liter Power Stroke turbo diesel, the Super Duty delivers superior towing
+                capacity—up to 37,000 pounds—making it the ideal choice for heavy-duty tasks. Advanced technology features, including Pro Trailer Backup Assist
+                and the comprehensive Ford Co-Pilot360 safety suite, enhance both convenience and safety. Additionally, the Super Duty's spacious, high-quality
+                interior ensures comfort during long hauls. Overall, the Ford Super Duty's unmatched performance, reliability, and innovative features solidify
+                its position as the top choice for heavy-duty truck enthusiasts.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
