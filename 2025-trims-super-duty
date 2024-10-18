@@ -1,8 +1,4 @@
-<div
-  aria-label="#NAME# | #CITY#, #STATE# | 2025 Ford Super Duty Trims"
-  class="img-background img-cover bg-main border-x text-white"
-  id="heroSection"
-  role="img">
+<div aria-label="#NAME# | #CITY#, #STATE# | 2025 Ford Super Duty Trims" class="img-background img-cover bg-main border-x text-white" id="heroSection" role="img">
   <div class="container">
     <h1 class="h3 margin-x text-uppercase">
       <span class="heading-xl">2025 Ford Super Duty<sup>&reg;</sup></span>
@@ -29,14 +25,166 @@
         </h5>
       </div>
       <div class="modal-body ford-font">
-        <p>
-          Some Options are not available separately. Not all Options or Option Packages are available on all vehicles. See your sales representative for more
-          details.
-        </p>
+        <p>Some Options are not available separately. Not all Options or Option Packages are available on all vehicles. See your sales representative for more details.</p>
       </div>
     </div>
   </div>
 </div>
+
+<!-- Trim Start -->
+<!-- 600A modal -->
+<div aria-hidden="true" aria-labelledby="600ATitle" class="modal" id="600A" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="600ATitle">
+          XL F-250<sup>&reg;</sup> (600A) Equipment Group
+          <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <p>XL F-250<sup>&reg;</sup> (600A) includes:</p>
+        <ul>
+          <li>6.8L 2V DEVCT NA PFI V8 Gas Engine</li>
+          <li>4.2-inch LCD Productivity Screen: includes menus for Gauge Setup, Trip Computer, Fuel Economy and Towing / Off-Road applications</li>
+          <li>AdvanceTrac<sup>&reg;</sup> with RSC<sup>&reg;</sup> (Roll Stability Control<sup>&trade</sup>)</li>
+          <li>Audio - AM/FM stereo / MP3 Player speakers; four (4) with Regular Cab, six (6) with SuperCab and Crew Cab</li>
+          <li>FordPass Connect<sup>&trade;</sup> (5G)</li>
+          <li>SYNC<sup>&reg;</sup> 4</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Trim End / Engine Start -->
+<!-- Eng68L2VDEVCTNAPFIV8Gas modal -->
+<div aria-hidden="true" aria-labelledby="Eng68L2VDEVCTNAPFIV8GasTitle" class="modal" id="Eng68L2VDEVCTNAPFIV8Gas" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Eng68L2VDEVCTNAPFIV8GasTitle">
+          6.8L 2V DEVCT NA PFI V8 Gas Engine
+          <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty 6.8L 2V DEVCT NA PFI V8 Gas Engine External View"
+          title="#NAME# | #CITY#, #STATE# | 2025 Super Duty 6.8L 2V DEVCT NA PFI V8 Gas Engine External View"
+          style="background-image: url('#MISCPATH#images/2025_Super_Duty/Engine.68L2VDEVCTNAPFIV8Gas.png'); padding-top: 66%"
+          class="img-background img-contain hidden-xs"></div>
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty 6.8L 2V DEVCT NA PFI V8 Gas Engine External View"
+          title="#NAME# | #CITY#, #STATE# | 2025 Super Duty 6.8L 2V DEVCT NA PFI V8 Gas Engine External View"
+          style="background-image: url('#MISCPATH#images/2025_Super_Duty/Engine.68L2VDEVCTNAPFIV8Gas.png'); padding-top: 175px"
+          class="img-background img-contain margin-bottom-2x visible-xs"></div>
+        <p>
+          Standard on all XL, XLT, and LARIAT<sup>&reg;</sup> F-250<sup>&reg;</sup> or F-350<sup>&reg;</sup> SRW/DRW.
+          <br />
+          Required in CNG / Propane Gaseous Engine Prep Package.
+          <br />
+          Not available with LARIAT<sup>&reg;</sup> Ultimate Package.
+        </p>
+        <p><small>Digitally generated image shown.</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Eng67LHighOutputPowerStrokeV8TurboDieselB20 modal -->
+<div aria-hidden="true" aria-labelledby="Eng67LHighOutputPowerStrokeV8TurboDieselB20Title" class="modal" id="Eng67LHighOutputPowerStrokeV8TurboDieselB20" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Eng67LHighOutputPowerStrokeV8TurboDieselB20Title">
+          6.7L High Output Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty 6.7L High Output Power Stroke V8 Turbo Diesel B20 Engine External View"
+          title="#NAME# | #CITY#, #STATE# | 2025 Super Duty 6.7L High Output Power Stroke V8 Turbo Diesel B20 Engine External View"
+          style="background-image: url('#MISCPATH#images/2025_Super_Duty/Engine.67LHighOutputPowerStrokeV8TurboDieselB20.png'); padding-top: 66%"
+          class="img-background img-contain hidden-xs"></div>
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty 6.7L High Output Power Stroke V8 Turbo Diesel B20 Engine External View"
+          title="#NAME# | #CITY#, #STATE# | 2025 Super Duty 6.7L High Output Power Stroke V8 Turbo Diesel B20 Engine External View"
+          style="background-image: url('#MISCPATH#images/2025_Super_Duty/Engine.67LHighOutputPowerStrokeV8TurboDieselB20.png'); padding-top: 175px"
+          class="img-background img-contain margin-bottom-2x visible-xs"></div>
+        <p>Available on all Super Duty<sup>&reg;</sup> models.</p>
+        <p>Required in:</p>
+        <ul>
+          <li>Platinum<sup>&reg;</sup> Plus Package</li>
+          <li>TREMOR<sup>&reg;</sup> Off-Road Package</li>
+          <li>F-250<sup>&reg;</sup> High Capacity Axle Upgrade Package</li>
+          <li>F-450<sup>&reg;</sup> High Capacity Gooseneck Tow Package</li>
+        </ul>
+        <p>Not available with:</p>
+        <ul>
+          <li>Fixed 10,000 lb. GVWR Package</li>
+          <li>Pickup Box Delete</li>
+        </ul>
+        <p><small>Digitally generated image shown.</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Eng67L4ValveOHVPowerStrokeV8TurboDieselB20 modal -->
+<div aria-hidden="true" aria-labelledby="Eng67L4ValveOHVPowerStrokeV8TurboDieselB20Title" class="modal" id="Eng67L4ValveOHVPowerStrokeV8TurboDieselB20" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Eng67L4ValveOHVPowerStrokeV8TurboDieselB20Title">
+          6.7L 4 Valve OHV Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty 6.7L 4 Valve OHV Power Stroke V8 Turbo Diesel B20 Engine External View"
+          title="#NAME# | #CITY#, #STATE# | 2025 Super Duty 6.7L 4 Valve OHV Power Stroke V8 Turbo Diesel B20 Engine External View"
+          style="background-image: url('#MISCPATH#images/2025_Super_Duty/Engine.67L4ValveOHVPowerStrokeV8TurboDieselB20.png'); padding-top: 66%"
+          class="img-background img-contain hidden-xs"></div>
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty 6.7L 4 Valve OHV Power Stroke V8 Turbo Diesel B20 Engine External View"
+          title="#NAME# | #CITY#, #STATE# | 2025 Super Duty 6.7L 4 Valve OHV Power Stroke V8 Turbo Diesel B20 Engine External View"
+          style="background-image: url('#MISCPATH#images/2025_Super_Duty/Engine.67L4ValveOHVPowerStrokeV8TurboDieselB20.png'); padding-top: 175px"
+          class="img-background img-contain margin-bottom-2x visible-xs"></div>
+        <p>
+          Standard on all F-450<sup>&reg;</sup> modals.
+          <br />
+          Available on all F-250<sup>&reg;</sup>, F-350<sup>&reg;</sup> SRW/DRW models.
+          <br />
+          Required in the F-250<sup>&reg;</sup> High Capacity Axle Upgrade Package.
+        </p>
+        <p>
+          The 6.7L 4 Valve OHV Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 has a 36,000-psi fuel-injection system, featuring injectors that can atomize fuel up to eight times per stroke to optimize combustion. It also features a stronger block,
+          cylinder heads, connector rods and bearings, plus forged-steel pistons.
+        </p>
+        <p><small>Digitally generated image show.</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Engine End / Rear Axle Ratio Start -->
+
+<!-- Rear Axle Ratio End / Options Start -->
 
 <!--
   End Modals
@@ -71,13 +219,21 @@
     <div class="tab-content">
       <div id="F250_tab" class="tab-pane active ford-font">
         <ul class="nav nav-tabs" id="F250Tabs">
-          <li class="active"><a data-toggle="tab" href="#F250XL_tab">XL</a></li>
-          <li><a data-toggle="tab" href="#F250XLT_tab">XLT</a></li>
-          <li><a data-toggle="tab" href="#F250LARIAT_tab">LARIAT</a></li>
+          <li class="active">
+            <a data-toggle="tab" href="#F250XL_tab">XL</a>
+          </li>
+          <li>
+            <a data-toggle="tab" href="#F250XLT_tab">XLT</a>
+          </li>
+          <li>
+            <a data-toggle="tab" href="#F250LARIAT_tab">LARIAT<sup>&reg;</sup></a>
+          </li>
           <li>
             <a data-toggle="tab" href="#F250KingRanch_tab">King Ranch<sup>&reg;</sup></a>
           </li>
-          <li><a data-toggle="tab" href="#F250Platinum_tab">Platinum</a></li>
+          <li>
+            <a data-toggle="tab" href="#F250Platinum_tab">Platinum</a>
+          </li>
         </ul>
         <div class="tab-content ford-font">
           <div class="tab-pane active" id="F250XL_tab">F250 | XL</div>
@@ -89,13 +245,21 @@
       </div>
       <div id="F350_tab" class="tab-pane ford-font">
         <ul class="nav nav-tabs" id="F350tabs">
-          <li class="active"><a data-toggle="tab" href="#F350XL_tab">XL</a></li>
-          <li><a data-toggle="tab" href="#F350XLT_tab">XLT</a></li>
-          <li><a data-toggle="tab" href="#F350LARIAT_tab">LARIAT</a></li>
+          <li class="active">
+            <a data-toggle="tab" href="#F350XL_tab">XL</a>
+          </li>
+          <li>
+            <a data-toggle="tab" href="#F350XLT_tab">XLT</a>
+          </li>
+          <li>
+            <a data-toggle="tab" href="#F350LARIAT_tab">LARIAT<sup>&reg;</sup></a>
+          </li>
           <li>
             <a data-toggle="tab" href="#F350KingRanch_tab">King Ranch<sup>&reg;</sup></a>
           </li>
-          <li><a data-toggle="tab" href="#F350Platinum_tab">Platinum</a></li>
+          <li>
+            <a data-toggle="tab" href="#F350Platinum_tab">Platinum</a>
+          </li>
         </ul>
         <div class="tab-content ford-font">
           <div class="tab-pane active" id="F350XL_tab">F-350 | XL</div>
@@ -107,13 +271,21 @@
       </div>
       <div id="F450_tab" class="tab-pane ford-font">
         <ul class="nav nav-tabs" id="F450Tabs">
-          <li class="active"><a data-toggle="tab" href="#F450XL_tab">XL</a></li>
-          <li><a data-toggle="tab" href="#F450XLT_tab">XLT</a></li>
-          <li><a data-toggle="tab" href="#F450LARIAT_tab">LARIAT</a></li>
+          <li class="active">
+            <a data-toggle="tab" href="#F450XL_tab">XL</a>
+          </li>
+          <li>
+            <a data-toggle="tab" href="#F450XLT_tab">XLT</a>
+          </li>
+          <li>
+            <a data-toggle="tab" href="#F450LARIAT_tab">LARIAT<sup>&reg;</sup></a>
+          </li>
           <li>
             <a data-toggle="tab" href="#F450KingRanch_tab">King Ranch<sup>&reg;</sup></a>
           </li>
-          <li><a data-toggle="tab" href="#F450Platinum_tab">Platinum</a></li>
+          <li>
+            <a data-toggle="tab" href="#F450Platinum_tab">Platinum</a>
+          </li>
         </ul>
         <div class="tab-content ford-font">
           <div class="tab-pane active" id="F450XL_tab">F-450 | XL</div>
@@ -132,42 +304,29 @@
         <div class="panel panel-default">
           <div class="panel-heading" role="tab" id="h0">
             <h4 class="panel-title">
-              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c0" aria-expanded="false" aria-controls="c0">
-                Where can I build and price a 2025 Ford Super Duty?
-              </a>
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c0" aria-expanded="false" aria-controls="c0"> Where can I build and price a 2025 Ford Super Duty? </a>
             </h4>
           </div>
           <div id="c0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h0">
-            <div class="panel-body">
-              At Johnson Sewell Ford, we have a number of helpful sales representatives who can walk you through the process of ordering a Super Duty<sup
-                >&reg;</sup
-              >
-              pickup that will meet your specific needs.
-            </div>
+            <div class="panel-body">At Johnson Sewell Ford, we have a number of helpful sales representatives who can walk you through the process of ordering a Super Duty<sup>&reg;</sup>pickup that will meet your specific needs.</div>
           </div>
         </div>
         <div class="panel panel-default">
           <div class="panel-heading" role="tab" id="h1">
             <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#c1" aria-expanded="false" aria-controls="c1">
-                Does the 2025 F-250<sup>&reg;</sup> have a diesel engine option?
-              </a>
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#c1" aria-expanded="false" aria-controls="c1"> Does the 2025 F-250<sup>&reg;</sup> have a diesel engine option? </a>
             </h4>
           </div>
           <div id="c1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h1">
             <div class="panel-body">
-              <p>
-                Yes. There are two available diesel engines, the 6.7L PowerStroke® V8 Turbo Diesel, and a 6.7L High Output PowerStroke® V8 Turbo Diesel engine.
-              </p>
+              <p>Yes. There are two available diesel engines, the 6.7L PowerStroke® V8 Turbo Diesel, and a 6.7L High Output PowerStroke® V8 Turbo Diesel engine.</p>
             </div>
           </div>
         </div>
         <div class="panel panel-default">
           <div class="panel-heading" role="tab" id="h2">
             <h4 class="panel-title">
-              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c2" aria-expanded="false" aria-controls="c2">
-                What cab choices are available on a 2025 Super Duty<sup>&reg;</sup> pickup?
-              </a>
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c2" aria-expanded="false" aria-controls="c2"> What cab choices are available on a 2025 Super Duty<sup>&reg;</sup> pickup? </a>
             </h4>
           </div>
           <div id="c2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h2">
@@ -184,26 +343,19 @@
         <div class="panel panel-default">
           <div class="panel-heading" role="tab" id="h3">
             <h4 class="panel-title">
-              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c3" aria-expanded="false" aria-controls="c3">
-                What are the exterior dimensions of a 2025 Super Duty<sup>&reg;</sup> pickup?
-              </a>
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c3" aria-expanded="false" aria-controls="c3"> What are the exterior dimensions of a 2025 Super Duty<sup>&reg;</sup> pickup? </a>
             </h4>
           </div>
           <div id="c3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h3">
             <div class="panel-body">
-              <p>
-                The overall exterior length dimensions on a Super Duty<sup>&reg;</sup> pickup range between 231.8-inch XL Regular Cab model up to 266.2-inch
-                Platinum<sup>&reg;</sup> Crew Cab model.
-              </p>
+              <p>The overall exterior length dimensions on a Super Duty<sup>&reg;</sup> pickup range between 231.8-inch XL Regular Cab model up to 266.2-inch Platinum<sup>&reg;</sup> Crew Cab model.</p>
             </div>
           </div>
         </div>
         <div class="panel panel-default">
           <div class="panel-heading" role="tab" id="h4">
             <h4 class="panel-title">
-              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c4" aria-expanded="false" aria-controls="c4">
-                What are the 2025 Super Duty<sup>&reg;</sup> color options?
-              </a>
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c4" aria-expanded="false" aria-controls="c4"> What are the 2025 Super Duty<sup>&reg;</sup> color options? </a>
             </h4>
           </div>
           <div id="c4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h4">
@@ -227,20 +379,16 @@
         <div class="panel panel-default">
           <div class="panel-heading" role="tab" id="h5">
             <h4 class="panel-title">
-              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c5" aria-expanded="false" aria-controls="c5">
-                Why buy a Ford Super Duty versus a GMC HD?
-              </a>
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c5" aria-expanded="false" aria-controls="c5"> Why buy a Ford Super Duty versus a GMC HD? </a>
             </h4>
           </div>
           <div id="c5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h5">
             <div class="panel-body">
               <p>
-                When comparing the Ford Super Duty to the GMC Heavy Duty (HD) lineup, the Ford Super Duty emerges as the clear winner in several key areas. With
-                powerful engine options like the 7.3-liter V8 and the high-output 6.7-liter Power Stroke turbo diesel, the Super Duty delivers superior towing
-                capacity—up to 37,000 pounds—making it the ideal choice for heavy-duty tasks. Advanced technology features, including Pro Trailer Backup Assist
-                and the comprehensive Ford Co-Pilot360 safety suite, enhance both convenience and safety. Additionally, the Super Duty's spacious, high-quality
-                interior ensures comfort during long hauls. Overall, the Ford Super Duty's unmatched performance, reliability, and innovative features solidify
-                its position as the top choice for heavy-duty truck enthusiasts.
+                When comparing the Ford Super Duty to the GMC Heavy Duty (HD) lineup, the Ford Super Duty emerges as the clear winner in several key areas. With powerful engine options like the 7.3-liter V8 and the high-output 6.7-liter Power Stroke
+                turbo diesel, the Super Duty delivers superior towing capacity—up to 37,000 pounds—making it the ideal choice for heavy-duty tasks. Advanced technology features, including Pro Trailer Backup Assist and the comprehensive Ford
+                Co-Pilot360 safety suite, enhance both convenience and safety. Additionally, the Super Duty's spacious, high-quality interior ensures comfort during long hauls. Overall, the Ford Super Duty's unmatched performance, reliability, and
+                innovative features solidify its position as the top choice for heavy-duty truck enthusiasts.
               </p>
             </div>
           </div>
