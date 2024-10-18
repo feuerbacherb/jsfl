@@ -514,6 +514,52 @@
   </div>
 </div>
 
+<!-- FX4OffRoad modal -->
+<div aria-hidden="true" aria-labelledby="FX4OffRoadTitle" class="modal" id="FX4OffRoad" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="FX4OffRoadTitle">
+          FX4<sup>&reg;</sup> Off-Road Package
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty FX4 Off-Road Package Exterior View"
+          title="#NAME# | #CITY#, #STATE# | 2025 Super Duty Off-Road Package Exterior View"
+          style="background-image: url('#MISCPATH#images/2025_Super_Duty/Opt.FX4_Off-Road.png'); padding-top: 66%"
+          class="img-background img-contain hidden-xs"></div>
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty FX4 Off-Road Package Exterior View"
+          title="#NAME# | #CITY#, #STATE# | 2025 Super Duty Off-Road Package Exterior View"
+          style="background-image: url('#MISCPATH#images/2025_Super_Duty/Opt.FX4_Off-Road.png'); padding-top: 175px"
+          class="img-background img-contain margin-bottom-2x visible-xs"></div>
+        <p>Available on all 4&times;4 Pickups.</p>
+        <p>Requires:</p>
+        <ul>
+          <li>4&times;4</li>
+          <li>All-Terrain Tires (F-250<sup>&reg;</sup> and F-350<sup>&reg;</sup>)</li>
+          <li>225/70Rx19.5G BSW Traction Tires (F-450<sup>&reg;</sup>)</li>
+          <li>Electronic-lcoking differential on SRW</li>
+          <li>Limited-slip rear-axle on DRW</li>
+        </ul>
+        <p>Includes:</p>
+        <ul>
+          <li>Hill Descent Control<sup>&trade;</sup></li>
+          <li>Off-Road Specifically tuned front/rear shock absorbers</li>
+          <li>Skid Plates - Transfer Case and Fuel Tank</li>
+          <li>Unique "FX4<sup>&reg;</sup> Off-Road" box decal</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!--
   End Modals
 -->
