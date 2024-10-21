@@ -979,6 +979,18 @@
         </h5>
       </div>
       <div class="modal-body">
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty Black Appearance Package External View"
+          title="#NAME# | #CITY#, #STATE# | 2025 Super Duty Black Appearance Package External View"
+          style="background-image: url('#MISCPATH#images/2025_Super_Duty/Opt.BlackAppearance.png'); padding-top: 66%"
+          class="img-background img-contain hidden-xs"></div>
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty Clack Appearance Package External View"
+          title="#NAME# | #CITY#, #STATE# | 2025 Super Duty Black Appearance Package External View"
+          style="background-image: url('#MISCPATH#images/2025_Super_Duty/Opt.BlackAppearance.png'); padding-top: 175px"
+          class="img-background img-contain margin-bottom-2x visible-xs"></div>
         <p>Available on:</p>
         <ul>
           <li>XLT (Crew Cab) and LARIAT<sup>&reg;</sup></li>
@@ -1018,6 +1030,79 @@
           <li>Camper Package</li>
           <li>Snowplow/Camper Package</li>
         </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TremorOffRoad modal -->
+<div aria-hidden="true" aria-labelledby="TremorOffRoadTitle" class="modal" id="TremorOffRoad" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TremorOffRoadTitle">
+          TREMOR<sup>&eg;</sup> Off-Road Package
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty Tremor Off-Road Package Exterior View"
+          title="#NAME# | #CITY#, #STATE# | 2025 Super Duty Tremor Off-Road Package Exterior View"
+          style="background-image: url('#MISCPATH#images/2025_Super_Duty/Opt.Tremor_Off_Road.png'); padding-top: 66%"
+          class="img-background img-contain hidden-xs"></div>
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty Tremor Off-Road PAckage Exterior View"
+          title="#NAME# | #CITY#, #STATE# | 2025 Super Duty Tremor Off=Road Package Exterior View"
+          style="background-image: url('#MISCPATH#images/2025_Super_Duty/Opt.Tremor_Off_Road.png'); padding-top: 175px"
+          class="img-background img-contain margin-bottom-2x visible-xs"></div>
+        <p>Available on XLT, LARIAT<sup>&reg;</sup>, King Ranch<sup>&reg;</sup> and Platinum<sup>&reg;</sup>.</p>
+        <p>Requires:</p>
+        <ul>
+          <li>4&times;4</li>
+          <li>7.3L 2V DEVCT NA PFI V8 Gas Engine</li>
+          <li>6/7L High Output Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</li>
+          <li>Crew Cab</li>
+          <li>TorqShift<sup>&reg;</sup> Ten-Speed Automatic with SelectShift<sup>&reg;</sup> Automatic Transmission</li>
+        </ul>
+        <p>Includes:</p>
+        <ul>
+          <li>4.30 Electronic Locking Axle Ratio with 7.3L 2V DEVCT NA PFI V8 Gas Engine</li>
+          <li>3.55 Electronic Locking Axle Ratio with 6.7L High Output Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</li>
+          <li>35-inch Off-Road Tire - LT285/75R18 (TFW)</li>
+          <li>18-inch Ebony Black Machined and Painted Aluminum Wheel</li>
+          <li>F-250<sup>&reg;</sup> Greater than 10K GVWR Package</li>
+          <li>Lane Departure Warning</li>
+          <li>Unique Front Springs - Ride Height Increase</li>
+          <li>Rear Electronic Locking Differential</li>
+          <li>Front Limited Slip Differential</li>
+          <li>Performance Front and Rear Shock Absorb</li>
+          <li>Off-Road Running Boards - Textured Matte Finish</li>
+          <li>Skid Plates - Transfer Case and Fuel Tank</li>
+          <li>Unique Front Air Dams - Approach Angle Improvement</li>
+          <li>Water Fording Vent Tubes - Transfer Case and Axle</li>
+          <li>Rock Crawl Mode</li>
+          <li>Trail Control Mode</li>
+          <li>TREMOR<sup>&reg;</sup> Off-Road Decal</li>
+          <li>Spare - Conventional Road Wheel</li>
+          <li>LT285/75R 18E BSW Spare Tire</li>
+        </ul>
+        <p>Available with:</p>
+        <ul>
+          <li>Power-Deployable Running Boards - not available Baja or Black Onyx Interior Cab color.</li>
+        </ul>
+        <p>Package Not available with:</p>
+        <ul>
+          <li>8ft. Box</li>
+          <li>Dual Rear Wheel (DRW)</li>
+          <li>Rear Stabilizer Bar</li>
+          <li>TorqShift<sup>&reg;</sup>-G Automatic Transmission</li>
+        </ul>
+        <p><strong>Note:</strong> TREMOR<sup>&reg;</sup> content replaces existing base vehicle and package content.</p>
       </div>
     </div>
   </div>
