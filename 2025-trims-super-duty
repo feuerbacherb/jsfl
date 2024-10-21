@@ -877,6 +877,55 @@
   </div>
 </div>
 
+<!-- PickupBoxDelete modal -->
+<div aria-hidden="true" aria-labelledby="PickupBoxDeleteTitle" class="modal" id="PickupBoxDelete" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle;">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="PickupBoxDeleteTitle">Pickup Box Delete
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <p>Available on F-250<sup>&reg;</sup> XL and F-250<sup>&reg;</sup> XLT Pickups with long wheelbases:</p>
+        <ul>
+          <li>Regular Cab with 142-inch WB (8 ft. box) Cab to Axle 56-inch</li>
+          <li>SuperCab with 164-inch WB (8 ft. box) Cab to Axle 56-inch</li>
+          <li>Crew Cab with 176-inch WB (8 ft. box) Cab to Axle 56-inch</li>
+        </ul>
+        <p>Includes Rear View Camera and Prep Kit.</p>
+        <p>Deletes:</p>
+        <ul>
+          <li>Pickup Box, Tie-down hooks</li>
+          <li>Tailgate</li>
+          <li>Rear bumper</li>
+          <li>Rearview Camera</li>
+          <li>Spare wheel, tire, carrier and jack</li>
+          <li>7/4 Pin Connector</li>
+        </ul>
+        <p>Not available with:</p>
+        <ul>
+          <li>7.3L 2V DEVCT NA PFI V8 Gas Engine</li>
+          <li>6.7L High Output Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20</li>
+          <li>20-inch Wheels and Tires</li>
+          <li>TREMOR<sup>&reg;</sup> Off-Road Package</li>
+          <li>Moonroof (Twin Panel)</li>
+          <li>Short Wheelbase Variants</li>
+          <li>FX4<sup>&reg;</sup> Off-Road Package</li>
+          <li>STX Appearance Package</li>
+          <li>XLT Premium Package</li>
+          <li>360-Degree Camera Package</li>
+          <li>XL Off-Road Package</li>
+          <li>F-250<sup>&reg;</sup> Greater than 10K GVWR Package</li>
+        </ul>
+        <p>Usage: Incomplete vehicle package - requires further manufacture and certification by a final stage manufacturer.  In addition, Ford urges manufacturers to follow the recommendations of the Ford Incomplete Vehicle Manual and the Ford Truck Body Builder's Layout Book (and applicable supplements).</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!--
   End Modals
 -->
