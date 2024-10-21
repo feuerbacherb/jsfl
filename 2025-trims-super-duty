@@ -848,19 +848,30 @@
   <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle;">
     <div class="modal-content ford-font">
       <div class="modal-header">
-        <h5 class="modal-title" id="F250HCAxleUpgradeTitle">F-250<sup>&reg;</sup> Greater than 10K GVWR Package
+        <h5 class="modal-title" id="F250HCAxleUpgradeTitle">F-250<sup>&reg;</sup> High Capacity Axle Upgrade Package
           <button aria-label="Close" class="close" data-dismiss="modal" role="button">
             <span aria-hidden="true">&times;</span>
           </button>
         </h5>
       </div>
       <div class="modal-body">
+        <p>Available on all F-250<sup>&reg;</sup> Super Duty<sup>&reg;</sup> models.</p>
+        <p>Requires:</p>
+        <ul>
+          <li>6.7L 4 Valve OHV Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</li>
+          <li>6.7L High Output Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</li>
+        </ul>
+        <p>Includes:</p>
+        <ul>
+          <li>11.6-inch Axle upgrade</li>
+          <li>F-250<sup>&reg;</sup> Greater than 10K GVWR Package</li>
+          <li>Increase GVWR up to 11,400 lbs.</li>
+          <li>Increase GCW on Diesel Engine</li>
+        </ul>
+        <p>Not available with Pickup Box Delete.</p>
         <p>
-          Standard on LARIAT<sup>&reg;</sup>, King Ranch<sup>&reg;</sup> and Platinum<sup>&reg;</sup>.
-          <br>
-          Available on XL and XLT.
+          <strong>Note:</strong> Salesperson's Portfolio or Trailer Towing Guide should be consulted for specific trailer towing or camper limits and corresponding required equipment, axle ratios and model availability.  See Supplemental Reference for vehicle height consideration.
         </p>
-        <p>Includes Increase GVWR.</p>
       </div>
     </div>
   </div>
