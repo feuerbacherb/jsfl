@@ -560,6 +560,75 @@
   </div>
 </div>
 
+<!-- VehicleIntegrationSystem2 modal -->
+<div aria-hidden="true" aria-labelledby="VehicleIntegrationSystem2Title" class="modal" id="VehicleIntegrationSystem2" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="VehicleIntegrationSystem2Title">
+          Vehicle Integration System 2.0
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <p>Available on all Super Duty<sup>&reg;</sup> models.</p>
+        <p>Usage: Recommended for snowplows, box delete and trucks that will untilize upfit aftermarket equipment.</p>
+        <p>Includes Programmable and Connected Vehicle Integration System.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CNGPropanePrep modal -->
+<div aria-hidden="true" aria-labelledby="CNGPropanePrepTitle" class="modal" id="CNGPropanePrep" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="CNGPropanePrepTitle">
+          CNG / Propane Gaseous Engine Prep Package
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty CNG/Propane Gaseous Engine Prep Label"
+          title="#NAME# | #CITY#, #STATE# | 2025 Super Duty CNG/Propane Gaseous Engine Prep Label"
+          style="background-image: url('#MISCPATH#images/2025_Super_Duty/Opt.CNGPropanteGaseousEnginePrep.png'); padding-top: 66%"
+          class="img-background img-contain hidden-xs"></div>
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty CNG/Propane Gaseous Engine Prep Label"
+          title="#NAME# | #CITY#, #STATE# | 2025 Super Duty CNG/Propane Gaseous Engine Prep Label"
+          style="background-image: url('#MISCPATH#images/2025_Super_Duty/Opt.CNGPropanteGaseousEnginePrep.png'); padding-top: 175px"
+          class="img-background img-contain margin-bottom-2x visible-xs"></div>
+        <p>Available on F-250<sup>&reg;</sup> and F-350<sup>&reg;</sup> XL.</p>
+        <p>Requires 6.8L 2V DEVCT NA PFI V8 Gas Engine.</p>
+        <p>Includes:</p>
+        <ul>
+          <li>Hardened Engine Intake Valves and Valve Seats</li>
+          <li>Bi-Fuel manifold</li>
+        </ul>
+        <p>
+          <strong>Note:</strong> This package does not include CNG/Propane fuel tanks, lines, etc. Vehicle will be equipped with the standard factory gasoline fuel system. Additional equipment combined with Certified calibration reflash is required,
+          from an external upfitter, to convert the vehicle to a CNG/Propane fuled vehicle. See <a href="https://www.ford.com/altfuelbuyersguide" target="_new">Alternate Fuel Buyers Guide.</a>
+        </p>
+        <p>
+          Ford Motor Company does not provide an exhaust or evaporative emissions certificate with this option when converted to use CNG or Propane fuel. Ford does not represent that a vehicle converted to use CNG or Propane will comply with all
+          applicable U.S. or Canadian safety standards. It is the responsibility of the final stage manufacturer (body-builder, installer, alterer or subsequent stage manufacturer) to determine that any vehicle converted to use CNG or Propane
+          complies with U.S. Federal, California or Canadian exhaust and evaporative emission requirements, Federal fuel economy standards, U.S. and Canadian safety standards, labeling and any other requirements.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--  -->
+
 <!--
   End Modals
 -->
