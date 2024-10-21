@@ -820,6 +820,29 @@
   </div>
 </div>
 
+<!-- GT10KGVWR modal -->
+<div aria-hidden="true" aria-labelledby="GT10KGVWRTitle" class="modal" id="GT10KGVWR" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle;">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="GT10KGVWRTitle">F-250<sup>&reg;</sup> Greather than 10L GVWR Package
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <p>
+          Standard on LARIAT<sup>&reg;</sup>, King Ranch<sup>&reg;</sup> and Platinum<sup>&reg;</sup>.
+          <br>
+          Available on XL and XLT.
+        </p>
+        <p>Includes increase GVWR.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!--
   End Modals
 -->
