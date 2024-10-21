@@ -790,6 +790,36 @@
   </div>
 </div>
 
+<!-- HeavyServiceFrontSuspension modal -->
+<div aria-hidden="true" aria-labelledby="HeavyServiceFrontSuspensionTitle" class="modal" id="HeavyServiceFrontSuspension" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle;">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="HeavyServiceFrontSuspensionTitle">Heavy-Service Front Suspension Package
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <p>Available on all Pickups.</p>
+        <p>Usage: Recommended only on vehicles which will permanently utilize aftermarket equipment such as heavy-duty winches, brush guards or other apparatus which loads the front axle to the specifice Gross Axle Weight Rating (GAWR).</p>
+        <p>Not available with:</p>
+        <ul>
+          <li>TREMOR<sup>&reg;</sup> Off-Road Package</li>
+          <li>Snow Plow Package</li>
+        </ul>
+        <p>Includes Heavy-Service front springs (1 up upgrade above the spring computer selected as a consequence of options chosen.  Not included if maximum springs have been computer selected as standard equipment)</p>
+        <p>
+          <strong>Note 1:</strong> Vehicle ride height will increse with the addition of this package.
+          <br>
+          <strong>Note 2:</strong> May result in deterioration of ride quality when vehicle is not equipped with front end utility attachment.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!--
   End Modals
 -->
