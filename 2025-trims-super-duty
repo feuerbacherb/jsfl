@@ -679,6 +679,53 @@
   </div>
 </div>
 
+<!-- SnowplowPrep modal -->
+<div aria-hidden="true" aria-labelledby="SnowplowPrepTitle" class="modal" id="SnowplowPrep" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle;">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="SnowplowPrepTitle">Snowplow Prep Package
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <p>
+          Available on all 4&times;4 Pickups.
+          <br>
+          Rquires 4&times;4.
+        </p>
+        <p>Includes:</p>
+        <ul>
+          <li>Computer selected springs for snowplow application</li>
+          <li>190 Amp Alternator with 6.8L 2V DEVCT NA PFI V8 Gas Ending or 7.3L 2V DEVCT NA PFI V8 Gas Engine</li>
+          <li>410 Amp Dual Alternator with 6.7L 4V OHV Power Stroke<sup>&rep;</sup> V8 Turbo Diesel B20 or 6.7L High Output Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</li>
+          <li>Rapid-Heat Supplemental Cab Heater with 6.7L High Output Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</li>
+          <li>Tailgate Delete Cap</li>
+        </ul>
+        <p>Options Available:</p>
+        <ul>
+          <li>250 Amp Alternator with 6.8L 2V DEVCT NA PFI V8 Gas Engine or 7.3L 2V DEVCT NA PFI V8 Gas Engine</li>
+        </ul>
+        <p>Not available with:</p>
+        <ul>
+          <li>TREMOR<sup>&reg;</sup> Off-Road Package</li>
+          <li>Heavy-Service Front Suspension Package</li>
+          <li>Heavy-Service Package for Pickup Box Delete</li>
+        </ul>
+        <p>
+          <strong>Note 1:</strong> Restrictions apply; see Supplemental Reference or Body Builders Layout Book for details.
+          <br>
+          <strong>Note 2:</strong> May result in deterioration of ride quality when vehicle is not equipped with snowplow.
+          <br>
+          <strong>Note 3:</strong> Dual Battery recommended with 6.8L or 7.3L Gasoline Engines; See Body Builders Layout Book for details.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!--
   End Modals
 -->
