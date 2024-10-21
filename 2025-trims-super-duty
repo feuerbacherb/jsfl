@@ -820,8 +820,8 @@
   </div>
 </div>
 
-<!-- GT10KGVWR modal -->
-<div aria-hidden="true" aria-labelledby="GT10KGVWRTitle" class="modal" id="GT10KGVWR" role="dialog" tabindex="-1">
+<!-- F250GT10KGVWR modal -->
+<div aria-hidden="true" aria-labelledby="F250GT10KGVWRTitle" class="modal" id="F250GT10KGVWR" role="dialog" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle;">
     <div class="modal-content ford-font">
       <div class="modal-header">
@@ -838,6 +838,29 @@
           Available on XL and XLT.
         </p>
         <p>Includes increase GVWR.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- F250HCAxleUpgrade modal -->
+<div aria-hidden="true" aria-labelledby="F250HCAxleUpgradeTitle" class="modal" id="F250HCAxleUpgrade" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle;">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="F250HCAxleUpgradeTitle">F-250<sup>&reg;</sup> Greater than 10K GVWR Package
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <p>
+          Standard on LARIAT<sup>&reg;</sup>, King Ranch<sup>&reg;</sup> and Platinum<sup>&reg;</sup>.
+          <br>
+          Available on XL and XLT.
+        </p>
+        <p>Includes Increase GVWR.</p>
       </div>
     </div>
   </div>
