@@ -726,6 +726,32 @@
   </div>
 </div>
 
+<!-- XLChrome modal -->
+<div aria-hidden="true" aria-labelledby="XLChromeTitle" class="modal" id="XLChrome" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle;">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="XLChromeTitle">XL Chrome Package
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <p>Available on XL.</p>
+        <p>Includes:</p>
+        <ul>
+          <li>Four (4) pickup box tie-down plates</li>
+          <li>Bright chrome hub covers and center ornaments (SRW Only)</li>
+          <li>Chrome front and rear step bumper</li>
+          <li>Halogen Fog lamps</li>
+        </ul>
+        <p>Not available with STX Appearance Package.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!--
   End Modals
 -->
