@@ -49,7 +49,7 @@
         <ul>
           <li>6.8L 2V DEVCT NA PFI V8 Gas Engine</li>
           <li>4.2-inch LCD Productivity Screen: includes menus for Gauge Setup, Trip Computer, Fuel Economy and Towing / Off-Road applications</li>
-          <li>AdvanceTrac<sup>&reg;</sup> with RSC<sup>&reg;</sup> (Roll Stability Control<sup>&trade</sup>)</li>
+          <li>AdvanceTrac<sup>&reg;</sup> with RSC<sup>&reg;</sup> (Roll Stability Control<sup>&trade;</sup>)</li>
           <li>Audio - AM/FM stereo / MP3 Player speakers; four (4) with Regular Cab, six (6) with SuperCab and Crew Cab</li>
           <li>FordPass Connect<sup>&trade;</sup> (5G)</li>
           <li>SYNC<sup>&reg;</sup> 4</li>
@@ -315,7 +315,7 @@
           <li>Painted Grille</li>
           <li>STX Fender Vent Badge</li>
           <li>Upgraded Interior Door Panels</li>
-          <li>18-inch Ebonoy Black Painted Aluminum Wheels</li>
+          <li>18-inch Ebony Black Painted Aluminum Wheels</li>
           <li>LT275/70Rx18E BSW A/T Tires, 4&times;4 (TDX)</li>
         </ul>
         <p>Options available:</p>
@@ -489,7 +489,7 @@
             The 5th Wheel / Gooseneck Prep Package is compatible with the factory orderable 5th Wheel Hitch Kits and Dealer-installed Ford Accessories 5th Wheel Hitch kit by Reese - part #BC3Z-19D520-A (8 ft. box only). The prep package is also
             compatible with Reese Signature Series 5th wheel hitch kits updated with a new Leg Service Kit - part # BC3Z-A00A25-A (8 ft. box only)
           </li>
-          <li>The 5th Wheel Hitch Kit, 5th Wheel Hitch Kit and Dealer-instlled Ford Accessories 5th Wheel Hitch Kit by Reese - part # BC3Z-19D520-A is not released to the shrt box (6.75 ft. box).</li>
+          <li>The 5th Wheel Hitch Kit, 5th Wheel Hitch Kit and Dealer-installed Ford Accessories 5th Wheel Hitch Kit by Reese - part # BC3Z-19D520-A is not released to the short box (6.75 ft. box).</li>
         </ul>
         <p>Not available with:</p>
         <ul>
@@ -498,14 +498,14 @@
           <li>Pickup Box Delete</li>
         </ul>
         <p>
-          <strong>Note:</strong> The short pickup box provides less clearance between the cab and 5th wheel trailer compared to "long box" pickups. The receiver centerline of the hitch should be mounted at least two inches forward from the rear0axle
-          of the truck chasses. When selecting a trailer and tow vehicle, it's critical that this combination provide clearance between the cab and tow vehicle for turns up to and including 90 degrees. Failure to follow this recommendation could
+          <strong>Note:</strong> The short pickup box provides less clearance between the cab and 5th wheel trailer compared to "long box" pickups. The receiver centerline of the hitch should be mounted at least two inches forward from the rear axle
+          of the truck chassis. When selecting a trailer and tow vehicle, it's critical that this combination provide clearance between the cab and tow vehicle for turns up to and including 90 degrees. Failure to follow this recommendation could
           result in the trailer contacting the cab of the tow vehicle during tight turns.
         </p>
         <p>Gooseneck Hitch Compatibility:</p>
         <ul>
           <li>
-            The 5th Wheel/Gooseneck Prep Package is compatible only with the factory orderable Gooseneck Hitch Kit, Gooseneck Dual Hitch Kit or Dealer-installed Ford Customer Accessories Goosneck by Reese - part # BC3Z-19F503-A (8 ft. box and 6.75
+            The 5th Wheel/Gooseneck Prep Package is compatible only with the factory orderable Gooseneck Hitch Kit, Gooseneck Dual Hitch Kit or Dealer-installed Ford Customer Accessories Gooseneck by Reese - part # BC3Z-19F503-A (8 ft. box and 6.75
             ft. box)
           </li>
         </ul>
@@ -545,7 +545,7 @@
           <li>4&times;4</li>
           <li>All-Terrain Tires (F-250<sup>&reg;</sup> and F-350<sup>&reg;</sup>)</li>
           <li>225/70Rx19.5G BSW Traction Tires (F-450<sup>&reg;</sup>)</li>
-          <li>Electronic-lcoking differential on SRW</li>
+          <li>Electronic-locking differential on SRW</li>
           <li>Limited-slip rear-axle on DRW</li>
         </ul>
         <p>Includes:</p>
@@ -574,7 +574,7 @@
       </div>
       <div class="modal-body">
         <p>Available on all Super Duty<sup>&reg;</sup> models.</p>
-        <p>Usage: Recommended for snowplows, box delete and trucks that will untilize upfit aftermarket equipment.</p>
+        <p>Usage: Recommended for snowplows, box delete and trucks that will utilize upfit aftermarket equipment.</p>
         <p>Includes Programmable and Connected Vehicle Integration System.</p>
       </div>
     </div>
@@ -653,7 +653,7 @@
           <li>Rear auxiliary springs</li>
           <li>Rear stabilizer bar</li>
           <li>Slide-in camper certification</li>
-          <li>Tailgate Delete Cap Lit</li>
+          <li>Tailgate Delete Cap Kit</li>
         </ul>
         <p>Not available with:</p>
         <ul>
@@ -670,7 +670,7 @@
           <br />
           Expect firmer ride when vehicle is not equipped with snowplow and/or camper.
           <br />
-          <strong>Note 2:</strong>May result in deterioration of ride quality when vehicle is not equipped with snowplow and/or camper.
+          <strong>Note 2:</strong> May result in deterioration of ride quality when vehicle is not equipped with snowplow and/or camper.
           <br />
           <strong>Note 3:</strong> Dual Battery recommended with 6.8L or 7.3L Gasoline Engines; See Body Builders Layout Book for details.
         </p>
@@ -681,10 +681,11 @@
 
 <!-- SnowplowPrep modal -->
 <div aria-hidden="true" aria-labelledby="SnowplowPrepTitle" class="modal" id="SnowplowPrep" role="dialog" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle;">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
     <div class="modal-content ford-font">
       <div class="modal-header">
-        <h5 class="modal-title" id="SnowplowPrepTitle">Snowplow Prep Package
+        <h5 class="modal-title" id="SnowplowPrepTitle">
+          Snowplow Prep Package
           <button aria-label="Close" class="close" data-dismiss="modal" role="button">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -693,14 +694,14 @@
       <div class="modal-body">
         <p>
           Available on all 4&times;4 Pickups.
-          <br>
+          <br />
           Rquires 4&times;4.
         </p>
         <p>Includes:</p>
         <ul>
           <li>Computer selected springs for snowplow application</li>
           <li>190 Amp Alternator with 6.8L 2V DEVCT NA PFI V8 Gas Ending or 7.3L 2V DEVCT NA PFI V8 Gas Engine</li>
-          <li>410 Amp Dual Alternator with 6.7L 4V OHV Power Stroke<sup>&rep;</sup> V8 Turbo Diesel B20 or 6.7L High Output Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</li>
+          <li>410 Amp Dual Alternator with 6.7L 4V OHV Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 or 6.7L High Output Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</li>
           <li>Rapid-Heat Supplemental Cab Heater with 6.7L High Output Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</li>
           <li>Tailgate Delete Cap</li>
         </ul>
@@ -716,9 +717,9 @@
         </ul>
         <p>
           <strong>Note 1:</strong> Restrictions apply; see Supplemental Reference or Body Builders Layout Book for details.
-          <br>
+          <br />
           <strong>Note 2:</strong> May result in deterioration of ride quality when vehicle is not equipped with snowplow.
-          <br>
+          <br />
           <strong>Note 3:</strong> Dual Battery recommended with 6.8L or 7.3L Gasoline Engines; See Body Builders Layout Book for details.
         </p>
       </div>
@@ -728,10 +729,11 @@
 
 <!-- XLChrome modal -->
 <div aria-hidden="true" aria-labelledby="XLChromeTitle" class="modal" id="XLChrome" role="dialog" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle;">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
     <div class="modal-content ford-font">
       <div class="modal-header">
-        <h5 class="modal-title" id="XLChromeTitle">XL Chrome Package
+        <h5 class="modal-title" id="XLChromeTitle">
+          XL Chrome Package
           <button aria-label="Close" class="close" data-dismiss="modal" role="button">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -754,10 +756,11 @@
 
 <!-- Camper modal -->
 <div aria-hidden="true" aria-labelledby="CamperTitle" class="modal" id="Camper" role="dialog" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle;">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
     <div class="modal-content ford-font">
       <div class="modal-header">
-        <h5 class="modal-title" id="CamperTitle">Camper Package
+        <h5 class="modal-title" id="CamperTitle">
+          Camper Package
           <button aria-label="Close" class="close" data-dismiss="modal" role="button">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -767,8 +770,8 @@
         <p>Available on all DRW Super Duty<sup>&reg;</sup> models.</p>
         <p>Includes:</p>
         <ul>
-          <li>Extra heavy-service front springs (4&times;2) (2 up upgrade above the spring computer selected as a consequence of options chosen.  Not included if maximum springs have been computer selected as standard equipment)</li>
-          <li>Heavy-service front spring (4&times4) (1 up upgrade above the spring computer selected as a consequence of options chosen.  Not included if maximum springs have been computer selected as standard equipment)</li>
+          <li>Extra heavy-service front springs (4&times;2) (2 up upgrade above the spring computer selected as a consequence of options chosen. Not included if maximum springs have been computer selected as standard equipment)</li>
+          <li>Heavy-service front spring (4&times4) (1 up upgrade above the spring computer selected as a consequence of options chosen. Not included if maximum springs have been computer selected as standard equipment)</li>
           <li>Rear auxiliary springs</li>
           <li>Rear stabilizer bar</li>
           <li>Slide-in camper certification</li>
@@ -782,7 +785,7 @@
         </ul>
         <p>
           <strong>Note 1:</strong> Salesperson's Source Book or Ford RV Trailer Towing Guide should be consulted for specific Trailer Towing or camper limits and corresponding required equipment, axle ratios and model availability.
-          <br>
+          <br />
           <strong>Note 2:</strong> May result in deterioration of ride quality when vehicle is not equipped with camper.
         </p>
       </div>
@@ -792,10 +795,11 @@
 
 <!-- HeavyServiceFrontSuspension modal -->
 <div aria-hidden="true" aria-labelledby="HeavyServiceFrontSuspensionTitle" class="modal" id="HeavyServiceFrontSuspension" role="dialog" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle;">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
     <div class="modal-content ford-font">
       <div class="modal-header">
-        <h5 class="modal-title" id="HeavyServiceFrontSuspensionTitle">Heavy-Service Front Suspension Package
+        <h5 class="modal-title" id="HeavyServiceFrontSuspensionTitle">
+          Heavy-Service Front Suspension Package
           <button aria-label="Close" class="close" data-dismiss="modal" role="button">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -809,10 +813,10 @@
           <li>TREMOR<sup>&reg;</sup> Off-Road Package</li>
           <li>Snow Plow Package</li>
         </ul>
-        <p>Includes Heavy-Service front springs (1 up upgrade above the spring computer selected as a consequence of options chosen.  Not included if maximum springs have been computer selected as standard equipment)</p>
+        <p>Includes Heavy-Service front springs (1 up upgrade above the spring computer selected as a consequence of options chosen. Not included if maximum springs have been computer selected as standard equipment)</p>
         <p>
           <strong>Note 1:</strong> Vehicle ride height will increse with the addition of this package.
-          <br>
+          <br />
           <strong>Note 2:</strong> May result in deterioration of ride quality when vehicle is not equipped with front end utility attachment.
         </p>
       </div>
@@ -822,10 +826,11 @@
 
 <!-- F250GT10KGVWR modal -->
 <div aria-hidden="true" aria-labelledby="F250GT10KGVWRTitle" class="modal" id="F250GT10KGVWR" role="dialog" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle;">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
     <div class="modal-content ford-font">
       <div class="modal-header">
-        <h5 class="modal-title" id="GT10KGVWRTitle">F-250<sup>&reg;</sup> Greather than 10L GVWR Package
+        <h5 class="modal-title" id="GT10KGVWRTitle">
+          F-250<sup>&reg;</sup> Greather than 10L GVWR Package
           <button aria-label="Close" class="close" data-dismiss="modal" role="button">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -834,7 +839,7 @@
       <div class="modal-body">
         <p>
           Standard on LARIAT<sup>&reg;</sup>, King Ranch<sup>&reg;</sup> and Platinum<sup>&reg;</sup>.
-          <br>
+          <br />
           Available on XL and XLT.
         </p>
         <p>Includes increase GVWR.</p>
@@ -845,10 +850,11 @@
 
 <!-- F250HCAxleUpgrade modal -->
 <div aria-hidden="true" aria-labelledby="F250HCAxleUpgradeTitle" class="modal" id="F250HCAxleUpgrade" role="dialog" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle;">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
     <div class="modal-content ford-font">
       <div class="modal-header">
-        <h5 class="modal-title" id="F250HCAxleUpgradeTitle">F-250<sup>&reg;</sup> High Capacity Axle Upgrade Package
+        <h5 class="modal-title" id="F250HCAxleUpgradeTitle">
+          F-250<sup>&reg;</sup> High Capacity Axle Upgrade Package
           <button aria-label="Close" class="close" data-dismiss="modal" role="button">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -870,7 +876,8 @@
         </ul>
         <p>Not available with Pickup Box Delete.</p>
         <p>
-          <strong>Note:</strong> Salesperson's Portfolio or Trailer Towing Guide should be consulted for specific trailer towing or camper limits and corresponding required equipment, axle ratios and model availability.  See Supplemental Reference for vehicle height consideration.
+          <strong>Note:</strong> Salesperson's Portfolio or Trailer Towing Guide should be consulted for specific trailer towing or camper limits and corresponding required equipment, axle ratios and model availability. See Supplemental Reference for
+          vehicle height consideration.
         </p>
       </div>
     </div>
@@ -879,10 +886,11 @@
 
 <!-- PickupBoxDelete modal -->
 <div aria-hidden="true" aria-labelledby="PickupBoxDeleteTitle" class="modal" id="PickupBoxDelete" role="dialog" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle;">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
     <div class="modal-content ford-font">
       <div class="modal-header">
-        <h5 class="modal-title" id="PickupBoxDeleteTitle">Pickup Box Delete
+        <h5 class="modal-title" id="PickupBoxDeleteTitle">
+          Pickup Box Delete
           <button aria-label="Close" class="close" data-dismiss="modal" role="button">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -920,7 +928,10 @@
           <li>XL Off-Road Package</li>
           <li>F-250<sup>&reg;</sup> Greater than 10K GVWR Package</li>
         </ul>
-        <p>Usage: Incomplete vehicle package - requires further manufacture and certification by a final stage manufacturer.  In addition, Ford urges manufacturers to follow the recommendations of the Ford Incomplete Vehicle Manual and the Ford Truck Body Builder's Layout Book (and applicable supplements).</p>
+        <p>
+          Usage: Incomplete vehicle package - requires further manufacture and certification by a final stage manufacturer. In addition, Ford urges manufacturers to follow the recommendations of the Ford Incomplete Vehicle Manual and the Ford Truck
+          Body Builder's Layout Book (and applicable supplements).
+        </p>
       </div>
     </div>
   </div>
@@ -980,26 +991,51 @@
             <!-- F250 | XL -->
             <div class="flex-container">
               <div class="flex-item">
-                <div role="img" aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-250 Crew Cab 6ft Bed XL Exterior View" title="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-250 Crew Cab 6ft Bed XL Exterior View" style="background-image: url('#MISCPATH#images/2025_Super_Duty/Trim.2025_Super_Duty_F250_Crew_Cab_6ft_Bed_XL.png'); padding-top: 66%;" class="img-background img-contain hidden-xs"></div>
-                <div role="img" aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-250 Crew Cab 6ft Bed XL Exterior View" title="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-250 Crew Cab 6ft Bed XL Exterior View" style="background-image: url('#MISCPATH#images/2025_Super_Duty/Trim.2025_Super_Duty_F250_Crew_Cab_6ft_Bed_XL.png'); padding-top: 175px;" class="img-background img-contain margin-bottom-2x visible-xs"></div>
+                <div
+                  role="img"
+                  aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-250 Crew Cab 6ft Bed XL Exterior View"
+                  title="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-250 Crew Cab 6ft Bed XL Exterior View"
+                  style="background-image: url('#MISCPATH#images/2025_Super_Duty/Trim.2025_Super_Duty_F250_Crew_Cab_6ft_Bed_XL.png'); padding-top: 66%"
+                  class="img-background img-contain hidden-xs"></div>
+                <div
+                  role="img"
+                  aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-250 Crew Cab 6ft Bed XL Exterior View"
+                  title="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-250 Crew Cab 6ft Bed XL Exterior View"
+                  style="background-image: url('#MISCPATH#images/2025_Super_Duty/Trim.2025_Super_Duty_F250_Crew_Cab_6ft_Bed_XL.png'); padding-top: 175px"
+                  class="img-background img-contain margin-bottom-2x visible-xs"></div>
               </div>
               <div class="flex-item ford-font">
                 <h5 class="text-uppercase">2025 Ford Super Duty<sup>&reg;</sup> F-250<sup>&reg;</sup></h5>
                 <h4>
-                  XL<a class="btnInv btn-primary" data-dotagging-element-type="body" data-dotagging-enabled="true" data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-250SD:XL" data-dotagging-product-name="Website|Custom Content" href="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-250SD:XL" role="button" target="_new">View F-250 XL Inventory</a>
+                  XL<a
+                    class="btnInv btn-primary"
+                    data-dotagging-element-type="body"
+                    data-dotagging-enabled="true"
+                    data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-250SD:XL"
+                    data-dotagging-product-name="Website|Custom Content"
+                    href="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-250SD:XL"
+                    role="button"
+                    target="_new"
+                    >View F-250 XL Inventory</a
+                  >
                 </h4>
-                <hr>
+                <hr />
                 <div class="crop-text">
                   <p>
-                    The 2025 Super Duty<sup>&reg;</sup> XL delivers the confidence you require whether you're taking care of daily projects or pulling a trailer.  And all XL models come with either a 2.5-inch or 3-inch Built Ford Tough<sup>&reg;</sup> trailer hitch receiver and available electronic shift-on-the-fly four-wheel-drive*.  SYNC connectivity lets you use your voice to make calls, play music and more.
-                    <br>
+                    The 2025 Super Duty<sup>&reg;</sup> XL delivers the confidence you require whether you're taking care of daily projects or pulling a trailer. And all XL models come with either a 2.5-inch or 3-inch Built Ford Tough<sup>&reg;</sup>
+                    trailer hitch receiver and available electronic shift-on-the-fly four-wheel-drive*. SYNC connectivity lets you use your voice to make calls, play music and more.
+                    <br />
                     <small>* 4&times;4 models only.</small>
                   </p>
                   <dl>
                     <dt>Engine</dt>
                     <dd><a data-target="#Eng68L2VDEVCTNAPFIV8Gas" data-toggle="modal" href="#">6.8L 2V DEVCT NA PFI V8 Gas Engine</a>&nbsp;<span class="badge">Included</span></dd>
-                    <dd><a data-target="#Eng67LHighOutputPowerStrokeV8TurboDieselB20" data-toggle="modal" href="#">6.7L High Output Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</a></dd>
-                    <dd><a data-target="#Eng67L4ValveOHVPowerStrokeV8TurboDieselB20" data-toggle="modal" href="#">6.7L 4 Valve OHV Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</a></dd>
+                    <dd>
+                      <a data-target="#Eng67LHighOutputPowerStrokeV8TurboDieselB20" data-toggle="modal" href="#">6.7L High Output Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</a>
+                    </dd>
+                    <dd>
+                      <a data-target="#Eng67L4ValveOHVPowerStrokeV8TurboDieselB20" data-toggle="modal" href="#">6.7L 4 Valve OHV Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</a>
+                    </dd>
                     <dd><a data-target="#Eng73L2VDEVCTNAPFIV8Gas" data-toggle="modal" href="#">7.3L 2V DEVCT NA PFI V8 Gas Engine</a></dd>
                   </dl>
                   <dl>
@@ -1007,10 +1043,14 @@
                     <dd>4&times;2&nbsp;<span class="badge">Included</span></dd>
                     <dd>4&times;4</dd>
                   </dl>
-                  <h4>Packages<sup><a data-target="#packages" data-toggle="modal" href="#">†</a></sup></h4>
+                  <h4>
+                    Packages<sup><a data-target="#packages" data-toggle="modal" href="#">†</a></sup>
+                  </h4>
                   <dl>
                     <dt>Equipment Group</dt>
-                    <dd><a data-target="#600A" data-toggle="modal" href="#">XL F-250<sup>&reg;</sup> (600A) Equipment Group</a></dd>
+                    <dd>
+                      <a data-target="#600A" data-toggle="modal" href="#">XL F-250<sup>&reg;</sup> (600A) Equipment Group</a>
+                    </dd>
                   </dl>
                   <dl>
                     <dt>Packages</dt>
@@ -1020,7 +1060,9 @@
                     <dd><a data-target="#XLOffRoad" data-toggle="modal" href="#">XL Off-Road Package</a></dd>
                     <dd><a data-target="#XLDriverAssist" data-toggle="modal" href="#">XL Driver Assist Package</a></dd>
                     <dd><a data-target="#5thWheelGooseneckHitch" data-toggle="modal" href="#">5th Wheel/Gooseneck Hitch Prep Package</a></dd>
-                    <dd><a data-target="#FX4OffRoad" data-toggle="modal" href="#">FX4<sup>&reg;</sup> Off-Road Package</a></dd>
+                    <dd>
+                      <a data-target="#FX4OffRoad" data-toggle="modal" href="#">FX4<sup>&reg;</sup> Off-Road Package</a>
+                    </dd>
                     <dd><a data-target="#VehicleIntegrationSystem2" data-toggle="modal" href="#">Vehicle Integration System 2.0</a></dd>
                     <dd><a data-target="#CNGPropanePrep" data-toggle="modal" href="#">CNG/Propane Gaseous Engine Prep Package</a></dd>
                     <dd><a data-target="#SnowplowCamper" data-toggle="modal" href="#">Snowplow/Camper Package</a></dd>
@@ -1028,8 +1070,12 @@
                     <dd><a data-target="#XLChrome" data-toggle="modal" href="#">XL Chrome Package</a></dd>
                     <dd><a data-target="#Camper" data-toggle="modal" href="#">Camper Package</a></dd>
                     <dd><a data-target="#HeavyServiceFrontSuspension" data-toggle="modal" href="#">Heavy-Service Front Suspension Package</a></dd>
-                    <dd><a data-target="#F250GT10KGVWR" data-toggle="modal" href="#">F-250<sup>&reg;</sup> Greater than 10K GVWR Package</a></dd>
-                    <dd><a data-target="#F250HCAxleUpgrade" data-toggle="modal" href="#">F-250<sup>&reg;</sup> High Capacity Axle Upgrade Package</a></dd>
+                    <dd>
+                      <a data-target="#F250GT10KGVWR" data-toggle="modal" href="#">F-250<sup>&reg;</sup> Greater than 10K GVWR Package</a>
+                    </dd>
+                    <dd>
+                      <a data-target="#F250HCAxleUpgrade" data-toggle="modal" href="#">F-250<sup>&reg;</sup> High Capacity Axle Upgrade Package</a>
+                    </dd>
                     <dd><a data-target="#PickupBoxDelete" data-toggle="modal" href="#">Pickup Box Delete</a></dd>
                   </dl>
                 </div>
