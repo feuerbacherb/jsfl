@@ -1294,6 +1294,58 @@
   </div>
 </div>
 
+<!-- Chrome modal -->
+<div aria-hidden="true" aria-labelledby="ChromeTitle" class="modal" id="Chrome" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ChromeTitle">
+          Chrome Package
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty Chrome Package Exterior View"
+          title="#NAME# | #CITY#, #STATE# | 2025 Super Duty Chrome Package Exterior View"
+          style="background-image: url('#MISCPATH#images/2025_Super_Duty/Opt.Chrome.png'); padding-top: 66%"
+          class="img-background img-contain hidden-xs"></div>
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty Chrome Package Exterior View"
+          title="#NAME# | #CITY#, #STATE# | 2025 Super Duty Chrome Package Exterior View"
+          style="background-image: url('#MISCPATH#images/2025_Super_Duty/Opt.Chrome.png'); padding-top: 175px"
+          class="img-background img-contain margin-bottom-2x visible-xs"></div>
+        <p>Available on:</p>
+        <ul>
+          <li>LARIAT<sup>&reg;</sup> 4&times;4</li>
+          <li>King Ranch<sup>&reg;</sup></li>
+        </ul>
+        <p>Includes:</p>
+        <ul>
+          <li>6-inch Angular Bright Anodized step bars (LARIAT<sup>&reg;</sup> only)</li>
+          <li>20-inch Chrome PVD Aluminum Wheels (SRW Only)</li>
+          <li>LT275/65Rx20E BSW A/T Tires, 4&times;4 (SRW only; includes 20-inch Chrome PVD Aluminum Wheel)</li>
+          <li>Chrome door handles</li>
+          <li>Chrome exhaust tip</li>
+          <li>Unique Chrome mirror caps</li>
+          <li>Chrome front and rear bumpers - King Ranch<sup>&reg;</sup></li>
+        </ul>
+        <p>Deletes Two-Tone Paint on King Ranch<sup>&reg;</sup>.</p>
+        <p>Available:</p>
+        <ul>
+          <li>Power-Deployable Running Boards on LARIAT<sup>&reg;</sup> will replace 6-inch Angular Bright Anodized Step Bar</li>
+        </ul>
+        <p>Not Available with Black Appearance Package.</p>
+        <p><small>Digitally generated image shown. Actual vehicle may vary.</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!--
   End Modals
 -->
@@ -1503,6 +1555,7 @@
                     </dd>
                   </dl>
                   <dl>
+                    <dt>Packages</dt>
                     <dd><a data-target="#BlackAppearance" data-toggle="modal" href="#">Black Appearance Package</a></dd>
                     <dd>
                       <a data-target="#TremorOffRoad" data-toggle="modal" href="#">Tremor<sup>&reg;</sup> Off-Road Package</a>
@@ -1587,6 +1640,27 @@
                   <h4>
                     Packages<sup><a data-target="#packages" data-toggle="modal" href="#">†</a></sup>
                   </h4>
+                  <dl>
+                    <dt>Equipment Groups</dt>
+                    <dd>
+                      <a data-target="#603A" data-toggle="modal" href="#">LARIAT<sup>&reg;</sup> F-250<sup>&reg;</sup> (608A) Equipment Group</a>
+                    </dd>
+                  </dl>
+                  <dl>
+                    <dt>Packages</dt>
+                    <dd><a data-target="#360DegreeCamera" data-toggle="modal" href="#">360-Degree Camera Package</a>&nbsp;<span class="badge">Included</span></dd>
+                    <dd>
+                      <a data-target="#F250GT10KGVWR" data-toggle="modal" href="#">F-250<sup>&reg;</sup> Greater than 10K GVWR Package</a>&nbsp;<span class="badge">Included</span>
+                    </dd>
+                    <dd>
+                      <a data-target="#LARIATUltimate" data-toggle="modal" href="#">LARIAT<sup>&reg;</sup> Ultimate Package</a>
+                    </dd>
+                    <dd>
+                      <a data-target="#TremorOffRoad" data-toggle="modal" href="#">TREMOR<sup>&reg;</sup> Off-Road Package</a>
+                    </dd>
+                    <dd><a data-target="#BlackAppearance" data-toggle="modal" href="#">Black Appearance Package</a></dd>
+                    <dd><a data-target=""></a></dd>
+                  </dl>
                 </div>
               </div>
             </div>
