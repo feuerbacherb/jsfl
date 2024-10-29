@@ -1659,7 +1659,20 @@
                       <a data-target="#TremorOffRoad" data-toggle="modal" href="#">TREMOR<sup>&reg;</sup> Off-Road Package</a>
                     </dd>
                     <dd><a data-target="#BlackAppearance" data-toggle="modal" href="#">Black Appearance Package</a></dd>
-                    <dd><a data-target=""></a></dd>
+                    <dd><a data-target="#Chrome" data-toggle="modal" href="#">Chrome Package</a></dd>
+                    <dd><a data-target="#5thWheelGooseneckHitch" data-toggle="modal" href="#">5th Wheel / Gooseneck Hitch Prep Package</a></dd>
+                    <dd>
+                      <a data-target="#FX4OffRoad" data-toggle="modal" href="#">FX4<sup>&reg;</sup> Off-Road Package</a>
+                    </dd>
+                    <dd><a data-target="#VehicleIntegrationSystem2" data-toggle="modal" href="#">Vehicle Integration System 2.0</a></dd>
+                    <dd><a data-target="#SnowplowCamper" data-toggle="modal" href="#">Snowplow/Camper Package</a></dd>
+                    <dd><a data-target="#SnowplowPrep" data-toggle="modal" href="#">Snow Plow Prep Package</a></dd>
+                    <dd><a data-target="#Camper" data-toggle="modal" href="#">Camper Package</a></dd>
+                    <dd><a data-target="#HeavyServiceFrontSuspension" data-toggle="modal" href="#">Heavy-Service Front Suspension Package</a></dd>
+                    <dd>
+                      <a data-target="#F250HCAxleUpgrade" data-toggle="modal" href="#">F-250<sup>&reg;</sup> High Capacity Axle Upgrade Package</a>
+                    </dd>
+                    <dd><a data-target="#F10KGVWR" data-toggle="modal" href="#">Fixed 10,000 lb. GVWR Package</a></dd>
                   </dl>
                 </div>
               </div>
