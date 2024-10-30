@@ -114,6 +114,33 @@
   </div>
 </div>
 
+<!-- 700A modal -->
+<div aria-hidden="true" aria-labelledby="700ATitle" class="modal" id="700A" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="700ATitle">
+          King Ranch<sup>&reg;</sup> F-250<sup>&reg;</sup> (700A) Equipment Group
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <p>King Ranch<sup>&reg;</sup> F-250<sup>&reg;</sup> (700A) includes:</p>
+        <ul>
+          <li>7.3L 2V DEVCT NA PFI V8 Gas Engine</li>
+          <li>410 Amp Dual Alternators (250+160 Amp)</li>
+          <li>Ford Co-Pilot360<sup>&trade;</sup> Assist 2.0</li>
+          <li>B&O<sup>&reg;</sup> Unleashed Sound System by Bang & Olufsen<sup>&reg;</sup> with HD Radio<sup>&trade;</sup> (14 speakers including subwoofer)</li>
+          <li>Tailgate Appliqu&eacute;</li>
+          <li>Power Tailgate</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- Trim End / Engine Start -->
 <!-- Eng68L2VDEVCTNAPFIV8Gas modal -->
 <div aria-hidden="true" aria-labelledby="Eng68L2VDEVCTNAPFIV8GasTitle" class="modal" id="Eng68L2VDEVCTNAPFIV8Gas" role="dialog" tabindex="-1">
@@ -1683,7 +1710,93 @@
                   </div>
                 </div>
               </div>
-              <div class="container tab-pane" id="F250KingRanch_tab">F250 | King Ranch<sup>&reg;</sup></div>
+              <div class="container tab-pane" id="F250KingRanch_tab">
+                <!-- F250 | King Ranch<sup>&reg;</sup> -->
+                <div class="flex-container">
+                  <div class="flex-item">
+                    <div
+                      role="img"
+                      aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-250 Crew Cab 6ft Bed King Ranch Exterior View"
+                      title="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-250 Crew Cab 6ft Bed King Ranch Exterior View"
+                      style="background-image: url('#MISCPATH#images/2025_Super_Duty/Trim.2025_Super_Duty_F250_Crew_Cab_8ft_Bed_KingRanch.png'); padding-top: 66%"
+                      class="img-background img-contain hidden-xs"></div>
+                    <div
+                      role="img"
+                      aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-250 Crew Cab 6ft Bed King Ranch Exterior View"
+                      title="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-250 Crew Cab 6ft Bed King Ranch Exterior View"
+                      style="background-image: url('#MISCPATH#images/2025_Super_Duty/Trim.2025_Super_Duty_F250_Crew_Cab_8ft_Bed_KingRanch.png'); padding-top: 175px"
+                      class="img-background img-contain margin-bottom-2x visible-xs"></div>
+                  </div>
+                  <div class="flex-item">
+                    <h5 class="text-uppercase">2025 Ford Super Duty<sup>&reg;</sup> F-250<sup>&reg;</sup></h5>
+                    <h4>
+                      King Ranch<sup>&reg;</sup
+                      ><a
+                        class="btnInv btn-primary"
+                        data-dotagging-element-type="body"
+                        data-dotagging-enabled="true"
+                        data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-250SD:King%20Ranch&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                        role="button"
+                        target="_blank"
+                        >View F-250<sup>&reg;</sup> King Ranch<sup>&reg;</sup> Inventory</a
+                      >
+                    </h4>
+                    <hr />
+                    <div class="crop-text">
+                      <p>
+                        When style and comfort are as important as exceptional capability, King Ranch<sup>&reg;</sup> pickup delivers. Slide into the heated and ventilated front Kingsville Antique Affect leather seats and feel the luxury engulf you.
+                        Tell the SYNC<sup>&reg;</sup> 4 voice-activated system where you want to go, turn on the 14-speaker B&O<sup>&reg;</sup> Unleashed Sound System by Bang & Olufsen<sup>&reg;</sup>, grab hold of the leather-wrapped steering wheel
+                        and enjoy the ride.
+                      </p>
+                      <dl>
+                        <dt>Engine</dt>
+                        <dd><a data-target="#Eng73L2VDEVCTNAPFIV8Gas" data-toggle="modal" href="#">7.3L 2V DEVCT NA PFI V8 Gas Engine</a>&nbsp;<span class="badge">Included</span></dd>
+                        <dd>
+                          <a data-target="#Eng67LHighOutputPowerStrokeV8TurboDieselB20" data-toggle="modal" href="#">6.7L High Output Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</a>
+                        </dd>
+                        <dd>
+                          <a data-target="#Eng67L4ValveOHVPowerStrokeV8TurboDieselB20" data-toggle="modal" href="#">6.7L 4 Valve OHV Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</a>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>Drive</dt>
+                        <dd>4&times;4</dd>
+                      </dl>
+                      <h4>
+                        Packages<sup><a data-target="#packages" data-toggle="modal" href="#">†</a></sup>
+                      </h4>
+                      <dl>
+                        <dt>Equipment Groups</dt>
+                        <dd>
+                          <a data-target="#700A" data-toggle="modal" href="#">King Ranch<sup>&reg;</sup> F-250<sup>&reg;</sup> (700A) Equipment Group</a>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>Packages</dt>
+                        <dd><a data-target="#360DegreeCamera" data-toggle="modal" href="#">360-Degree Camera Package</a>&nbsp;<span class="badge">Included</span></dd>
+                        <dd>
+                          <a data-target="#F250GT10KGVWR" data-toggle="modal" href="#">F-250<sup>&reg;</sup> Greater than 10K GVWR Package</a>&nbsp;<span class="badge">Included</span>
+                        </dd>
+                        <dd>
+                          <a data-target="#TremorOffRoad" data-toggle="modal" href="#">TREMOR<sup>&reg;</sup> Off-Road Package</a>
+                        </dd>
+                        <dd><a data-target="#Chrome" data-toggle="modal" href="#">Chrome Package</a></dd>
+                        <dd><a data-target="#5thWheelGooseneckHitch" data-toggle="modal" href="#">5th Wheel/Gooseneck Hitch Prep Package</a></dd>
+                        <dd>
+                          <a data-target="#FX4OffRoad" data-toggle="modal" href="#">FX4<sup>&reg;</sup> Off-Road Package</a>
+                        </dd>
+                        <dd><a data-target="#VehicleIntegrationSystem2" data-toggle="modal" href="#">Vehicle Integration System 2.0</a></dd>
+                        <dd><a data-target="#SnowplowPrep" data-toggle="modal" href="#">Snow Plow Prep Package</a></dd>
+                        <dd><a data-target="#HeavyServiceFrontSuspension" data-toggle="modal" href="#">Heavy-Service Front Suspension Package</a></dd>
+                        <dd>
+                          <a data-target="#F250HCAxleUpgrade" data-toggle="modal" href="#">F-250<sup>&reg;</sup> High Capacity Axle Upgrade Package</a>
+                        </dd>
+                        <dd><a data-target="#F10KGVWR" data-toggle="modal" href="#">Fixed 10,000 lb. GVWR Package</a></dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="container tab-pane" id="F250Platinum_tab">F250 | Platinum<sup>&reg;</sup></div>
             </div>
           </div>
