@@ -359,6 +359,33 @@
   </div>
 </div>
 
+<!-- 713A modal -->
+<div aria-hidden="true" aria-labelledby="713ATitle" class="modal" id="713A" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="713ATitle">
+          Platinum<sup>&reg;</sup> F-350<sup>&reg;</sup> SRW (713A) Equipment Group
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <p>Platinum<sup>&reg;</sup> F-350<sup>&reg;</sup> SRW (713A) includes:</p>
+        <ul>
+          <li>7.3L 2V DEVCT NA PFI V8 Gas Engine</li>
+          <li>Power Tailgate</li>
+          <li>Tailgate Step</li>
+          <li>Grille - Unique Painted Agate Black</li>
+          <li>Handles - Door and Tailgate, Body-Color</li>
+          <li>LED Fog Lamps</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- 720A modal -->
 <div aria-hidden="true" aria-labelledby="720ATitle" class="modal" id="720A" role="dialog" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
@@ -380,6 +407,33 @@
           <li>B&O<sup>&reg;</sup> Unleashed Sound System by Bang & Olufsen<sup>&reg;</sup> with HD Radio<sup>&trade;</sup> (14 speakers including subwoofer)</li>
           <li>Tailgate Appliqu&eacute;</li>
           <li>Power Tailgate</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 723A modal -->
+<div aria-hidden="true" aria-labelledby="723ATitle" class="modal" id="723A" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="723ATitle">
+          Platinum<sup>&reg;</sup> F-350<sup>&reg;</sup> DRW (723A) Equipment Group
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <p>Platinum<sup>&reg;</sup> F-350<sup>&reg;</sup> DRW (723A) includes:</p>
+        <ul>
+          <li>7.3L 2V DEVCT NA PFI V8 Gas Engine</li>
+          <li>Power Tailgate</li>
+          <li>Tailgate Step</li>
+          <li>Grille - Unique Painted Agate Black</li>
+          <li>Handles - Door and Tailgate, Body-Color</li>
+          <li>LED Fog Lamps</li>
         </ul>
       </div>
     </div>
@@ -2568,7 +2622,95 @@
                 </div>
               </div>
             </div>
-            <div class="container tab-pane" id="F350Platinum_tab">F-350 | Platinum<sup>&reg;</sup></div>
+            <div class="container tab-pane" id="F350Platinum_tab">
+              <!-- F-350 | Platinum<sup>&reg;</sup> -->
+              <div class="flex-container">
+                <div class="flex-item">
+                  <div
+                    role="img"
+                    aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-350 Crew Cab 6ft Bed Platinum Exterior View"
+                    title="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-350 Crew Cab 6ft Bed Platinum Exterior View"
+                    style="background-image: url('#MISCPATH#images/2025_Super_Duty/Trim.2025_Super_Duty_F350_Crew_Cab_8ft_Bed_Platinum.png'); padding-top: 66%"
+                    class="img-background img-contain hidden-xs"></div>
+                  <div
+                    role="img"
+                    aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-350 Crew Cab 6ft Bed Platinum Exterior View"
+                    title="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-350 Crew Cab 6ft Bed Platinum Exterior View"
+                    style="background-image: url('#MISCPATH#images/2025_Super_Duty/Trim.2025_Super_Duty_F350_Crew_Cab_8ft_Bed_Platinum.png'); padding-top: 175px"
+                    class="img-background img-contain margin-bottom-2x visible-xs"></div>
+                </div>
+                <div class="flex-item ford-font">
+                  <h5 class="text-uppercase">2025 Ford Super Duty<sup>&reg;</sup> F-350<sup>&reg;</sup></h5>
+                  <h4>
+                    Platinum<sup>&reg;</sup>
+                    <a
+                      class="btnInv btn-primary"
+                      data-dotagging-element-type="body"
+                      data-dotagging-enabled="true"
+                      data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD:Platinum&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                      data-dotagging-product-name="Website|Custom Content"
+                      href="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD:Platinum&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                      role="button"
+                      target="_blank"
+                      >View F-350<sup>&reg;</sup> Platinum<sup>&reg;</sup> Inventory</a
+                    >
+                  </h4>
+                  <hr />
+                  <div class="crop-text">
+                    <p>
+                      Whether you're towing a trailer or a boat to the lake, Platinum<sup>&reg;</sup> has the power and smart features to make it go smoothly. Features like power deployable running boards, Memory PowerScope<sup>&reg;</sup> Trailer
+                      Mirrors, memory power adjustable pedals and Leather Seating Surfaces offer convenience with refined ruggedness. Bold, stylish 20-inch bright and low-gloss matte-black painted aluminum wheels* will make others take notice.
+                      <br />
+                      <small>SRW models only.</small>
+                    </p>
+                    <dl>
+                      <dt>Engine</dt>
+                      <dd><a data-target="#Eng73L2VDEVCTNAPFIV8Gas" data-toggle="modal" href="#">7.3L 2V DEVCT NA PFI V8 Gas Engine</a>&nbsp;<span class="badge">Included</span></dd>
+                      <dd>
+                        <a data-target="#Eng67LHighOutputPowerStrokeV8TurboDieselB20" data-toggle="modal" href="#">6.7L High Output Power Strike<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</a>
+                      </dd>
+                      <dd>
+                        <a data-target="#Eng67L4ValveOHVPowerStrokeV8TurboDieselB20" data-toggle="modal" href="#">6.7L 4 Valve OHV Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</a>
+                      </dd>
+                    </dl>
+                    <dl>
+                      <dt>Drive</dt>
+                      <dd>4&times;4&nbsp;<span class="badge">Included</span></dd>
+                    </dl>
+                    <h4>
+                      Packages<sup><a data-target="#packages" data-toggle="modal" href="#">†</a></sup>
+                    </h4>
+                    <dl>
+                      <dt>Equipment Groups</dt>
+                      <dd>
+                        <a data-target="#713A" data-toggle="modal" href="#">Platinum<sup>&reg;</sup> F-350<sup>&reg;</sup> SRW (713A) Equipment Group</a>
+                      </dd>
+                      <dd>
+                        <a data-target="#723A" data-toggle="modal" href="#">Platinum<sup>&reg;</sup> F-350<sup>&reg;</sup> DRW (723A) Equipment Group</a>
+                      </dd>
+                    </dl>
+                    <dl>
+                      <dt>Packages</dt>
+                      <dd><a data-target="#360DegreeCamera" data-toggle="modal" href="#">360-Degree Camera Package</a>&nbsp;<span class="badge">Included</span></dd>
+                      <dd>
+                        <a data-target="#PlatinumPlus" data-toggle="modal" href="#">Platinum<sup>&reg;</sup> Plus Package</a>
+                      </dd>
+                      <dd>
+                        <a data-target="#TremorOffRoad" data-toggle="modal" href="#">TREMOR<sup>&reg;</sup> Off-Road Package</a>
+                      </dd>
+                      <dd><a data-target="#5thWheelGooseneckHitch" data-toggle="modal" href="#">5th Wheel / Gooseneck Hitch Prep Package</a></dd>
+                      <dd>
+                        <a data-target="#FX4OffRoad" data-toggle="modal" href="#">FX4<sup>&reg;</sup> Off-Road Package</a>
+                      </dd>
+                      <dd><a data-target="#VehicleIntegrationSystem2" data-toggle="modal" href="#">Vehicle Integration System 2.0</a></dd>
+                      <dd><a data-target="#SnowplowPrep" data-toggle="modal" href="#">Snowplow Prep Package</a></dd>
+                      <dd><a data-target="#Camper" data-toggle="modal" href="#">Camper Package</a></dd>
+                      <dd><a data-target="#HeavyServiceFrontSuspension" data-toggle="modal" href="#">Heavy-Service Front Suspension Package</a></dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div id="F450_tab" class="tab-pane ford-font">
