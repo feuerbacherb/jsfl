@@ -305,6 +305,30 @@
   </div>
 </div>
 
+<!-- 673A modal -->
+<div aria-hidden="true" aria-labelledby="673ATitle" class="modal" id="673A" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle;">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="673ATitle">XLT F-450<sup>&reg;</sup> DRW (673A) Equipment Group
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <p>XLT F-450<sup>&reg;</sup> DRW (673A) includes:</p>
+        <ul>
+          <li>6.7L 4 Valve OHV Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</li>
+          <li>4&times;4 only</li>
+          <li>Automatic High Beam</li>
+          <li>120V/400W outlets; one (1) dash mounted and one (1) in rear console</li>
+          <li>Pre-Collision Assist<sup>&reg;</sup> with Automatic Emergency Braking (AEB)</li>
+          <li>Trailer Brake Controller (includes Smart Trailer Tow Connector)</li>
+        </ul>
+    </div>
+  </div>
+</div>
+
 <!-- 700A modal -->
 <div aria-hidden="true" aria-labelledby="700ATitle" class="modal" id="700A" role="dialog" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
@@ -2899,6 +2923,24 @@
                     <dl>
                       <dt>Drive</dt>
                       <dd>4&times;4&nbsp;<span class="badge">Included</span></dd>
+                    </dl>
+                    <h4>
+                      Packages<sup><a data-target="#packages" data-toggle="modal" href="#">†</a></sup>
+                    </h4>
+                    <dl>
+                      <dt>Equipment Groups</dt>
+                      <dd><a data-target="#673A" data-toggle="modal" href="#">XLT F-450<sup>&reg;</sup> (673A) Equipment Group</a></dd>
+                    </dl>
+                    <dl>
+                      <dt>Packages</dt>
+                      <dd><a data-target="#5thWheelGooseneckHitch" data-toggle="modal" href="#">5th Wheel / Gooseneck Hitch Prep Package</a>&nbsp;<span class="badge">Included</span></dd>
+                      <dd><a data-target="#360DegreeCamera" data-toggle="modal" href="#">360-Degree Camera Package</a></dd>
+                      <dd><a data-target="#FX4OffRoad" data-toggle="modal" href="#">FX4<sup>&reg;</sup> Off-Road Package</a></dd>
+                      <dd><a data-target="#VehicleIntegrationSystem2" data-toggle="modal" href="#">Vehicle Integration System 2.0</a></dd>
+                      <dd><a data-target="#SnowplowCamper" data-toggle="modal" href="#">Snowplow / Camper Package</a></dd>
+                      <dd><a data-target="#SnowplowPrep" data-toggle="modal" href="#">Snowplow Prep Package</a></dd>
+                      <dd><a data-target="#Camper" data-toggle="modal" href="#">Camper Package</a></dd>
+                      <dd><a data-target="#HeavyServiceFrontSuspension" data-toggle="modal" href="#">Heavy-Service Front Suspension Package</a></dd>
                     </dl>
                   </div>
                 </div>
