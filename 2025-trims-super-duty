@@ -278,6 +278,33 @@
   </div>
 </div>
 
+<!-- 670A modal -->
+<div aria-hidden="true" aria-labelledby="670ATitle" class="modal" id="670A" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-content" id="670ATitle">
+          XL F-450<sup>&reg;</sup> DRW (670A) Equipment Group
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <p>XL F-450<sup>&reg;</sup> DRW (670A) includes:</p>
+        <ul>
+          <li>6.7L 4 Valve OHV Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</li>
+          <li>4.2-inch LCD Productivity Screen: includes menus for Gauge Setup, Trip Computer, Fuel Economy and Towing / Off-Road applications</li>
+          <li>AdvanceTrac<sup>&reg;</sup> with RSC<sup>&reg;</sup> (Roll Stability Control<sup>&trade;</sup>)</li>
+          <li>Audio - AM/FM stereo/MP3 Player speakers; four (4) with Regular Cab, six (6) with SuperCab and Crew Cab</li>
+          <li>FordPass Connect<sup>&trade;</sup></li>
+          <li>SYNC<sup>&reg;</sup> 4</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- 700A modal -->
 <div aria-hidden="true" aria-labelledby="700ATitle" class="modal" id="700A" role="dialog" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
@@ -1990,9 +2017,9 @@
                         class="btnInv btn-primary"
                         data-dotagging-element-type="body"
                         data-dotagging-enabled="true"
-                        data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-250SD:LARIAT&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                        data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-250SD:Lariat&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
                         data-dotagging-product-name="Website|Custom Content"
-                        href="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-250:LARIAT&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                        href="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-250SD:Lariat&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
                         role="button"
                         target="_blank"
                         >View F-250<sup>&reg;</sup> LARIAT<sup>&reg;</sup> Inventory</a
@@ -2176,9 +2203,9 @@
                         class="btnInv btn-primary"
                         data-dotagging-element-type="body"
                         data-dotagging-enabled="true"
-                        data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-250%3APlatinum&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                        data-dotagging-link-url="https://wwww.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-250%3APlatinum&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
                         data-dotagging-product-name="Website|Custom Content"
-                        href="https://ww.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-250SD%3APlatinum&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                        href="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-250SD%3APlatinum&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
                         role="button"
                         target="_blank"
                         >View F-250<sup>&reg;</sup> Platinum<sup>&reg;</sup> Inventory</a
@@ -2289,7 +2316,9 @@
                       class="btnInv btn-primary"
                       data-dotagging-element-type="body"
                       data-dotagging-enabled="true"
-                      data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD%3AXL&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                      data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD%3AXL,XL%20DRW&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                      data-dotagging-product-name="Website|Custom Content"
+                      href="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD%3AXL,XL%20DRW&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
                       role="button"
                       target="_blank"
                       >View F-350<sup>&reg;</sup> XL Inventory</a
@@ -2380,9 +2409,9 @@
                       class="btnInv btn-primary"
                       data-dotagging-element-type="body"
                       data-dotagging-enabled="true"
-                      data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD:XLT&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                      data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD:XLT,XLT%20DRW&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
                       data-dotagging-product-name="Website|Custom Content"
-                      href="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD:XLT&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                      href="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD:XLT,XLT%20DRW&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
                       role="button"
                       target="_blank"
                       >New F-350<sup>&reg;</sup> XLT Inventory</a
@@ -2467,9 +2496,9 @@
                       class="btnInv btn-primary"
                       data-dotagging-element-type="body"
                       data-dotagging-enabled="true"
-                      data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD:LARIAT&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                      data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD:Lariat,Lariat%20DRW&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
                       data-dotagging-product-name="Website|Custom Content"
-                      href="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD:LARIAT&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                      href="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD:Lariat,Lariat%20DRW&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
                       role="button"
                       target="_blank"
                       >View F-350<sup>&reg;</sup> LARIAT<sup>&reg;</sup> Inventory</a
@@ -2560,9 +2589,9 @@
                       class="btnInv btn-primary"
                       data-dotagging-element-type="body"
                       data-dotagging-enabled="true"
-                      data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD:King%20Ranch&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                      data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD:King%20Ranch,King%20Ranch%20DRW&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
                       data-dotagging-product-name="Website|Custom Content"
-                      href="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD:King%20Ranch&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                      href="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD:King%20Ranch,King%20%Ranch%20DRW&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
                       role="button"
                       target="_blank"
                       >View F-350<sup>&reg;</sup> King Ranch<sup>&reg;</sup> Inventory</a
@@ -2647,9 +2676,9 @@
                       class="btnInv btn-primary"
                       data-dotagging-element-type="body"
                       data-dotagging-enabled="true"
-                      data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD:Platinum&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                      data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD:Platinum,Platinum%20DRW&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
                       data-dotagging-product-name="Website|Custom Content"
-                      href="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD:Platinum&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                      href="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-350SD:Platinum,Platinum%20DRW&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
                       role="button"
                       target="_blank"
                       >View F-350<sup>&reg;</sup> Platinum<sup>&reg;</sup> Inventory</a
@@ -2732,8 +2761,149 @@
             </li>
           </ul>
           <div class="tab-content ford-font">
-            <div class="container tab-pane active" id="F450XL_tab">F-450 | XL</div>
-            <div class="container tab-pane" id="F450XLT_tab">F-450 | XLT</div>
+            <div class="container tab-pane active" id="F450XL_tab">
+              <!-- F-450 | XL -->
+              <div class="flex-container">
+                <div class="flex-item">
+                  <div
+                    role="img"
+                    aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-450 Crew Cab 8ft Bed XL Exterior View"
+                    title="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-450 Crew Cab 8ft Bed Exterior View"
+                    style="background-image: url('#MISCPATH#images/2025_Super_Duty/Trim.2025_Super_Duty_F450_Crew_Cab_8ft_Bed_XL.png'); padding-top: 66%"
+                    class="img-background img-contain hidden-xs"></div>
+                  <div
+                    role="img"
+                    aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-450 Crew Cab 8ft Bed XL Exterior View"
+                    title="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-450 Crew Cab 8ft Bed Exterior View"
+                    style="background-image: url('#MISCPATH#images/2025_Super_Duty/Trim.2025_Super_Duty_F450_Crew_Cab_8ft_Bed_XL.png'); padding-top: 175px"
+                    class="img-background img-contain margin-bottom-2x visible-xs"></div>
+                </div>
+                <div class="flex-item ford-font">
+                  <h5 class="text-uppercase">2025 Ford Super Duty<sup>&reg;</sup> F-450<sup>&reg;</sup></h5>
+                  <h4>
+                    XL
+                    <a
+                      class="btnInv btn-primary"
+                      data-dotagging-element-type="body"
+                      data-dotagging-enabled="true"
+                      data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-450SD%3AXL%20DRW&utm_wource=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                      data-dotagging-product-name="Website|Custom Content"
+                      href="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-450SD%3AXL%20DRW&utm_wource=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                      role="button"
+                      target="_blank"
+                      >View F-450<sup>&reg;</sup> XL Inventory</a
+                    >
+                  </h4>
+                  <hr />
+                  <div class="crop-text">
+                    <p>
+                      The 2025 Super Duty<sup>&reg;</sup> F-450<sup>&reg;</sup> XL model gives you the means to haul with confidence whether you're lugging paver bricks or a camper. A 6.7L OHV Power Stroke<sup>&reg;</sup> V8 Turbo Diesel engine gives
+                      you the monstrous horsepower and torque along with best-in-class gooseneck towing* to pull massive weight. A 8-inch center display screen offers clear views from the available 360-Degree Camera Package allowing you to see all
+                      sides of your truck.
+                      <br />
+                      <small
+                        >*When properly equipped. Max gooseneck tow rating of 40,000 lbs. available on F-450<sup>&reg;</sup> Regular Cab with available 6.7L HO diesel engine and Max Tow Package. Max towing varies based on cargo, vehicle
+                        configuration, accessories and number of passengers. Class is Full-Size Pickups over 8,500 lbs. GVWR.</small
+                      >
+                    </p>
+                    <dl>
+                      <dt>Engine</dt>
+                      <dd>
+                        <a data-target="#Eng67L4ValveOHVPowerStrokeV8TurboDieselB20" data-toggle="modal" href="#">6.7L 4 Valve OHV Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</a>&nbsp;<span class="badge">Included</span>
+                      </dd>
+                      <dd>
+                        <a data-target="#Eng67LHighOutputPowerStrokeV8TurboDieselB20" data-toggle="modal" href="#">6.7L High Output Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</a>
+                      </dd>
+                    </dl>
+                    <dl>
+                      <dt>Drive</dt>
+                      <dd>4&times;2&nbsp;<span class="badge">Included</span></dd>
+                      <dd>4&times;4</dd>
+                    </dl>
+                    <h4>
+                      Packages<sup><a data-target="#packages" data-toggle="modal" href="#">†</a></sup>
+                    </h4>
+                    <dl>
+                      <dt>Equipment Group</dt>
+                      <dd>
+                        <a data-target="#670A" data-toggle="modal" href="#">XL F-450<sup>&reg;</sup> DRW (670A) Equipment Group</a>
+                      </dd>
+                    </dl>
+                    <dl>
+                      <dt>Packages</dt>
+                      <dd><a data-target="#5thWheelGooseneckHitch" data-toggle="modal" href="#">5th Wheel / Gooseneck Hitch Prep Package</a>&nbsp;<span class="badge">Included</span></dd>
+                      <dd><a data-target="#360DegreeCamera" data-toggle="modal" href="#">360-Degree Camera Package</a></dd>
+                      <dd><a data-target="#XLDriverAssist" data-toggle="modal" href="#">XL Driver Assist Package</a></dd>
+                      <dd>
+                        <a data-target="#FX4OffRoad" data-toggle="modal" href="#">FX4<sup>&reg;</sup> Off-Road Package</a>
+                      </dd>
+                      <dd><a data-target="#VehicleIntegrationSystem2" data-toggle="modal" href="#">Vehicle Integration System 2.0</a></dd>
+                      <dd><a data-target="#SnowplowCamper" data-toggle="modal" href="#">Snowplow / Camper Package</a></dd>
+                      <dd><a data-target="#SnowplowPrep" data-toggle="modal" href="#">Snowplow Prep Package</a></dd>
+                      <dd><a data-target="#XLChrome" data-toggle="modal" href="#">XL Chrome Package</a></dd>
+                      <dd><a data-target="#Camper" data-toggle="modal" href="#">Camper Package</a></dd>
+                      <dd><a data-target="#HeavyServiceFrontSuspension" data-toggle="modal" href="#">Heavy-Service Front Suspension Package</a></dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container tab-pane" id="F450XLT_tab">
+              <!-- F-450 | XLT -->
+              <div class="flex-container">
+                <div class="flex-item">
+                  <div
+                    role="img"
+                    aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-450 Crew Cab 8ft Bed XLT Exterior View"
+                    title="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-450 Crew Cab 8ft Bed XLT Exterior View"
+                    style="background-image: url('#MISCPATH#images/2025_Super_Duty/Trim.2025_Super_Duty_F450_Crew_Cab_8ft_Bed_XLT.png'); padding-top: 66%"
+                    class="img-background img-contain hidden-xs"></div>
+                  <div
+                    role="img"
+                    aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Cuty F-450 Crew Cab 8ft Bed XLT Exterior View"
+                    title="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-450 Crew Cab 8ft Bed XLT Exterior View"
+                    style="background-image: url('#MISCPATH#images/2025_Super_Duty/Trim.2025_Super_Duty_F450_Crew_Cab_8ft_Bed_XLT.png'); padding-top: 175px"
+                    class="img-background img-contain margin-bottom-2x visible-xs"></div>
+                </div>
+                <div class="flex-item ford-font">
+                  <h5 class="text-uppercase">2025 Ford Super Duty<sup>&reg;</sup> F-450<sup>&reg;</sup></h5>
+                  <h4>
+                    XLT
+                    <a
+                      class="btnInv btn-primary"
+                      data-dotagging-element-type="body"
+                      data-dotagging-enabled="true"
+                      data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make-Ford&ModelAndTrim=F-450SD%3AXLT%20DRW&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                      data-dotagging-product-name="Website|Custom Content"
+                      href="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make-Ford&ModelAndTrim=F-450SD%3AXLT%20DRW&utm_source=Trims&utm_medium=Webpage&utm_term=SuperDuty"
+                      role="button"
+                      target="_blank"
+                      >View F-450<sup>&reg;</sup> XLT Inventory</a
+                    >
+                  </h4>
+                  <hr />
+                  <div class="crop-text">
+                    <p>
+                      Super Duty<sup>&reg;</sup> F-450<sup>&reg;</sup> XLT comes equipped with an array of powerful features like the 6.7L Power Stroke<sup>&reg;</sup> V8 Turbo Diesel engine and driver assist technology to offer peace of mind while
+                      traveling and towing.
+                    </p>
+                    <dl>
+                      <dt>Engine</dt>
+                      <dd>
+                        <a data-target="#Eng67L4ValveOHVPowerStrokeV8TurboDieselB20" data-toggle="modal" href="#">6.7L 4 Valve OHV Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</a>&nbsp;<span class="badge">Included</span>
+                      </dd>
+                      <dd>
+                        <a data-target="#Eng67LHighOutputPowerStrokeV8TurboDieselB20" data-toggle="modal" href="#">6.7L High Output Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</a>
+                      </dd>
+                    </dl>
+                    <dl>
+                      <dt>Drive</dt>
+                      <dd>4&times;4&nbsp;<span class="badge">Included</span></dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="container tab-pane" id="F450LARIAT_tab">F-450 | LARIAT</div>
             <div class="container tab-pane" id="F450KingRanch_tab">F-450 | King Ranch<sup>&reg;</sup></div>
             <div class="container tab-pane" id="F450Platinum_tab">F-450 | Platinum<sup>&reg;</sup></div>
