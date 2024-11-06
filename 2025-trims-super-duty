@@ -329,6 +329,33 @@
   </div>
 </div>
 
+<!-- 678A modal -->
+<div aria-hidden="true" aria-labelledby="678ATitle" class="modal" id="678A" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle;">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="678ATitle">LARIAT<sup>&reg;</sup> F-450<sup>&reg;</sup> DRW (678A) Equipment Group
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <p>LARIAT<sup>&reg;</sup> F-450<sup>&reg;</sup> DRW (678A) includes:</p>
+        <ul>
+          <li>6.7L Valve OHV Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</li>
+          <li>LED Box Lighting (includes Center High-Mounted Stop Lamp (CHMSL))</li>
+          <li>Halogen with LED Reverse Taillamps</li>
+          <li>B&O<sup>&reg;</sup> Sound System by Bang & Olufsen<sup>&reg;</sup> with HD Radio<sup>&trade;</sup> (8 speakers including subwoofer</li>
+          <li>SYNC<sup>&reg;</sup> 4 with Enhanced Voice Recognition</li>
+          <li>Wireless Charging Pad (40/Console/40 only)</li>
+          <li>SiriusXM with 360L</li>
+          <li>8-way Power Driver and Passenger Seat</li>
+        </ul>
+    </div>
+  </div>
+</div>
+
 <!-- 700A modal -->
 <div aria-hidden="true" aria-labelledby="700ATitle" class="modal" id="700A" role="dialog" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
@@ -2946,7 +2973,61 @@
                 </div>
               </div>
             </div>
-            <div class="container tab-pane" id="F450LARIAT_tab">F-450 | LARIAT</div>
+            <div class="container tab-pane" id="F450LARIAT_tab">
+              <!-- F-450 | LARIAT -->
+              <div class="flex-container">
+                <div class="flex-item">
+                  <div role="img" aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-450 Crew Cab 8ft Bed LARIAT Exterior View" title="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-450 Crew Cab 8ft Bed LARIAT Exterior View" style="background-image: url('#MISCPATH#images/2025_Super_Duty/Trim.2025_Super_Duty_F450_Crew_Cab_8ft_Bed_LARIAT.png'); padding-top: 66%;" class="img-background img-contain hidden-xs"></div>
+                  <div role="img" aria-label="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-450 Crew Cab 8ft Bed LARIAT Exterior View" title="#NAME# | #CITY#, #STATE# | 2025 Super Duty F-450 Crew Cab 8ft Bed LARIAT Exterior View" style="background-image: url('#MISCPATH#images/2025_Super_Duty/Trim.2025_Super_Duty_F450_Crew_Cab_8ft_Bed_LARIAT.png'); padding-top: 175px;" class="img-background img-contain margin-bottom-2x visible-xs"></div>
+                </div>
+                <div class="flex-item ford-font">
+                  <h5 class="text-uppercase">2025 Ford Super Duty<sup>&reg;</sup> F-450<sup>&reg;</sup></h5>
+                  <h4>
+                    LARIAT<sup>&reg;</sup>
+                    <a class="btnInv btn-primary" data-dotagging-element-type="body" data-dotagging-enabled="true" data-dotagging-link-url="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?Make=Ford&ModelAndTrim=F-450SD%3ALariat,Lariat%20DRW" data-dotagging-product-name="Website|Custom Content" href="https://www.johnsonsewell.com/search-new-ford-marble-falls-tx.aspx?<ake=Ford&ModelAndTrim=F-450SD%3ALariat,Lariat%20DRW" role="button" target="_blank">View F-450<sup>&reg;</sup> LARIAT<sup>&reg;</sup> Inventory</a>
+                  </h4>
+                  <hr>
+                  <div class="crop-text">
+                    <p>
+                      It's the Super Duty<sup>&reg;</sup> truck that commands attention with stylish ActiveX<sup>&reg;</sup> front seating surfaces available in Baja or Black Onyx and crystal-clear audio from the B&O<sup>&reg;</sup> Sound System by Bang & Olufsen<sup>&reg;</sup>.
+                    </p>
+                    <dl>
+                      <dt>Engine</dt>
+                      <dd>
+                        <a data-target="#Eng67L4ValveOHVPowerStrokeV8TurboDieselB20" data-toggle="modal" href="#">6.7L 4 Valve OHV Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</a>&nbsp;<span class="badge">Included</span>
+                      </dd>
+                      <dd>
+                        <a data-target="#Eng67LHighOutputPowerStrokeV8TurboDieselB20" data-toggle="modal" href="#">6.7L High Output Power Stroke<sup>&reg;</sup> V8 Turbo Diesel B20 Engine</a>
+                      </dd>
+                    </dl>
+                    <dl>
+                      <dt>Drive</dt>
+                      <dd>4&times;4&nbsp;<span class="badge">Included</span></dd>
+                    </dl>
+                    <h4>
+                      Packages<sup><a data-target="#packages" data-toggle="modal" href="#">†</a></sup>
+                    </h4>
+                    <dl>
+                      <dt>Equipment Groups</dt>
+                      <dd><a data-target="#678A" data-toggle="modal" href="#">LARIAT<sup>&reg;</sup> F-450<sup>&reg;</sup> DRW (678A) Equipment Group</a></dd>
+                    </dl>
+                    <dl>
+                      <dt>Packages</dt>
+                      <dd><a data-target="#360DegreeCamera" data-toggle="modal" href="#">360-Degree Camera Package</a>&nbsp;<span class="badge">Included</span></dd>
+                      <dd><a data-target="#5thWheelGooseneckHitch" data-toggle="modal" href="#">5th Wheel / Gooseneck Hitch Prep Package</a>&nbsp;<span class="badge">Included</span></dd>
+                      <dd><a data-target="#LARIATUltimate" data-toggle="modal" href="#">LARIAT<sup>&reg;</sup> Ultimate Package</a></dd>
+                      <dd><a data-target="#Chrome" data-toggle="modal" href="#">Chrome Package</a></dd>
+                      <dd><a data-target="#FX4OffRoad" data-toggle="modal" href="#">FX4<sup>&reg;</sup> Off-Road Package</a></dd>
+                      <dd><a data-target="#VehicleIntegrationSystem2" data-toggle="modal" href="#">Vehicle Integration System 2.0</a></dd>
+                      <dd><a data-target="#SnowplowCamper" data-toggle="modal" href="#">Snowplow / Camper Package</a></dd>
+                      <dd><a data-target="#SnowplowPrep" data-toggle="modal" href="#">Snowplow Prep Package</a></dd>
+                      <dd><a data-target="#Camper" data-toggle="modal" href="#">Camper Package</a></dd>
+                      <dd><a data-target="#HeavyServiceFrontSuspension" data-toggle="modal" href="#">Heavy-Service Front Suspension Package</a></dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="container tab-pane" id="F450KingRanch_tab">F-450 | King Ranch<sup>&reg;</sup></div>
             <div class="container tab-pane" id="F450Platinum_tab">F-450 | Platinum<sup>&reg;</sup></div>
           </div>
