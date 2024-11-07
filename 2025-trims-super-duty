@@ -1650,7 +1650,9 @@
       <div class="modal-header">
         <h5 class="modal-title" id="LARIATUltimateTitle">
           LARIAT<sup>&reg;</sup> Ultimate Package
-          <span aria-hidden="true">&times;</span>
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </h5>
       </div>
       <div class="modal-body">
@@ -1669,7 +1671,7 @@
         <p>Available on LARIAT<sup>&reg;</sup>.</p>
         <p>Requires:</p>
         <ul>
-          <li>40/console/40 seats</li>
+          <li>40/Console/40 seats</li>
         </ul>
         <p>Includes:</p>
         <ul>
@@ -2101,7 +2103,7 @@
                         <dt>Packages</dt>
                         <dd><a data-target="#BlackAppearance" data-toggle="modal" href="#">Black Appearance Package</a></dd>
                         <dd>
-                          <a data-target="#TremorOffRoad" data-toggle="modal" href="#">Tremor<sup>&reg;</sup> Off-Road Package</a>
+                          <a data-target="#TremorOffRoad" data-toggle="modal" href="#">TREMOR<sup>&reg;</sup> Off-Road Package</a>
                         </dd>
                         <dd><a data-target="#XLTPremium" data-toggle="modal" href="#">XLT Premium Package</a></dd>
                         <dd><a data-target="#360DegreeCamera" data-toggle="modal" href="#">360-Degree Camera Package</a></dd>
@@ -2669,7 +2671,7 @@
                         <a data-target="#618A" data-toggle="modal" href="#">LARIAT<sup>&reg;</sup> F-350<sup>&reg;</sup> SRW (618A) Equipment Group</a>
                       </dd>
                       <dd>
-                        <a data-target="#628A" data-toggle="modal" href="#">LARIAT<sup>&reg;</sup> F-350<sup>&reg;</sup> DRW (628A) Equipment Gropu</a>
+                        <a data-target="#628A" data-toggle="modal" href="#">LARIAT<sup>&reg;</sup> F-350<sup>&reg;</sup> DRW (628A) Equipment Group</a>
                       </dd>
                     </dl>
                     <dl>
