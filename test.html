@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colored Circles</title>
+    <style>
+      .circle {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container"></div>
+
+    <script>
+      const data = {
+        items: [
+          {
+            color: "red",
+            description: "This is a red circle",
+          },
+          {
+            color: "blue",
+            description: "This is a blue circle",
+          },
+          {
+            color: "green",
+            description: "This is a green circle",
+          },
+        ],
+      };
+
+      const container = document.getElementById("container");
+
+      data.items.forEach((item) => {
+        const circle = document.createElement("div");
+        circle.className = "circle";
+        circle.style.backgroundColor = item.color;
+
+        const description = document.createElement("span");
+        description.textContent = item.description;
+
+        const itemContainer = document.createElement("div");
+        itemContainer.appendChild(circle);
+        itemContainer.appendChild(description);
+
+        container.appendChild(itemContainer);
+      });
+    </script>
+  </body>
+</html>
