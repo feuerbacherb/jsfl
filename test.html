@@ -1,56 +1,179 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Colored Circles</title>
-    <style>
-      .circle {
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        display: inline-block;
-        margin-right: 10px;
+<script>
+  function imgSwitch(id, color, cat) {
+    console.log(`Entered imgSwitch(id = ${id}, color = ${color}, cat = ${cat})`);
+    // set up divs for displaying the correct trim and color
+    let div1 = id + "1";
+    let div2 = id + "2";
+    // set up strURL to be used to change the color of the vehicle
+    let strURL = "";
+    // get HSSB and HSSG links
+    let linkHSSB = document.getElementById("HSSB").style;
+    let linkHSSG = document.getElementById("HSSG").style;
+    let linkOTSGGRR = document.getElementById("OTSGGRR").style;
+    let linkOTSMBRAR = document.getElementById("OTSMBRAR").style;
+    let linkOTSOFS = document.getElementById("OTSOFS").style;
+
+    // pull and separate the backgroundImage of the div into an array
+    // strBI is the backgroundImage url in its full string in case I need it later
+    let strBI = document.getElementById(div1).style.backgroundImage.slice(4, -1).replace(/["'"]/g, "");
+    console.log(`strBI = ${strBI}`);
+    // arrBI is array of backgroundImage.url separated by periods
+    let arrBI = strBI.split(".");
+    // run a test to make sure we have everything
+    printArray(arrBI);
+
+    let arrModel = arrBI[1].split("_");
+    printArray(arrModel);
+
+    // if cat = 'Null' then it is just a color change, so change the correct array element
+    if (cat === "Null") {
+      //console.log(`arrBI.length = ${arrBI.length}`);
+
+      // remove the end nodes of the array and put should be there for a color change
+      arrBI = trimArray(arrBI);
+      arrBI[3] = color;
+      arrBI[4] = "Null";
+      //printArray(arrBI);
+      // put the array back together and make a string
+      strURL = concatArray(arrBI);
+      // print to the console the backgroundImage url
+      console.log(`strURL = ${strURL}`);
+    } else {
+      arrCat = cat.split(".");
+      arrBI = trimArray(arrBI);
+      printArray(arrCat);
+      if (arrCat.length > 2) {
+        arrBI[4] = arrCat[1] + "." + arrCat[2];
+      } else {
+        arrBI[4] = arrCat[1];
       }
-    </style>
-  </head>
-  <body>
-    <div id="container"></div>
+      //arrBI[4] = cat;
+      printArray(arrBI);
+      strURL = concatArray(arrBI);
+      console.log(`strURL = ${strURL}`);
+    }
 
-    <script>
-      const data = {
-        items: [
-          {
-            color: "red",
-            description: "This is a red circle",
-          },
-          {
-            color: "blue",
-            description: "This is a blue circle",
-          },
-          {
-            color: "green",
-            description: "This is a green circle",
-          },
-        ],
-      };
+    switch (arrModel[2]) {
+      case "EcoBoost":
+        switch (arrBI[2]) {
+          case "Fastback":
+            switch (arrBI[3]) {
+              case "Shadow_Black":
+                linkOTSGGRR.visibility = "visible";
+                linkOTSMBRAR.visibility = "visible";
+                linkOTSOFS.visibility = "hidden";
+                linkHSSB.visibility = "hidden";
+                linkHSSG.visibility = "visible";
+                break;
+              case "Race_Red":
+              case "Molten_Magenta_Metallic_Tri-coat":
+                linkOTSGGRR.visibility = "visible";
+                linkOTSMBRAR.visibility = "hidden";
+                linkOTSOFS.visibility = "visible";
+                linkHSSB.visibility = "visible";
+                linkHSSG.visibility = "hidden";
+                break;
+              default:
+                linkOTSGGRR.visibility = "visible";
+                linkOTSMBRAR.visibility = "visible";
+                linkOTSOFS.visibility = "visible";
+                linkHSSB.visibility = "visible";
+                linkHSSG.visibility = "hidden";
+            }
+            break;
+          case "Convertible":
+            {
+              switch (arrBI[3]) {
+                case "Shadow_Black":
+                  document.getElementById("HSSECB").style.visibility = "hidden";
+                  document.getElementById("HSSECG").style.visibility = "visible";
+                  break;
+                default:
+                  document.getElementById("HSSECB").style.visibility = "visible";
+                  document.getElementById("HSSECG").style.visibility = "hidden";
+                  break;
+              }
+            }
+            break;
+        }
+        break;
 
-      const container = document.getElementById("container");
+      case "GT":
+      case "Dark":
+      default:
+        console.log("It fell through all the way");
+    }
 
-      data.items.forEach((item) => {
-        const circle = document.createElement("div");
-        circle.className = "circle";
-        circle.style.backgroundColor = item.color;
+    // set the backgroundImage.style.url to the new image
+    document.getElementById(div1).style.backgroundImage = "url(" + strURL + ")";
+    document.getElementById(div2).style.backgroundImage = "url(" + strURL + ")";
+  }
 
-        const description = document.createElement("span");
-        description.textContent = item.description;
+  function trimArray(arr) {
+    if (arr.length > 6) {
+      arr.length = 5;
+      arr[4] = "Null";
+      arr[5] = "png";
+    }
+    return arr;
+  }
 
-        const itemContainer = document.createElement("div");
-        itemContainer.appendChild(circle);
-        itemContainer.appendChild(description);
+  function concatArray(arr) {
+    let strArr = "";
+    for (let i = 0; i < arr.length; i++) {
+      strArr = strArr + arr[i];
+      if (i !== arr.length - 1) {
+        strArr = strArr + ".";
+      }
+    }
+    return strArr;
+  }
 
-        container.appendChild(itemContainer);
-      });
-    </script>
-  </body>
-</html>
+  function printArray(arr) {
+    for (let i = 0; i < arr.length; i++) {
+      console.log(`arrBI[${i}] = ${arr[i]}`);
+    }
+  }
+
+  function postURL(pers, str) {
+    let periodCount = 0;
+    let position = -1;
+
+    for (let i = 0; i < str.length; i++) {
+      if (str[i] === "/") {
+        periodCount++;
+        if (periodCount === pers) {
+          position = i;
+          break;
+        }
+      }
+    }
+
+    if (position !== -1) {
+      return str.substring(position);
+    } else {
+      return "The string is not a URL";
+    }
+  }
+
+  function initURL(pers, str) {
+    let periodCount = 0;
+    let position = -1;
+
+    for (let i = 0; i < str.length; i++) {
+      if (str[i] === ".") {
+        periodCount++;
+        if (periodCount === pers) {
+          position = i;
+          break;
+        }
+      }
+    }
+
+    if (position !== -1) {
+      return str.substring(0, position + 1);
+    } else {
+      return "The string is not a URL";
+    }
+  }
+</script>
