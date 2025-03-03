@@ -121,6 +121,16 @@
             break;
           case "Convertible":
             console.log(`Entered ${arrModel[2]}/${arrBI[2]}`);
+            switch(arrBI[3]) {
+              case "Shadow_Black":
+                document.getElementById('EBPCHSSB').style.visibility = "hidden";
+                document.getElementById('EBPCHSSG').style.visibility = "visible";
+                break;
+              default:
+                document.getElementById('EBPCHSSB').style.visibility = "visible";
+                document.getElementById('EBPCHSSG').style.visibility = "hidden";
+                break;
+            }
             break;
         }
         break;
