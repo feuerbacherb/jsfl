@@ -1,42 +1,23 @@
 <script>
   function imgSwitch(id, color, cat) {
     console.log(`Entered imgSwitch(id = ${id}, color = ${color}, cat = ${cat})`);
-    // set up divs for displaying the correct trim and color
     let div1 = id + "1";
     let div2 = id + "2";
-    // set up strURL to be used to change the color of the vehicle
     let strURL = "";
-    // get HSSB and HSSG links
-    let linkHSSB = document.getElementById("HSSB").style;
-    let linkHSSG = document.getElementById("HSSG").style;
-    let linkOTSGGRR = document.getElementById("OTSGGRR").style;
-    let linkOTSMBRAR = document.getElementById("OTSMBRAR").style;
-    let linkOTSOFS = document.getElementById("OTSOFS").style;
 
-    // pull and separate the backgroundImage of the div into an array
-    // strBI is the backgroundImage url in its full string in case I need it later
     let strBI = document.getElementById(div1).style.backgroundImage.slice(4, -1).replace(/["'"]/g, "");
     console.log(`strBI = ${strBI}`);
-    // arrBI is array of backgroundImage.url separated by periods
     let arrBI = strBI.split(".");
-    // run a test to make sure we have everything
     printArray(arrBI);
 
     let arrModel = arrBI[1].split("_");
     printArray(arrModel);
 
-    // if cat = 'Null' then it is just a color change, so change the correct array element
     if (cat === "Null") {
-      //console.log(`arrBI.length = ${arrBI.length}`);
-
-      // remove the end nodes of the array and put should be there for a color change
       arrBI = trimArray(arrBI);
       arrBI[3] = color;
       arrBI[4] = "Null";
-      //printArray(arrBI);
-      // put the array back together and make a string
       strURL = concatArray(arrBI);
-      // print to the console the backgroundImage url
       console.log(`strURL = ${strURL}`);
     } else {
       arrCat = cat.split(".");
@@ -50,8 +31,20 @@
       //arrBI[4] = cat;
       printArray(arrBI);
       strURL = concatArray(arrBI);
-      console.log(`strURL = ${strURL}`);
     }
+
+    console.log(arrModel.length);
+    switch (arrModel.length) {
+      case 4:
+        arrModel[2] = arrModel[2] + "_" + arrModel[3];
+        break;
+      case 5:
+        arrModel[2] = arrModel[2] + "_" + arrModel[3] + "_" + arrModel[4];
+        break;
+      default:
+        break;
+    }
+    console.log(`arrModel[2] = ${arrModel[2]}`);
 
     switch (arrModel[2]) {
       case "EcoBoost":
@@ -59,26 +52,26 @@
           case "Fastback":
             switch (arrBI[3]) {
               case "Shadow_Black":
-                linkOTSGGRR.visibility = "visible";
-                linkOTSMBRAR.visibility = "visible";
-                linkOTSOFS.visibility = "hidden";
-                linkHSSB.visibility = "hidden";
-                linkHSSG.visibility = "visible";
+                document.getElementById("OTSGGRR").style.visibility = "visible";
+                document.getElementById("OTSMBRAR").style.visibility = "visible";
+                document.getElementById("OTSOFS").style.visibility = "hidden";
+                document.getElementById("HSSB").style.visibility = "hidden";
+                document.getElementById("HSSG").style.visibility = "visible";
                 break;
               case "Race_Red":
               case "Molten_Magenta_Metallic_Tri-coat":
-                linkOTSGGRR.visibility = "visible";
-                linkOTSMBRAR.visibility = "hidden";
-                linkOTSOFS.visibility = "visible";
-                linkHSSB.visibility = "visible";
-                linkHSSG.visibility = "hidden";
+                document.getElementById("OTSGGRR").style.visibility = "visible";
+                document.getElementById("OTSMBRAR").style.visibility = "hidden";
+                document.getElementById("OTSOFS").style.visibility = "visible";
+                document.getElementById("HSSB").style.visibility = "visible";
+                document.getElementById("HSSG").style.visibility = "hidden";
                 break;
               default:
-                linkOTSGGRR.visibility = "visible";
-                linkOTSMBRAR.visibility = "visible";
-                linkOTSOFS.visibility = "visible";
-                linkHSSB.visibility = "visible";
-                linkHSSG.visibility = "hidden";
+                document.getElementById("OTSGGRR").style.visibility = "visible";
+                document.getElementById("OTSMBRAR").style.visibility = "visible";
+                document.getElementById("OTSOFS").style.visibility = "visible";
+                document.getElementById("HSSB").style.visibility = "visible";
+                document.getElementById("HSSG").style.visibility = "hidden";
             }
             break;
           case "Convertible":
@@ -97,14 +90,46 @@
             break;
         }
         break;
-
+      case "EcoBoost_Premium":
+        switch (arrBI[2]) {
+          case "Fastback":
+            switch (arrBI[3]) {
+              case "Shadow_Black":
+                document.getElementById("EBPFOTSGGRR").style.visibility = "visible";
+                document.getElementById("EBPFOTSMBRAR").style.visibility = "visible";
+                document.getElementById("EBPFOTSOFS").style.visibility = "hidden";
+                document.getElementById("EBPFHSSB").style.visibility = "hidden";
+                document.getElementById("EBPFHSSG").style.visibility = "visible";
+                break;
+              case "Molten_Magenta_Metallic_Tri-coat":
+              case "Race_Red":
+                document.getElementById("EBPFOTSGGRR").style.visibility = "visible";
+                document.getElementById("EBPFOTSMBRAR").style.visibility = "hidden";
+                document.getElementById("EBPFOTSOFS").style.visibility = "visible";
+                document.getElementById("EBPFHSSB").style.visibility = "visible";
+                document.getElementById("EBPFHSSG").style.visibility = "hidden";
+                break;
+              default:
+                console.log(document.getElementById(arrBI[3]));
+                document.getElementById("EBPFOTSGGRR").style.visibility = "visible";
+                document.getElementById("EBPFOTSMBRAR").style.visibility = "visible";
+                document.getElementById("EBPFOTSOFS").style.visibility = "visible";
+                document.getElementById("EBPFHSSB").style.visibility = "visible";
+                document.getElementById("EBPFHSSG").style.visibility = "hidden";
+                break;
+            }
+            break;
+          case "Convertible":
+            console.log(`Entered ${arrModel[2]}/${arrBI[2]}`);
+            break;
+        }
+        break;
       case "GT":
       case "Dark":
       default:
         console.log("It fell through all the way");
     }
 
-    // set the backgroundImage.style.url to the new image
     document.getElementById(div1).style.backgroundImage = "url(" + strURL + ")";
     document.getElementById(div2).style.backgroundImage = "url(" + strURL + ")";
   }
