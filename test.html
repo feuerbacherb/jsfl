@@ -121,20 +121,43 @@
             break;
           case "Convertible":
             console.log(`Entered ${arrModel[2]}/${arrBI[2]}`);
-            switch(arrBI[3]) {
+            switch (arrBI[3]) {
               case "Shadow_Black":
-                document.getElementById('EBPCHSSB').style.visibility = "hidden";
-                document.getElementById('EBPCHSSG').style.visibility = "visible";
+                document.getElementById("EBPCHSSB").style.visibility = "hidden";
+                document.getElementById("EBPCHSSG").style.visibility = "visible";
                 break;
               default:
-                document.getElementById('EBPCHSSB').style.visibility = "visible";
-                document.getElementById('EBPCHSSG').style.visibility = "hidden";
+                document.getElementById("EBPCHSSB").style.visibility = "visible";
+                document.getElementById("EBPCHSSG").style.visibility = "hidden";
                 break;
             }
             break;
         }
         break;
       case "GT":
+        switch (arrBI[2]) {
+          case "Fastback":
+            switch (arrBI[3]) {
+              case "Shadow_Black":
+                document.getElementById("GTFOTSGGRR").style.visibility = "visible";
+                document.getElementById("GTFOTSMBRAR").style.visibility = "visible";
+                document.getElementById("GTFOTSOFS").style.visibility = "hidden";
+                break;
+              case "Race_Red":
+              case "Molten_Magenta_Metallic_Tri-coat":
+                document.getElementById("GTFOTSGGRR").style.visibility = "visible";
+                document.getElementById("GTFOTSMBRAR").style.visibility = "hidden";
+                document.getElementById("GTFOTSOFS").style.visibility = "visible";
+                break;
+              default:
+                document.getElementById("GTFOTSGGRR").style.visibility = "visible";
+                document.getElementById("GTFOTSMBRAR").style.visibility = "visible";
+                document.getElementById("GTFOTSOFS").style.visibility = "visible";
+                break;
+            }
+            break;
+        }
+        break;
       case "Dark":
       default:
         console.log("It fell through all the way");
