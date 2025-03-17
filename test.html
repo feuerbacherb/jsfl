@@ -222,6 +222,29 @@
             }
             break;
           case "Convertible":
+            switch (arrBI[3]) {
+              case "Wimbledon_White":
+                document.getElementById("GTPCHSSS").style.visibility = "visible";
+                document.getElementById("GTPCHSSR").style.visibility = "visible";
+                document.getElementById("GTPCHSSC").style.visibility = "hidden";
+                break;
+              case "Race_Red":
+                document.getElementById("GTPCHSSS").style.visibility = "visible";
+                document.getElementById("GTPCHSSR").style.visibility = "hidden";
+                document.getElementById("GTPCHSSC").style.visibility = "hidden";
+                break;
+              case "Molten_Magenta_Metallic_Tri-coat":
+              case "Intense_Lime_Yellow_Metallic":
+                document.getElementById("GTPCHSSS").style.visibility = "hidden";
+                document.getElementById("GTPCHSSR").style.visibility = "hidden";
+                document.getElementById("GTPCHSSC").style.visibility = "hidden";
+                break;
+              default:
+                document.getElementById("GTPCHSSS").style.visibility = "hidden";
+                document.getElementById("GTPCHSSR").style.visibility = "hidden";
+                document.getElementById("GTPCHSSC").style.visibility = "visible";
+                break;
+            }
             break;
         }
         break;
