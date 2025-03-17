@@ -32,7 +32,7 @@
       printArray(arrBI);
       strURL = concatArray(arrBI);
     }
-
+    console.log(strURL);
     console.log(arrModel.length);
     switch (arrModel.length) {
       case 4:
@@ -155,6 +155,73 @@
                 document.getElementById("GTFOTSOFS").style.visibility = "visible";
                 break;
             }
+            break;
+        }
+        break;
+      case "GT_Premium":
+        console.log("GT Premium case");
+        switch (arrBI[2]) {
+          case "Fastback":
+            switch (arrBI[3]) {
+              case "Wimbledon_White":
+                document.getElementById("GTPFOTSGGRR").style.visibility = "hidden";
+                document.getElementById("GTPFOTSMBRAR").style.visibility = "hidden";
+                document.getElementById("GTPFOTSOFS").style.visibility = "hidden";
+                document.getElementById("GTPFHSSS").style.visibility = "visible";
+                document.getElementById("GTPFHSSR").style.visibility = "visible";
+                document.getElementById("GTPFHSSC").style.visibility = "hidden";
+                break;
+              case "Race_Red":
+                document.getElementById("GTPFOTSGGRR").style.visibility = "visible";
+                document.getElementById("GTPFOTSMBRAR").style.visibility = "hidden";
+                document.getElementById("GTPFOTSOFS").style.visibility = "visible";
+                document.getElementById("GTPFHSSS").style.visibility = "visible";
+                document.getElementById("GTPFHSSR").style.visibility = "hidden";
+                document.getElementById("GTPFHSSC").style.visibility = "hidden";
+                break;
+              case "Intense_Lime_Yellow_Metallic":
+                document.getElementById("GTPFOTSGGRR").style.visibility = "visible";
+                document.getElementById("GTPFOTSMBRAR").style.visibility = "visible";
+                document.getElementById("GTPFOTSOFS").style.visibility = "visible";
+                document.getElementById("GTPFHSSS").style.visibility = "hidden";
+                document.getElementById("GTPFHSSR").style.visibility = "hidden";
+                document.getElementById("GTPFHSSC").style.visibility = "hidden";
+                break;
+              case "Shadow_Black":
+                document.getElementById("GTPFOTSGGRR").style.visibility = "visible";
+                document.getElementById("GTPFOTSMBRAR").style.visibility = "visible";
+                document.getElementById("GTPFOTSOFS").style.visibility = "hidden";
+                document.getElementById("GTPFHSSS").style.visibility = "hidden";
+                document.getElementById("GTPFHSSR").style.visibility = "hidden";
+                document.getElementById("GTPFHSSC").style.visibility = "visible";
+                break;
+              case "Molten_Magenta_Metallic_Tri-coat":
+                document.getElementById("GTPFOTSGGRR").style.visibility = "visible";
+                document.getElementById("GTPFOTSMBRAR").style.visibility = "hidden";
+                document.getElementById("GTPFOTSOFS").style.visibility = "visible";
+                document.getElementById("GTPFHSSS").style.visibility = "hidden";
+                document.getElementById("GTPFHSSR").style.visibility = "hidden";
+                document.getElementById("GTPFHSSC").style.visibility = "hidden";
+                break;
+              case "Vapor_Blue_Metallic":
+                document.getElementById("GTPFOTSGGRR").style.visibility = "visible";
+                document.getElementById("GTPFOTSMBRAR").style.visibility = "visible";
+                document.getElementById("GTPFOTSOFS").style.visibility = "visible";
+                document.getElementById("GTPFHSSS").style.visibility = "visible";
+                document.getElementById("GTPFHSSR").style.visibility = "hidden";
+                document.getElementById("GTPFHSSC").style.visibility = "hidden";
+                break;
+              default:
+                document.getElementById("GTPFOTSGGRR").style.visibility = "visible";
+                document.getElementById("GTPFOTSMBRAR").style.visibility = "visible";
+                document.getElementById("GTPFOTSOFS").style.visibility = "visible";
+                document.getElementById("GTPFHSSS").style.visibility = "hidden";
+                document.getElementById("GTPFHSSR").style.visibility = "hidden";
+                document.getElementById("GTPFHSSC").style.visibility = "visible";
+                break;
+            }
+            break;
+          case "Convertible":
             break;
         }
         break;
