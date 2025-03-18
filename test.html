@@ -248,7 +248,26 @@
             break;
         }
         break;
-      case "Dark":
+      case "Dark_Horse":
+        switch (arrBI[2]) {
+          case "Fastback":
+            switch (arrBI[3]) {
+              case "Shadow_Black":
+                document.getElementById("DHFPRSTDHG").style.visibility = "hidden";
+                document.getElementById("DHFPRSTDLGB").style.visibility = "visible";
+                document.getElementById("DHFHSSC").style.visibility = "visible";
+                break;
+              default:
+                document.getElementById("DHFPRSTDHG").style.visibility = "visible";
+                document.getElementById("DHFPRSTDLGB").style.visibility = "hidden";
+                document.getElementById("DHFHSSC").style.visibility = "visible";
+                break;
+            }
+            break;
+        }
+        break;
+      case "Dark_Horse_Premium":
+        break;
       default:
         console.log("It fell through all the way");
     }
