@@ -192,7 +192,146 @@
   </div>
 </div>
 
-<!-- Battery End / Options Start -->
+<!-- Battery End / Paint Start -->
+
+<!-- PaintSelect modal -->
+<div aria-hidden="true" aria-labelledby="PaintSelectTitle" class="modal" id="PaintSelect" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5 class="modal-title" id="PaintSelectTitle">
+          Paint
+          <button aria-label="Close" class="close" data-dismiss="modal" role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2025 Ford Mustang Mach-E Exterior View"
+          title="#NAME# | #CITY#, #STATE# | 2025 Ford Mustang Mach-E Exterior View"
+          style="background-image: url('#MISCPATH#images/2025_Mustang_Mach_E/Select/Trims.2025_Mustang_Mach_E.Select.Velocity_Blue_Metallic.png'); padding-top: 66%"
+          class="img-background img-cover hidden-xs"
+          id="Select1"></div>
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2025 Ford Mustang Mach-E Exterior View"
+          title="#NAME# | #CITY#, #STATE# | 2025 Ford Mustang Mach-E Exterior View"
+          style="background-image: url('#MISCPATH#images/2025_Mustang_Mach_E/Select/Trims.2025_Mustang_Mach_E.Select.Velocity_Blue_Metallic.png'); padding-top: 175px"
+          class="img-background img-cover margin-bottom-2x visible-xs"
+          id="Select2"></div>
+        <!-- <div class="container cc-brang-bg">-->
+        <div class="ford-font cc-brand-bg">
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="false" style="color: #000">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="h1">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c1" aria-expanded="false" aria-controls="c1">Colors</a>
+                </h4>
+              </div>
+              <div id="c1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h1">
+                <div class="panel-body">
+                  <div class="toggle btn btn-default off" data-toggle="toggle" style="width: 57px; height: 34px">
+                    <input id="s-toggle-event" type="checkbox" data-toggle="toggle" />
+                    <div id="console-event">
+                      <label class="btn btn-primary toggle-on">On</label>
+                      <label class="btn btn-default active toggle-off">Off</label>
+                      <span class="toggle-handle btn btn-default"></span>
+                    </div>
+                  </div>
+
+                  <dl>
+                    <dd onclick="imgSwitch('Select', 'Shadow_Black', 'Null');">
+                      <div class="circle" style="background-color: rgb(16, 16, 29)"></div>
+                      <span class="desc">Agate Black Metallic</span>
+                    </dd>
+                    <dd onclick="imgSwitch('Select', 'Glacier_Gray_Metallic_Tri-coat', 'Null');">
+                      <div class="circle" style="background-color: rgb(158, 166, 184)"></div>
+                      <span class="desc">Glacier Gray Metallic Tri-coat</span>
+                    </dd>
+                    <dd onclick="imgSwitch('Select', 'Star_White_Metallic_Tri-coat', 'Null');">
+                      <div class="circle" style="background-color: rgb(228, 228, 224)"></div>
+                      <span class="desc">Star White Metallic Tri-coat</span>
+                    </dd>
+                    <dd onclick="imgSwitch('Select', 'Molten_Magenta_Metallic_Tinted_Clearcoat', 'Null');">
+                      <div class="circle" style="background-color: rgb(111, 33, 33)"></div>
+                      <span class="desc">Molten Magenta Metallic Tinted Clearcoat</span>
+                    </dd>
+                    <dd onclick="imgSwitch('Select', 'Eruption_Green_Metallic', 'Null');">
+                      <div class="circle" style="background-color: rgb(28, 61, 0)"></div>
+                      <span class="desc">Eruption Green Metallic</span>
+                    </dd>
+                    <dd onclick="imgSwitch('Select', 'Velocity Blue Metallic', 'Null');">
+                      <div class="circle" style="background-color: rgb(0, 86, 146)"></div>
+                      <span class="desc">Velocity Blue Metallic</span>
+                    </dd>
+                    <dd onclick="imgSwitch('Select', 'Grabber_Yellow', 'Null');">
+                      <div class="circle" style="background-color: rgb(238, 232, 44)"></div>
+                      <span class="desc">Grabber Yellow</span>
+                    </dd>
+                    <dd onclick="imgSwitch('Select', 'Desert_Sand', 'Null');">
+                      <div class="circle" style="background-color: rgb(213, 208, 181)"></div>
+                      <span class="desc">Desert Sand</span>
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="h0">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c0" aria-expanded="false" aria-controls="c0">Roof Color</a>
+              </h4>
+            </div>
+            <div id="c0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h0">
+              <div class="panel-body">
+                <dl>
+                  <dd onclick="imgSwitch('Select', 'Shadow_Black', 'Black_Painted_Steel_Roof');" id="S_BPSR">
+                    <div class="circle" style="background-color: rgb(16, 16, 29)"></div>
+                    <span class="desc">Agate Black Metallic</span>
+                  </dd>
+                  <dd onclick="imgSwitch('Select', 'Glacier_Gray_Metallic_Tri-coat', 'Black_Painted_Steel_Roof');">
+                    <div class="circle" style="background-color: rgb(158, 166, 184)"></div>
+                    <span class="desc">Glacier Gray Metallic Tri-coat</span>
+                  </dd>
+                  <dd onclick="imgSwitch('Select', 'Star_White_Metallic_Tri-coat', 'Black_Painted_Steel_Roof');">
+                    <div class="circle" style="background-color: rgb(228, 228, 224)"></div>
+                    <span class="desc">Star White Metallic Tri-coat</span>
+                  </dd>
+                  <dd onclick="imgSwitch('Select', 'Molten_Magenta_Metallic_Tinted_Clearcoat', 'Black_Painted_Steel_Roof');">
+                    <div class="circle" style="background-color: rgb(111, 33, 33)"></div>
+                    <span class="desc">Molten Magenta Metallic Tinted Clearcoat</span>
+                  </dd>
+                  <dd onclick="imgSwitch('Select', 'Eruption_Green_Metallic', 'Black_Painted_Steel_Roof');">
+                    <div class="circle" style="background-color: rgb(28, 61, 0)"></div>
+                    <span class="desc">Eruption Green Metallic</span>
+                  </dd>
+                  <dd onclick="imgSwitch('Select', 'Velocity_Blue_Metallic', 'Black_Painted_Steel_Roof');">
+                    <div class="circle" style="background-color: rgb(0, 86, 146)"></div>
+                    <span class="desc">Velocity Blue Metallic</span>
+                  </dd>
+                  <dd onclick="imgSwitch('Select', 'Grabber_Yellow', 'Black_Painted_Steel_Roof');">
+                    <div class="circle" style="background-color: rgb(238, 232, 44)"></div>
+                    <span class="desc">Grabber Yellow</span>
+                  </dd>
+                  <dd onclick="imgSwitch('Select', 'Desert_Sand', 'Black_Painted_Steel_Roof');">
+                    <div class="circle" style="background-color: rgb(213, 208, 181)"></div>
+                    <span class="desc">Desert Sand</span>
+                  </dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--</div>-->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Paint End / Options Start -->
 <!-- Options End -->
 
 <!--
@@ -230,7 +369,10 @@
     </div>
     <div class="flex-container ford-font">
       <div class="tab-content">
-        <div class="container tab-pane active" id="Select_tab">Select</div>
+        <div class="container tab-pane active" id="Select_tab">
+          Select
+          <div><a data-toggle="modal" href="#" data-target="#PaintSelect">Paint</a></div>
+        </div>
         <div class="container tab-pane" id="Premium_tab">Premium</div>
         <div class="container tab-pane" id="GT_tab">GT</div>
         <div class="container tab-pane" id="Rally_tab">Rally</div>
