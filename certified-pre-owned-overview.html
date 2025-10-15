@@ -1,0 +1,339 @@
+<div class="full-width-page">
+  <style>
+    #content-description h1.header {
+      display: none;
+    }
+    /* video section */
+    .overlay {
+      position: relative;
+      max-width: 1920px;
+      max-height: 1080px;
+    }
+    .overlay .thumbnail-container {
+      position: relative;
+    }
+    .overlay .thumbnail {
+      display: block;
+      width: 100%;
+      padding: 0px;
+      border: 0px;
+      margin-bottom: 0px;
+    }
+    .overlay .play-overlay {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      transition: background-color 0.7s;
+    }
+    a.play .fa-play-circle {
+      color: #c5c3c6;
+      transition: color 0.7s;
+    }
+    a.play:hover .fa-play-circle {
+      color: #00095b;
+    }
+    .overlay .play-overlay:hover {
+      background-color: rgba(0, 0, 0, 0);
+    }
+    .overlay iframe {
+      position: absolute;
+      z-index: 3;
+      width: 100%;
+      height: 100%;
+    }
+    .thumbnail-item {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+    }
+    .bg-gray {
+      background-color: #f1f1f1;
+    }
+    @media (min-width: 992px) {
+      #heroSection {
+        background-image: url("/assets/shared/CustomHTMLFiles/Responsive/Ford/images/CPO-FBAHome-Billboard-Desktop.jpg");
+        padding: 45px 0 400px;
+      }
+    }
+    @media (max-width: 991px) {
+      #heroSection {
+        background-image: url("/assets/shared/CustomHTMLFiles/Responsive/Ford/images/CPO-FBAHome-Billboard-Desktop.jpg");
+        padding: 145px 0 145px;
+      }
+    }
+    @media (min-width: 1441px) {
+      #heroSection .container,
+      #contentSection1 .container,
+      #contentSection2 .container,
+      #contentSection3 .container,
+      #contentSection4 .container {
+        width: 1440px;
+      }
+    }
+  </style>
+  <div class="img-background img-cover border-x bg-main text-white" id="heroSection">
+    <div class="container">
+      <div class="margin-left_5x hidden-sm hidden-xs">
+        <h1 class="margin-top-x">Ford Blue Advantage<sup>™</sup></h1>
+        <p class="larger">Used Car Buying That's Built For You.</p>
+        <a
+          class="btn btn-default btn-lg margin-vert-1x"
+          href="/searchused.aspx?cpo=1"
+          data-dotagging-product-name="Website|Custom Content"
+          data-dotagging-link-url="/searchused.aspx?cpo=1"
+          data-dotagging-element-type="search_tool"
+          data-dotagging-event-action-result="search"
+          data-dotagging-element-subtype="cta_button"
+          data-dotagging-event="cta_interaction"
+          data-dotagging-enabled="true"
+          >Search Inventory</a
+        >
+      </div>
+    </div>
+  </div>
+  <div class="pad-vert-4x bg-main pad-vert-2x hidden-md hidden-lg text-center" id="heroInfoMobile">
+    <div class="container">
+      <h1 class="margin-top-x">Ford Blue Advantage<sup>™</sup></h1>
+      <p class="larger">Used Car Buying That’s Built For You.</p>
+      <a
+        class="btn btn-default btn-lg margin-vert-1x"
+        href="/searchused.aspx?cpo=1"
+        data-dotagging-product-name="Website|Custom Content"
+        data-dotagging-link-url="/searchused.aspx?cpo=1"
+        data-dotagging-element-type="search_tool"
+        data-dotagging-event-action-result="search"
+        data-dotagging-element-subtype="cta_button"
+        data-dotagging-event="cta_interaction"
+        data-dotagging-enabled="true"
+        >Search Inventory</a
+      >
+    </div>
+  </div>
+  <div class="pad-top-4x" id="contentSection1">
+    <div class="container">
+      <div class="youtube overlay" data-id="2H85EKaIaNU">
+        <a
+          class="play"
+          href="https://youtube.com/watch?v=2H85EKaIaNU"
+          aria-label="Discover the Ford Blue Advantage"
+          data-dotagging-product-name="Website|Custom Content"
+          data-dotagging-link-url="https://youtube.com/watch?v=2H85EKaIaNU"
+          data-dotagging-element-type="body"
+          data-dotagging-event-action-result="redirect"
+          data-dotagging-element-subtype="image"
+          data-dotagging-event="media_interaction"
+          data-dotagging-media-type="image"
+          data-dotagging-creative-name="Discover the Ford Blue Advantage"
+          data-dotagging-enabled="true">
+          <div class="thumbnail-container">
+            <img class="thumbnail" src="/assets/shared/CustomHTMLFiles/Responsive/Ford/images/Ford-Blue-Advantage.png" alt="Discover the Ford Blue Advantage" loading="lazy" />
+            <div class="play-overlay">
+              <div class="thumbnail-item text-center">
+                <div class="text-white h1">Discover the Ford Blue Advantage</div>
+                <i aria-hidden="true" class="fa fa-play-circle fa-5x text-white"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="pad-vert-4x" id="contentSection2">
+    <div class="container">
+      <h2 class="heading-lg text-center margin-top-x">Three Levels of Certification to Meet Your Needs</h2>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <p class="larger text-center">Ford Blue Advantage™ vehicles feature three levels of certification, Gold, EV and Blue, based upon several factors, including a used vehicle's age and mileage.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pad-bottom-4x" id="contentSection3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="/assets/shared/CustomHTMLFiles/Responsive/Ford/images/gold-certified-vehicle.jpg" alt="Gray vehicle - Gold Certified" aria-label="Gray vehicle - Gold Certified" class="img-responsive margin-auto margin-vert-1x" />
+          <h2 class="margin-bottom_5x">Gold Certified</h2>
+          <p>
+            Only Ford models up to 6 years old with less than 80,000 miles can become Gold Certified. They have to pass a thorough 172-point inspection and come with a 12-Month/12,000-Mile (whichever comes first) Comprehensive Limited Warranty,<sup
+              >1</sup
+            >
+            7-Year/100,000-Mile (whichever comes first) Powertrain Limited Warranty,<sup>1</sup> 24/7 Roadside Assistance<sup>3</sup> and 22,000 FordPass™ Rewards Points<sup>4</sup> to use toward your first two maintenance visits.
+          </p>
+          <h3 class="h2 margin-bottom_5x">Gold Certified Vehicle Specifications</h3>
+          <ul class="larger list-margin-bottom_5x">
+            <li>Ford models up to 6 years old with less than 80,000 miles</li>
+            <li>Passed a thorough 172-point inspection</li>
+            <li>12-Month/12,000-Mile (whichever comes first) Comprehensive Limited Warranty<sup>1</sup></li>
+            <li>7-Year/100,000-Mile (whichever comes first) Powertrain Limited Warranty<sup>1</sup></li>
+            <li>14-Day/1,000-Mile (whichever comes first) Money Back Guarantee<sup>2</sup></li>
+            <li>24/7 Roadside Assistance<sup>3</sup></li>
+            <li>22,000 FordPass™ Rewards Points<sup>4</sup> to use toward your first two maintenance visits</li>
+          </ul>
+          <p class="margin-top-3x margin-bottom_5x"><a href="/assets/shared/CustomHTMLFiles/Responsive/Ford/pdf/1Q25_FBA_Gold_Brochure_R03_Dig.pdf" target="_blank">View Gold Certified Brochure</a></p>
+          <p><a href="/assets/shared/CustomHTMLFiles/Responsive/Ford/pdf/Gold-Certified-Inspection-Checklist.pdf" target="_blank">View 172-Point Inspection Checklist</a></p>
+          <div class="small">
+            <p><sup>1</sup> See your dealer for warranty coverage details.</p>
+            <p>
+              <sup>2</sup> Only available at participating Ford Dealers. Vehicle must be returned within 14 days/1,000 miles (whichever comes first) from the original sales date and mileage as stated on bill of sale, and returned in same condition as
+              sold (excludes normal wear and tear). Dealer cannot accept a return if the vehicle has a lien or other encumbrance. Original trade-in vehicle will not be returned to you. Purchasing a different vehicle may require a new credit
+              application with different financial terms than the original contract. If you have already returned a Ford Blue Advantage vehicle to a Ford dealer within the last six months, you are not eligible for the Money Back Guarantee program and
+              your request to return will not be honored. See your dealer for important program guidelines and restrictions.
+            </p>
+            <p>
+              <sup>3</sup> Roadside Assistance is included for certain owners and available to everyone for a per-service fee. Ford reserves the right to change program details without obligations. Ford Roadside Assistance is a complimentary offering
+              to all Ford owners for up to 5 years or 60,000 miles (from the date of sale), whichever comes first. Ford reserves the right to change program details without obligations.
+            </p>
+            <p>
+              <sup>4</sup> Buyers of Ford Blue Advantage vehicles will receive 22,000 Points (Gold Certified) or 11,000 Points (Blue Certified) after enrollment within 60 days of vehicle sale. Modem not required. Visit a participating dealer for
+              details.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="/assets/shared/CustomHTMLFiles/Responsive/Ford/images/EV-certified-vehicle.jpg" alt="Blue vehicle - EV Certified " aria-label="Blue vehicle - EV Certified " class="img-responsive margin-auto margin-vert-1x" />
+          <h2 class="margin-bottom_5x">EV Certified</h2>
+          <p>
+            Every EV Certified vehicle must be a fully electric Ford vehicle up to 6 years old with no more than 80,000 miles on the odometer. It also has to pass an extensive 127-point inspection. Plus, each comes with a manufacturer-backed
+            12-Month/12,000-Mile (whichever comes first) Comprehensive Limited Warranty,<sup>1</sup> 8-Year/100,000-Mile (whichever comes first) BaseCARE EV Limited Warranty coverage,<sup>1</sup> complimentary 24/7, Ford Roadside Assistance<sup
+              >3</sup
+            >
+            and 22,000 FordPass® Rewards Points<sup>4</sup> to use toward your first two maintenance visits.
+          </p>
+          <h3 class="h2 margin-bottom_5x">EV Certified Vehicle Specifications</h3>
+          <ul class="larger list-margin-bottom_5x">
+            <li>Ford models up to 6 years old with less than 80,000 miles</li>
+            <li>Passed a thorough 127-point inspection</li>
+            <li>12-Month/12,000-Mile (whichever comes first) Comprehensive Limited Warranty<sup>1</sup></li>
+            <li>8-Year/100,000-Mile (whichever comes first) BaseCARE EV Limited Warranty<sup>1</sup></li>
+            <li>14-Day/1,000-Mile (whichever comes first) Money Back Guarantee<sup>2</sup></li>
+            <li>24/7 Roadside Assistance<sup>3</sup></li>
+            <li>22,000 FordPass™ Rewards Points<sup>4</sup> to use toward your first two maintenance visits</li>
+          </ul>
+          <p class="margin-top-3x margin-bottom_5x"><a href="/assets/shared/CustomHTMLFiles/Responsive/Ford/pdf/1Q25_FBA_EV_Brochure_R04_Dig.pdf" target="_blank">View EV Certified Brochure</a></p>
+          <p><a href="/assets/shared/CustomHTMLFiles/Responsive/Ford/pdf/EV-Inspection-Checklist.pdf" target="_blank">127-Point Inspection Checklist</a></p>
+          <div class="small">
+            <p><sup>1</sup> See your dealer for warranty coverage details.</p>
+            <p>
+              <sup>2</sup> Only available at participating Ford Dealers. Vehicle must be returned within 14 days/1,000 miles (whichever comes first) from the original sales date and mileage as stated on bill of sale, and returned in same condition as
+              sold (excludes normal wear and tear). Dealer cannot accept a return if the vehicle has a lien or other encumbrance. Original trade-in vehicle will not be returned to you. Purchasing a different vehicle may require a new credit
+              application with different financial terms than the original contract. If you have already returned a Ford Blue Advantage vehicle to a Ford dealer within the last six months, you are not eligible for the Money Back Guarantee program and
+              your request to return will not be honored. See your dealer for important program guidelines and restrictions.
+            </p>
+            <p>
+              <sup>3</sup> Roadside Assistance is included for certain owners and available to everyone for a per-service fee. Ford reserves the right to change program details without obligations. Ford Roadside Assistance is a complimentary offering
+              to all Ford owners for up to 5 years or 60,000 miles (from the date of sale), whichever comes first. Ford reserves the right to change program details without obligations.
+            </p>
+            <p>
+              <sup>4</sup> Buyers of Ford Blue Advantage™ vehicles will receive 22,000 Points (Gold or EV Certified) or 11,000 Points (Blue Certified) after enrollment within 60 days of vehicle sale. Modem not required. Visit a participating dealer
+              for details.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="/assets/shared/CustomHTMLFiles/Responsive/Ford/images/blue-certified-vehicle.jpg" alt="Red vehicle - Blue Certified " aria-label="Red vehicle - Blue Certified " class="img-responsive margin-auto margin-vert-1x" />
+          <h2 class="margin-bottom_5x">Blue Certified</h2>
+          <p>
+            Blue Certified used vehicles can be any make and model up to 10 years old with less than 150,000 miles. Each has to pass a detailed 139-point inspection and features a 90-Day/4,000-Mile (whichever comes first) Comprehensive Limited
+            Warranty,<sup>1</sup> 24/7 Roadside Assistance<sup>3</sup> and 11,000 FordPass™ Rewards Points<sup>4</sup> to use toward your first maintenance visit.
+          </p>
+          <h3 class="h2 margin-bottom_5x">Blue Certified Vehicle Specifications</h3>
+          <ul class="larger list-margin-bottom_5x">
+            <li>Any make and model up to 10 years old with less than 150,000 miles</li>
+            <li>Passed a detailed 139-point inspection</li>
+            <li>90-Day/4,000-Mile (whichever comes first) Comprehensive Limited Warranty<sup>1</sup></li>
+            <li>14-Day/1,000-Mile (whichever comes first) Money Back Guarantee<sup>2</sup></li>
+            <li>24/7 Roadside Assistance<sup>3</sup></li>
+            <li>11,000 FordPass™ Rewards Points<sup>4</sup> to use toward your first maintenance visit</li>
+          </ul>
+          <p class="margin-top-3x margin-bottom_5x"><a href="/assets/shared/CustomHTMLFiles/Responsive/Ford/pdf/1Q25_FBA_Blue_Brochure_R03_Dig.pdf" target="_blank">View Blue Certified Brochure</a></p>
+          <p><a href="/assets/shared/CustomHTMLFiles/Responsive/Ford/pdf/Blue-Certified-Inspection-Checklist.pdf" target="_blank">View 139-Point Inspection Checklist</a></p>
+          <div class="small">
+            <p><sup>1</sup> See your dealer for warranty coverage details.</p>
+            <p>
+              <sup>2</sup> Only available at participating Ford Dealers. Vehicle must be returned within 14 days/1,000 miles (whichever comes first) from the original sales date and mileage as stated on bill of sale, and returned in same condition as
+              sold (excludes normal wear and tear). Dealer cannot accept a return if the vehicle has a lien or other encumbrance. Original trade-in vehicle will not be returned to you. Purchasing a different vehicle may require a new credit
+              application with different financial terms than the original contract. If you have already returned a Ford Blue Advantage vehicle to a Ford dealer within the last six months, you are not eligible for the Money Back Guarantee program and
+              your request to return will not be honored. See your dealer for important program guidelines and restrictions.
+            </p>
+            <p>
+              <sup>3</sup> Roadside Assistance is included for certain owners and available to everyone for a per-service fee. Ford reserves the right to change program details without obligations. Ford Roadside Assistance is a complimentary offering
+              to all Ford owners for up to 5 years or 60,000 miles (from the date of sale), whichever comes first. Ford reserves the right to change program details without obligations.
+            </p>
+            <p>
+              <sup>4</sup> Buyers of Ford Blue Advantage vehicles will receive 22,000 Points (Gold Certified) or 11,000 Points (Blue Certified) after enrollment within 60 days of vehicle sale. Modem not required. Visit a participating dealer for
+              details.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pad-vert-4x bg-gray" id="contentSection4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="/assets/shared/CustomHTMLFiles/Responsive/Ford/images/blue-advantage-carfax-report.jpg" alt="CarFax logo" aria-label="CarFax logo" class="img-responsive margin-auto margin-vert-1x" />
+          <h3>Free CARFAX® Vehicle History Report</h3>
+          <p class="larger">When you purchase a Ford Blue Advantage used vehicle, transparency comes with it. Each of our vehicles feature the added peace of mind of a free CARFAX® Vehicle History Report.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="/assets/shared/CustomHTMLFiles/Responsive/Ford/images/blue-advantage-rewards.jpg" alt="Woman holding smartphone" aria-label="Woman holding smartphone" class="img-responsive margin-auto margin-vert-1x" />
+          <h3>Earn Points With FordPass™ Rewards</h3>
+          <p class="larger">
+            Earn FordPass Rewards Points<sup>4</sup> with your Ford Blue Advantage vehicle purchase. Gold or EV Certified vehicles earn 22,000 Points and Blue Certified vehicles earn 11,000 Points. Points are flexible—how you spend them is up to you.
+          </p>
+          <div class="small">
+            <p>
+              <sup>4</sup> Buyers of Ford Blue Advantage vehicles will receive 22,000 Points (Gold or EV Certified) or 11,000 Points (Blue Certified) after enrollment within 60 days of vehicle sale. Modem not required. Visit a participating dealer
+              for details.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="/assets/shared/CustomHTMLFiles/Responsive/Ford/images/blue-advantage-roadside-assistance.jpg" alt="Men holding smartphone" aria-label="Men holding smartphone" class="img-responsive margin-auto margin-vert-1x" />
+          <h3>You’re Covered With 24/7 Roadside Assistance</h3>
+          <p class="larger">
+            From flat tires to dead batteries, we have you covered with complimentary 24/7, Ford Roadside Assistance<sup>3</sup> available 365 days a year for 7 years with Gold Certified vehicles, 8 years with EV Certified vehicles and 90 days with
+            Blue Certified vehicles.<sup>1</sup>
+          </p>
+          <div class="small">
+            <p><sup>1</sup> See your dealer for warranty coverage details.</p>
+            <p>
+              <sup>3</sup> Roadside Assistance is included for certain owners and available to everyone for a per-service fee. Ford reserves the right to change program details without obligations. Ford Roadside Assistance is a complimentary offering
+              to all Ford owners for up to 5 years or 60,000 miles (from the date of sale), whichever comes first. Ford reserves the right to change program details without obligations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    window.onload = function () {
+      $(".contentWrapper > .container").attr("class", "full-width-page");
+    };
+  </script>
+  <script>
+    document.querySelectorAll(".youtube").forEach(function (element) {
+      element.querySelector(".play").addEventListener("click", (event) => {
+        event.preventDefault();
+        loadVideo(element);
+      });
+    });
+    var loadVideo = function (element) {
+      var iframe = document.createElement("iframe");
+      iframe.setAttribute("src", "https://www.youtube.com/embed/" + element.getAttribute("data-id") + "?autoplay=1");
+      iframe.setAttribute("frameborder", "0");
+      iframe.setAttribute("allowfullscreen", "1");
+      iframe.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+      element.insertBefore(iframe, element.querySelector(".play"));
+    };
+  </script>
+  <!-- Template Type: Responsive -->
+</div>
