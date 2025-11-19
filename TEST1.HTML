@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON with Shared Array Example</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 30px;
+      }
+      .user-card {
+        background: #f2f2f2;
+        padding: 15px;
+        border-radius: 10px;
+        margin-top: 15px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Select a User</h1>
+
+    <!-- Radio buttons -->
+    <div id="radioContainer"></div>
+
+    <!-- Display area -->
+    <div id="userDisplay" class="user-card" style="display: none"></div>
+
+    <script>
+      // JSON data with a common array field "hobbies"
+      const jsonData = `[
+      { 
+        "name": "Alice Johnson", 
+        "age": 28, 
+        "email": "alice@example.com",
+        "hobbies": ["Painting", "Cycling", "Reading"]
+      },
+      { 
+        "name": "Bob Smith", 
+        "age": 35, 
+        "email": "bob@example.com",
+        "hobbies": ["Cooking", "Hiking", "Gaming"]
+      },
+      { 
+        "name": "Charlie Davis", 
+        "age": 42, 
+        "email": "charlie@example.com",
+        "hobbies": ["Golf", "Photography", "Traveling"]
+      }
+    ]`;
+
+      // Parse JSON
+      const users = JSON.parse(jsonData);
+
+      // Containers
+      const radioContainer = document.getElementById("radioContainer");
+      const userDisplay = document.getElementById("userDisplay");
+
+      // Create a radio button for each user
+      users.forEach((user, index) => {
+        const label = document.createElement("label");
+        label.style.display = "block";
+        label.style.marginBottom = "5px";
+
+        const radio = document.createElement("input");
+        radio.type = "radio";
+        radio.name = "user";
+        radio.value = index;
+
+        // On selection, display user's info + hobbies
+        radio.addEventListener("change", () => {
+          const selectedUser = users[index];
+          userDisplay.style.display = "block";
+
+          // Build hobbies list dynamically
+          const hobbyList = selectedUser.hobbies.map((hobby) => `<li>${hobby}</li>`).join("");
+
+          userDisplay.innerHTML = `
+          <h3>${selectedUser.name}</h3>
+          <p>Age: ${selectedUser.age}</p>
+          <p>Email: <a href="mailto:${selectedUser.email}">${selectedUser.email}</a></p>
+          <h4>Hobbies:</h4>
+          <ul>${hobbyList}</ul>
+        `;
+        });
+
+        label.appendChild(radio);
+        label.append(` ${user.name}`);
+        radioContainer.appendChild(label);
+      });
+    </script>
+  </body>
+</html>

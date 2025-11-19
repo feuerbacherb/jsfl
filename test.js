@@ -1,4 +1,45 @@
 <script>
+  function imgSwitch(i, j, k) {
+   	/*
+    	i === pictureID
+        j === html to color
+        k === numDoors
+    */
+    
+    console.log(`Entered imgSwitch(id = ${i}, html = ${j}, Doors = ${k}) `);
+    
+    let div1 = i + '1';
+    let div2 = i + '2';
+    let strURL = "";
+    
+    // Pull the URL portion we need and store in strOldImageURL
+    let strOldImageURL = document.getElementById(div1).style.backgroundImage.slice(4, -1).replace(/["'"]/g, "");
+    console.log(`strOldImageURL = ${strOldImageURL}`);
+    
+    // Split the filename of the URL apart on "." so we can replace things
+    let arrOldImageURL = strOldImageURL.split(".");
+    printArray(arrOldImageURL, "arrOldImageURL");
+    
+    // Split the folders of the URL apart on "/" so we can replace things
+    let arrOldFolderURL = arrOldImageURL[0].split("/");
+    printArray(arrOldFolderURL, "arrOldFolderURL");
+    
+    // Replace the array elements for doors ALWAYS
+    let newDoors = k;
+    arrOldImageURL[2] = newDoors;
+    arrOldFolderURL[7] = newDoors;
+    
+    // Rebuild arrays into a string for URL
+    let strNewFolderURL = concatArray(arrOldFolderURL);
+    console.log(`strNewFolderURL = ${strNewFolderURL}`);
+    let strNewImageURL = concatArray(arrOldImageURL);
+    console.log(`strNewImageURL = ${strNewImageURL}`);
+    let strURL = strNewFolderURL + strNewImageURL;
+    console.log(`strURL = ${strURL}`);
+  }
+  
+  
+  
   function imgSwitch(id, color, cat) {
     console.log(`Entered imgSwitch(id = ${id}, color = ${color}, cat = ${cat})`);
     let div1 = id + "1";
@@ -313,6 +354,26 @@
     return arr;
   }
 
+
+  function concatArray(arr) {
+    let strArr = "";
+    let strDivider = "/";
+    console.log(arr[1]);
+    if (arr[1] <> "static") {
+    //  strDivider = "."; 
+      strDivider = "/";
+    }
+    
+    for (let i = 0; i < arr.length; i++) {
+      strArr = strArr + arr[i];
+      if (i !== arr.length - 1) {        
+        strArr = strArr + strDivider;
+      }
+    }
+    return strArr;
+  }
+
+
   function concatArray(arr) {
     let strArr = "";
     for (let i = 0; i < arr.length; i++) {
@@ -371,4 +432,32 @@
       return "The string is not a URL";
     }
   }
+
+  function handleDoors(src) {
+    //alert(src.value); 
+    // Store all divs with role="img"
+    let strDivImgList = document.querySelectorAll('div[role="img"]');
+    let arrDivImgList = Array.from(strDivImgList).filter(element => {return element.checkVisibility();});
+    
+    printArray(arrDivImgList, 'arrDrvImgList');
+    
+    console.log(arrDivImgList[1]);
+    let origId = arrDivImgList[1].getAttribute('id');
+    
+    // Assign newID to the ID of the vehicle without a number value to be passed
+    //   in to imgSwitch later
+    let newId = origId.slice(0, -1);
+    console.log(`newId = ${newId}`);
+    
+    // Assign imgBackground to the url of the picture
+    let imgBackground = document.getElementById(origId).style.backgroundImage
+    console.log(`${newId}.style.backgroundImage = ${imgBackground}`);
+    
+    // Strip off the 'url' portion
+    let imgURL = imgBackground.slice(4, -1).replace(/\"/g, "");
+    console.log(`imgURL = ${imgURL}`);
+    
+    // Load the new image with correct doors
+    imgSwitch(newId, imgURL, src.value);
+  }   
 </script>
