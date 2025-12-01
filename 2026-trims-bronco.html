@@ -873,10 +873,10 @@
                         <div class="panel-body">
                           <div class="input-group ford-font">
                             <div>
-                              <label> <input type="radio" name="optDoors" value="2_Door" onchange="handleDoors(this);" checked="true" />2-Door </label>
+                              <label> <input type="radio" name="optDoorsBase" value="2_Door" onchange="handleDoors(this);" checked="true" />2-Door </label>
                             </div>
                             <div>
-                              <label> <input type="radio" name="optDoors" value="4_Door" onchange="handleDoors(this);" />4-Door </label>
+                              <label> <input type="radio" name="optDoorsBase" value="4_Door" onchange="handleDoors(this);" />4-Door </label>
                             </div>
                           </div>
                         </div>
@@ -896,35 +896,35 @@
                             </div>
                           -->
                           <dl>
-                            <dd onclick="imgSwitch('Base', '#MISCPATH#images/2026/2026_Bronco_Trims/Base_Trims/2_Door/Trim.2026_Bronco_Base.2_Door.Avalanche.png', '2_Door')">
+                            <dd onclick="getImageColor( 'Avalanche')">
                               <div class="circle" style="background-color: rgb(196, 199, 197)"></div>
                               <span class="desc">Avalanche</span>
                             </dd>
-                            <dd onclick="imgSwitch('Base', '#MISCPATH#images/2026/2026_Bronco_Trims/Base_Trims/2_Door/Trim.2026_Bronco_Base.2_Door.Carbonized_Gray_Metallic.png', '2_Door')">
+                            <dd onclick="getImageColor('Carbonized_Gray_Metallic')">
                               <div class="circle" style="background-color: rgb(167, 168, 170)"></div>
                               <span class="desc">Carbonized Gray Metallic</span>
                             </dd>
-                            <dd onclick="imgSwitch('Base', '#MISCPATH#images/2026/2026_Bronco_Trims/Base_Trims/2_Door/Trim.2026_Bronco_Base.2_Door.Desert_Sand.png', '2_Door')">
+                            <dd onclick="getImageColor('Desert_Sand')">
                               <div class="circle" style="background-color: rgb(222, 210, 196)"></div>
                               <span class="desc">Desert Sand</span>
                             </dd>
-                            <dd onclick="imgSwitch('Base', '#MISCPATH#images/2026/2026_Bronco_Trims/Base_Trims/2_Door/Trim.2026_Bronco_Base.2_Door.Marsh_Gray.png', '2_Door')">
+                            <dd onclick="getImageColor('Marsh_Gray')">
                               <div class="circle" style="background-color: rgb(74, 68, 58)"></div>
                               <span class="desc">Marsh Gray</span>
                             </dd>
-                            <dd onclick="imgSwitch('Base', '#MISCPATH#images/2026/2026_Bronco_Trims/Base_Trims/2_Door/Trim.2026_Bronco_Base.2_Door.Oxford_White.png', '2_Door')">
+                            <dd onclick="getImageColor('Oxford_White')">
                               <div class="circle" style="background-color: rgb(228, 226, 229)"></div>
                               <span class="desc">Oxford White</span>
                             </dd>
-                            <dd onclick="imgSwitch('Base', '#MISCPATH#images/2026/2026_Bronco_Trims/Base_Trims/2_Door/Trim.2026_Bronco_Base.2_Door.Ruby_Red_Metallic_Tinted_Clearcoat.png', '2_Door')">
+                            <dd onclick="getImageColor('Ruby_Red_Metallic_Tinted_Clearcoat')">
                               <div class="circle" style="background-color: rgb(145, 24, 28)"></div>
                               <span class="desc">Ruby Red Metallic Tinted Clearcoat</span>
                             </dd>
-                            <dd onclick="imgSwitch('Base', '#MISCPATH#images/2026/2026_Bronco_Trims/Base_Trims/2_Door/Trim.2026_Bronco_Base.2_Door.Shadow_Black.png', '2_Door')">
+                            <dd onclick="getImageColor('Shadow_Black')">
                               <div class="circle" style="background-color: rgb(16, 16, 29)"></div>
                               <span class="desc">Shadow Black</span>
                             </dd>
-                            <dd onclick="imgSwitch('Base', '#MISCPATH#images/2026/2026_Bronco_Trims/Base_Trims/2_Door/Trim.2026_Bronco_Base.2_Door.Velecity_Blue_Metallic.png', '2_Door')">
+                            <dd onclick="getImageColor('Velecity_Blue_Metallic')">
                               <div class="circle" style="background-color: rgb(0, 150, 215)"></div>
                               <span class="desc">Velocity Blue Metallic</span>
                             </dd>
@@ -1077,59 +1077,56 @@
                       <div aria-labelledby="BigBend_h0" class="panel-collapse collapse" id="BigBend_c0" role="tabpanel">
                         <div class="panel-body">
                           <div>
-                            <label><input type="radio" name="optDoors" value="2_Door" onchange="handleDoors(this);" checked="true" />2-Door</label>
-                          </div>
-                          <div>
-                            <label> <input type="radio" name="optDoors" value="4_Door" onchange="handleDoors(this);" />4-Door </label>
+                            <label> <input type="radio" name="optDoorsBigBend" value="4_Door" onchange="handleDoors(this);" checked="true" />4-Door </label>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div class="panel panel-default">
-                      <div class="panel-heading" id="BigBend_h2" role="tab">
+                      <div class="panel-heading" id="BigBend_h1" role="tab">
                         <h4 class="panel-title">
-                          <a aria-controls="BigBend_c1" aria-expanded="false" data-parent="#accordionBigBend" data-toggle="collapse" href="BigBend_c2" role="button">Paint</a>
+                          <a aria-controls="BigBend_c1" aria-expanded="false" data-parent="#accordionBigBend" data-toggle="collapse" href="#BigBend_c1" role="button">Paint</a>
                         </h4>
                       </div>
                       <div aria-labelledby="BigBend_h1" class="panel-collapse collapse" id="BigBend_c1" role="tabpanel">
                         <div class="panel-body">
                           <dl>
-                            <dd onclick="imgSwitch('BigBend', '#MISCPATH#images/2026/2026_Bronco_Trims/Big_Bend_Trims/4_Door/Trim.2026_Bronco_Big_Bend.4_Door.Avalanche.png', '4_Door2_Door')">
+                            <dd onclick="getImageColor('Avalanche')">
                               <div class="circle" style="background-color: rgb(196, 199, 197)"></div>
                               <span class="desc">Avalanche</span>
                             </dd>
-                            <dd onclick="imgSwitch('BigBend', '#MISCPATH#images/2026/2026_Bronco_Trims/Big_Bend_Trims/4_Door/Trim.2026_Bronco_Big_Bend.4_Door.Carbonized_Gray_Metallic.png', '4_Door')">
+                            <dd onclick="getImageColor('Carbonized_Gray_Metallic')">
                               <div class="circle" style="background-color: rgb(167, 168, 170)"></div>
                               <span class="desc">Carbonized Gray Metallic</span>
                             </dd>
-                            <dd onclick="imgSwitch('BigBend', '#MISCPATH#images/2026/2026_Bronco_Trims/Big_Bend_Trims/4_Door/Trim.2026_Bronco_Big_Bend.4_Door.Desert_Sand.png', '4_Door')">
+                            <dd onclick="getImageColor('Desert_Sand')">
                               <div class="circle" style="background-color: rgb(222, 210, 196)"></div>
                               <span class="desc">Desert Sand</span>
                             </dd>
-                            <dd onclick="imgSwitch('BigBend', '#MISCPATH#images/2026/2026_Bronco_Trims/Big_Bend_Trims/4_Door/Trim.2026_Bronco_Big_Bend.4_Door.Marsh_Gray.png', '4_Door')">
+                            <dd onclick="getImageColor('Marsh_Gray')">
                               <div class="circle" style="background-color: rgb(74, 68, 58)"></div>
                               <span class="desc">Marsh Gray</span>
                             </dd>
-                            <dd onclick="imgSwitch('BigBend', '#MISCPATH#images/2026/2026_Bronco_Trims/Big_Bend_Trims/4_Door/Trim.2026_Bronco_Big_Bend.4_Door.Oxford_White.png', '4_Door')">
+                            <dd onclick="getImageColor('Oxford_White')">
                               <div class="circle" style="background-color: rgb(228, 226, 229)"></div>
                               <span class="desc">Oxford White</span>
                             </dd>
-                            <dd onclick="imgSwitch('BigBend', '#MISCPATH#images/2026/2026_Bronco_Trims/Big_Bend_Trims/4_Door/Trim.2026_Bronco_Big_Bend.4_Door.Ruby_Red_Metallic_Tinted_Clearcoat.png', '4_Door')">
+                            <dd onclick="getImageColor('Ruby_Red_Metallic_Tinted_Clearcoat')">
                               <div class="circle" style="background-color: rgb(145, 24, 28)"></div>
                               <span class="desc">Ruby Red Metallic Tinted Clearcoat</span>
                             </dd>
-                            <dd onclick="imgSwitch('BigBend', '#MISCPATH#images/2026/2026_Bronco_Trims/Big_Bend_Trims/4_Door/Trim.2026_Bronco_Big_Bend.4_Door.Shadow_Black.png', '4_Door')">
+                            <dd onclick="getImageColor('Shadow_Black')">
                               <div class="circle" style="background-color: rgb(16, 16, 29)"></div>
                               <span class="desc">Shadow Black</span>
                             </dd>
-                            <dd onclick="imgSwitch('BigBend', '#MISCPATH#images/2026/2026_Bronco_Trims/Big_Bend_Trims/4_Door/Trim.2026_Bronco_Big_Bend.4_Door.Velocity_Blue_Metallic.png', '4_Door')">
+                            <dd onclick="getImageColor('Velocity_Blue_Metallic')">
                               <div class="circle" style="background-color: rgb(0, 150, 215)"></div>
                               <span class="desc">Velocity Blue Metallic</span>
                             </dd>
                           </dl>
 
                           <div>
-                            <label> <input type="checkbox" name="optMatte" value="Matte" onchange="imgCheckMatte(this);" />Matte </label>
+                            <label> <input type="checkbox" name="optMatteBigBend" onchange="handleMatte(this);" />Matte </label>
                           </div>
                         </div>
                       </div>
@@ -1156,9 +1153,7 @@
                       </div>
                       <div aria-labelledby="BigBend_h3" class="panel-collapse collapse" id="BigBend_c3" role="tabpanel">
                         <div class="panel-body">
-                          <p>
-                            <a data-toggle="modal" href="#" data-target="#4x4withPartTimeSelectableEngagement">4x4 with Part Time Selectable Engagement</a>&nbsp;<span class="bbadge">Included</span>
-                          </p>
+                          <p><a data-toggle="modal" href="#" data-target="#4x4withPartTimeSelectableEngagement">4x4 with Part Time Selectable Engagement</a>&nbsp;<span class="bbadge">Included</span></p>
                           <p>
                             <a data-toggle="modal" href="#" data-target="#Advanced4x4withAutomaticOnDemandEngagement">Advanced 4x4 with Automatic On Demand Engagement</a>
                           </p>
@@ -1173,9 +1168,7 @@
                       </div>
                       <div aria-labelledby="BigBend_h4" class="panel-collapse collapse" id="BigBend_c4" role="tabpanel">
                         <div class="panel-body">
-                          <p>
-                            <a data-toggle="modal" href="#" data-target="#7SpeedManual">7-Speed Manual Transmission</a>&nbsp;<span class="bbadge">Included</span>
-                          </p>
+                          <p><a data-toggle="modal" href="#" data-target="#7SpeedManual">7-Speed Manual Transmission</a>&nbsp;<span class="bbadge">Included</span></p>
                           <p>
                             <a data-toggle="modal" href="#" data-target="#10SpeedAutomatic">10-Speed Automatic Transmission</a>
                           </p>
@@ -1185,7 +1178,8 @@
                     <div class="panel panel-default">
                       <div class="panel-heading" id="BigBend_h5" role="tab">
                         <h4 class="panel-title">
-                          <a aria-controls="BigBend_c5" aria-expanded="false" data-parent="#accordionBigBend" data-toggle="collapse" href="#BigBend_c5" role="button">Equipment Group</a><sup><a data-toggle="modal" href="#" data-target="#packages">†</a></sup>
+                          <a aria-controls="BigBend_c5" aria-expanded="false" data-parent="#accordionBigBend" data-toggle="collapse" href="#BigBend_c5" role="button">Equipment Group</a
+                          ><sup><a data-toggle="modal" href="#" data-target="#packages">†</a></sup>
                         </h4>
                       </div>
                       <div aria-labelledby="BigBend_h5" class="panel-collapse collapse" id="BigBend_c5" role="tabpanel">
@@ -1207,9 +1201,7 @@
                       </div>
                       <div aria-labelledby="BigBend_h6" class="panel-collapse collapse" id="BigBend_c6" role="tabpanel">
                         <div class="panel-body">
-                          <p>
-                            <a data-toggle="modal" href="#" data-target="#Connectivity1Year">Ford Connectivity Package (1-Year Included)</a>&nbsp;<span class="bbadge">Included</span>
-                          </p>
+                          <p><a data-toggle="modal" href="#" data-target="#Connectivity1Year">Ford Connectivity Package (1-Year Included)</a>&nbsp;<span class="bbadge">Included</span></p>
                           <p>
                             <a data-toggle="modal" href="#" data-target="#Sasquatch">Sasquatch<sup>&reg;</sup> Package</a>
                           </p>
@@ -1232,7 +1224,7 @@
                             <a data-toggle="modal" href="#" data-target="#SasquatchGraphics">Sasquatch<sup>&reg;</sup> Graphics Package</a>
                           </p>
                           <p>
-                            <a data-toggle="modal" href="#" data-target="#SiriusXMWith360L360L (3-Year Plan)</a>
+                            <a data-toggle="modal" href="#" data-target="#SiriusXMWith360L">360L (3-Year Plan)</a>
                           </p>
                           <p>
                             <a data-toggle="modal" href="#" data-target="#IntegratedTetherSystem">Ford Integrated Tether System (FITS) Accessory Package</a>
