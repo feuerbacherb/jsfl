@@ -79,6 +79,12 @@ function handleMatte(src) {
   // if it has, then we need to check the length of the arrFileURL array and see if Matte needs to be added, else removed
   console.log(isChecked[0].checked === true);
   if (isChecked[0].checked === true) {
+    if (oldURL.includes("2_Door") === true) {
+      imgSwitch(oldURL);
+      alert("Matte not available in 2-Door configurations");
+      isChecked[0].checked = false;
+      return;
+    }
     newURL = oldURL.replace(/(\.png)/g, ".Matte.png");
   } else {
     newURL = oldURL.replace(/(\.Matte.png)/g, ".png");
@@ -91,16 +97,29 @@ function handleDoors(src) {
   console.log(`Entered handleDoors(src.value = ${src.value})`);
   let imgID = getImageID();
   let oldURL = document.getElementById(imgID).style.backgroundImage.slice(4, -1).replace(/"/g, "");
-  console.log(`handleDoors: oldURL = ${oldURL}`);
+  //console.log(`handleDoors: oldURL = ${oldURL}`);
   //console.log(`handleDoors: urlContainsMatte = ${oldURL.includes("Matte")}`);
-  let newURLFile = "";
+  // Check to see if oldURL contains 2_Door and Matte
+  //console.log(`handleDoors: urlContains2DoorAndMatte = ${oldURL.includes("2_Door") && oldURL.includes("Matte")}`);
   if (oldURL.includes("4_Door") && src.value === "2_Door") {
     oldURL = oldURL.replace(/(4_Door)/g, src.value);
+    if (oldURL.includes("Matte")) {
+      //alert("Matte not available in 2-Door configurations");
+      oldURL = oldURL.replace(/(\.Matte.png)/g, ".png");
+      // Uncheck the matte option
+      //console.log(`handleDoors: imgID = ${imgID.slice(0, -1)}`);
+      let isChecked = document.querySelectorAll('input[name="optMatte' + imgID.slice(0, -1) + '"]');
+      //console.log(`handleDoors: try and see value of option: ${isChecked[0].checked}`);
+      isChecked[0].checked = false;
+
+      //console.log(`handleDoors: try and see value of option: ${isChecked[0].checked}`);
+      imgSwitch(oldURL);
+    }
   } else if (oldURL.includes("2_Door") && src.value === "4_Door") {
     oldURL = oldURL.replace(/(2_Door)/g, src.value);
   }
 
-  console.log(`handleDoors: newURLFile = ${oldURL}`);
+  //console.log(`handleDoors: newURLFile = ${oldURL}`);
   imgSwitch(oldURL);
 }
 
