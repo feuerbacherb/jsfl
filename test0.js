@@ -1,3 +1,4 @@
+<script>
 /*
   ****  Used in 2026-Trims-Bronco.htmls
 
@@ -158,3 +159,5 @@ function concatArray(arr) {
   //console.log(`concatArray: strArr = ${strArr}`);
   return strArr;
 }
+
+</script>
