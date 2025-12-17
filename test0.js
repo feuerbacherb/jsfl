@@ -41,6 +41,7 @@ function getImageColor(color) {
   if (color === origColor) {
     return imgURL;
   }
+  // if subfolder then change to arrFile[3]
   arrFile[2] = color;
   let url = concatArray(arrFile);
   console.log(`getImageColor: url = ${url}`);
