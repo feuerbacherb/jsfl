@@ -41,7 +41,7 @@ function getImageColor(color) {
   if (color === origColor) {
     return imgURL;
   }
-  arrFile[3] = color;
+  arrFile[2] = color;
   let url = concatArray(arrFile);
   console.log(`getImageColor: url = ${url}`);
   imgSwitch(url);
@@ -126,7 +126,7 @@ function handleDoors(src) {
 
 function makeArrayFromFile(oldURL) {
   let arrFile = oldURL.split(".");
-  //printArray(arrFile, "arrFile");
+  printArray(arrFile, "arrFile");
   return arrFile;
 }
 
