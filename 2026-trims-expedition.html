@@ -474,7 +474,7 @@
 </div>
 
 <!-- BlueCruise90Day modal -->
-<div aria-hidden="true" aria-labelledby="BlueCruiseOneTimeTitle" class="modal" id="BlueCruiseOneTime" role="dialog" tabindex="-1">
+<div aria-hidden="true" aria-labelledby="BlueCruise90DayTitle" class="modal" id="BlueCruise90Day" role="dialog" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered" role="document" style="vertical-align: middle">
     <div class="modal-content ford-font">
       <div class="modal-header">
@@ -1617,43 +1617,43 @@
                           </div>
                         </div>
                       </div>
-                      <div class="panel panel-default">
-                        <div class="panel-heading" id="KingRanch_h1" role="tab">
-                          <h4 class="panel-title">
-                            <a aria-controls="KingRanch_c1" aria-expanded="false" class="collapsed" data-parent="#accordionKingRanch" data-toggle="collapse" href="#KingRanch_c1" role="button">Paint</a>
-                          </h4>
-                        </div>
-                        <div aria-labelledby="KingRanch_h1" class="panel-collapse collapse" id="KingRanch_c1" role="tabpanel">
-                          <div class="panel-body">
-                            <dl>
-                              <dd onclick="getImageColor('Agate_Black_Metallic');">
-                                <div class="circle" style="background-color: rgb(27, 27, 29)"></div>
-                                <span class="desc">Agate Black Metallic</span>
-                              </dd>
-                              <dd onclick="getImageColor('Dark_Matter_Gray_Metallic');">
-                                <div class="circle" style="background-color: rgb(87, 86, 95)"></div>
-                                <span class="desc">Dark Matter Gray Metallic</span>
-                              </dd>
-                              <dd onclick="getImageColor('Glacier_Gray_Metallic_Tri-Coat');">
-                                <div class="circle" style="background-color: rgb(158, 166, 184)"></div>
-                                <span class="desc">Glacier Gray Metallic Tri-Coat</span>
-                              </dd>
-                              <dd onclick="getImageColor('Oxford_White');">
-                                <div class="circle" style="background-color: rgb(228, 226, 229)"></div>
-                                <span class="desc">Oxford White</span>
-                              </dd>
-                              <dd onclick="getImageColor('Space_Silver_Metallic');">
-                                <div class="circle" style="background-color: rgb(205, 212, 217)"></div>
-                                <span class="desc">Space Silver Metallic</span>
-                              </dd>
-                              <dd onclick="getImageColor('Star_White_Metallic_Tri-Coat');">
-                                <div class="circle" style="background-color: rgb(230, 229, 225)"></div>
-                                <span class="desc">Star White Metallic Tri-Coat</span>
-                              </dd>
-                            </dl>
-                            <div>
-                              <label> <input type="checkbox" name="optMattePlatinum" onchange="handleMatte(this);" />Roof Color </label>
-                            </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading" id="KingRanch_h1" role="tab">
+                        <h4 class="panel-title">
+                          <a aria-controls="KingRanch_c1" aria-expanded="false" class="collapsed" data-parent="#accordionKingRanch" data-toggle="collapse" href="#KingRanch_c1" role="button">Paint</a>
+                        </h4>
+                      </div>
+                      <div aria-labelledby="KingRanch_h1" class="panel-collapse collapse" id="KingRanch_c1" role="tabpanel">
+                        <div class="panel-body">
+                          <dl>
+                            <dd onclick="getImageColor('Agate_Black_Metallic');">
+                              <div class="circle" style="background-color: rgb(27, 27, 29)"></div>
+                              <span class="desc">Agate Black Metallic</span>
+                            </dd>
+                            <dd onclick="getImageColor('Dark_Matter_Gray_Metallic');">
+                              <div class="circle" style="background-color: rgb(87, 86, 95)"></div>
+                              <span class="desc">Dark Matter Gray Metallic</span>
+                            </dd>
+                            <dd onclick="getImageColor('Glacier_Gray_Metallic_Tri-Coat');">
+                              <div class="circle" style="background-color: rgb(158, 166, 184)"></div>
+                              <span class="desc">Glacier Gray Metallic Tri-Coat</span>
+                            </dd>
+                            <dd onclick="getImageColor('Oxford_White');">
+                              <div class="circle" style="background-color: rgb(228, 226, 229)"></div>
+                              <span class="desc">Oxford White</span>
+                            </dd>
+                            <dd onclick="getImageColor('Space_Silver_Metallic');">
+                              <div class="circle" style="background-color: rgb(205, 212, 217)"></div>
+                              <span class="desc">Space Silver Metallic</span>
+                            </dd>
+                            <dd onclick="getImageColor('Star_White_Metallic_Tri-Coat');">
+                              <div class="circle" style="background-color: rgb(230, 229, 225)"></div>
+                              <span class="desc">Star White Metallic Tri-Coat</span>
+                            </dd>
+                          </dl>
+                          <div>
+                            <label> <input type="checkbox" name="optMatteKingRanch" onchange="handleMatte(this);" />Roof Color </label>
                           </div>
                         </div>
                       </div>
@@ -1717,7 +1717,7 @@
                           <a aria-controls="KingRanch_c6" aria-expanded="false" class="collapsed" data-parent="#accordionKingRanch" data-toggle="collapse" href="#KingRanch_c6" role="button">Packages</a>
                         </h4>
                       </div>
-                      <div aria-labelledby="KingRanch_h6" class="panel-collapse collapse" id="Platinum_c6" role="tabpanel">
+                      <div aria-labelledby="KingRanch_h6" class="panel-collapse collapse" id="KingRanch_c6" role="tabpanel">
                         <div class="panel-body">
                           <p><a data-toggle="modal" href="#" data-target="#Drivers">Driver's Package</a>&nbsp;<span class="bbadge">Included</span></p>
                           <p><a data-toggle="modal" href="#" data-target="#BlueCruise1Year">BlueCruise Hands-Free Highway Driving Equipped (1-Year + 90-Day Plan)</a>&nbsp;<span class="bbadge">Included</span></p>
@@ -1743,15 +1743,31 @@
           </div>
         </div>
       </div>
-      <!-- Everything below this point C4 can change with WILD ABANDON! -->
-      <!-- Let me know if y'all want to do any FAQs with Accordions and I'll plug them in for you -->
-      <div class="container cc-brand-bg">
-        <div class="flex-container">
-          <div class="ford-font box-shadow">
-            <h3>2026 Expedition Title</h3>
-            <p>2026 Expedition Information</p>
-          </div>
-        </div>
+    </div>
+  </div>
+  <!-- Everything below this point C4 can change with WILD ABANDON! -->
+  <!-- Let me know if y'all want to do any FAQs with Accordions and I'll plug them in for you -->
+  <div class="container cc-brand-bg">
+    <div class="flex-container">
+      <div class="ford-font box-shadow">
+        <h3>2026 Expedition</h3>
+        <p>
+          The <strong>2026 Ford Expedition</strong> is an excellent choice for buyers seeking a powerful, capable, and versatile full-size SUV. With its robust twin-turbo 3.5 L EcoBoost V6 engine offering up to <em>440 hp</em> and
+          <em>510 lb-ft of torque</em>, the Expedition delivers confident on-road performance as well as the strength to tow heavy loads — up to <em>9,600 lbs</em> with the Heavy-Duty Trailer Tow Package — making it ideal for hauling trailers, boats,
+          or campers on weekend adventures. Its available Intelligent 4WD with Terrain Management System provides adaptable traction and multiple drive modes for different weather and terrain conditions, ensuring you’re ready for highways or
+          backcountry trails alike.
+        </p>
+        <p>
+          Inside, the 2026 Expedition prioritizes comfort, connectivity, and space for families or anyone who needs room to roam. It comfortably seats up to <em>eight passengers</em> with generous cargo capacity and versatile seating configurations,
+          while features like <em>a panoramic 24″ digital display, 13.2″ center touchscreen, and Ford Connectivity Package with unlimited Wi-Fi hotspot</em> keep drivers and passengers entertained and productive on long journeys. The interior also
+          offers thoughtful touches such as the Flex Powered Console, premium leather seating in higher trims, and family-friendly amenities for road trips and daily commutes.
+        </p>
+        <p>
+          Beyond performance and comfort, the Expedition comes equipped with a comprehensive suite of <em>standard and available safety technologies</em> designed to protect occupants and help prevent collisions. Ford Co-Pilot360™ features like
+          adaptive cruise control, blind-spot monitoring, lane-keeping assist, and automatic emergency braking give drivers added confidence on busy roads, while available advanced systems such as 360-degree cameras and hands-free driving assistance
+          (BlueCruise) enhance convenience on longer highway drives. These capabilities, combined with a strong resale value relative to its segment, make the 2026 Expedition a compelling buy for those who want rugged capability without sacrificing
+          modern tech and safety.
+        </p>
       </div>
     </div>
   </div>
