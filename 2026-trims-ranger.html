@@ -347,6 +347,83 @@
 <!-- Engine End / Drive Start -->
 <!-- Drive End / Transmission Start -->
 <!-- Transmission End / Options Start -->
+<!-- TrailerTow modal -->
+<div
+  aria-hidden="true"
+  aria-labelledby="TrailerTowTitle"
+  class="modal"
+  id="TrailerTow"
+  role="dialog"
+  tabindex="-1">
+  <div
+    class="modal-dialog modal-dialog-centered"
+    role="document"
+    style="vertical-align: middle">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5
+          class="modal-title"
+          id="TrailerTowTitle">
+          Trailer Tow Package
+          <button
+            aria-label="Close"
+            class="close"
+            data-dismiss="modal"
+            role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2026 Ford Ranger Trailer Tow Package In Use"
+          title="#NAME# | #CITY#, #STATE# | 2026 Ford Ranger Trailer Tow Package In Use"
+          style="background-image: url(&quot;#MISCPATH#images/2026/2026_Ranger/Pkg.Trailer_Tow.png&quot;); padding-top: 66%"
+          class="img-background img-cover hidden-xs"></div>
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2026 Ford Ranger Trailer Tow Package In Use"
+          title="#NAME# | #CITY#, #STATE# | 2026 Ford Ranger Trailer Tow Package In Use"
+          style="background-image: url(&quot;#MISCPATH#images/2026/2026_Ranger/Pkg.Trailer_Tow.png&quot;); padding-top: 175px"
+          class="img-background img-cover margin-bottom-2x visible-xs"></div>
+        <p>
+          Included on Raptor<sup>&reg;</sup>.
+          <br />
+          Available on XL, XLT and Lariat<sup>&reg;</sup>.
+        </p>
+        <p>Includes:</p>
+        <ul>
+          <li>4-pin / 7-pin Wiring Harness</li>
+          <li>Class IV Trailer Hitch Receiver</li>
+        </ul>
+        <p>Included Feature in:</p>
+        <ul>
+          <li>
+            <a
+              data-toggle="modal"
+              href="#"
+              data-target="#AdvancedTowingPlusTech"
+              >Advanced Towing Package Plus Technology Package</a
+            >
+            on XLT
+          </li>
+          <li>
+            <a
+              data-toggle="modal"
+              href="#"
+              data-target="#AdvancedTowing"
+              >Advanced Towing Package</a
+            >
+            on XLT and Lariat<sup>&reg;</sup>
+          </li>
+        </ul>
+        <p><small>Computer-generated image shown. Actual product may vary.</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- STXAppearance modal -->
 <div
   aria-hidden="true"
@@ -365,6 +442,13 @@
           class="modal-title"
           id="STXAppearanceTitle">
           STX Appearance Package
+          <button
+            aria-label="Close"
+            class="close"
+            data-dismiss="modal"
+            role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </h5>
       </div>
       <div class="modal-body">
@@ -1042,7 +1126,7 @@
           <a
             data-toggle="tab"
             href="#XL_tab">
-            XL tab
+            XL
           </a>
         </li>
         <li>
@@ -1072,6 +1156,7 @@
           <div
             class="container tab-pane active"
             id="XL_tab">
+            <!-- XL tab -->
             <div class="flex-container">
               <div class="flex-item">
                 <div
@@ -1121,7 +1206,7 @@
                     id="accordionXL"
                     role="tablist"
                     style="color: #000000">
-                    <div class="panel-default">
+                    <div class="panel panel-default">
                       <div
                         class="panel-heading"
                         id="XL_h0"
@@ -1287,9 +1372,9 @@
                           <a
                             data-toggle="modal"
                             href="#"
-                            target="#100A"
+                            data-target="#100A"
                             >XL (100A) Equipment Group</a
-                          ><span class="bbadge">Included</span>
+                          >&nbsp;<span class="bbadge">Included</span>
                         </div>
                       </div>
                     </div>
@@ -1305,7 +1390,7 @@
                             class="collapsed"
                             data-parent="#accordionXL"
                             data-toggle="collapse"
-                            href="#XL_h5"
+                            href="#XL_c5"
                             role="button"
                             >Packages</a
                           ><sup
@@ -1330,7 +1415,7 @@
                               href="#"
                               data-target="#STXAppearance"
                               >STX Appearance Package</a
-                            ><span class="bbadge">Included</span>
+                            >&nbsp;<span class="bbadge">Included</span>
                           </p>
                           <p>
                             <a
@@ -1427,6 +1512,8 @@
                             aria-controls="XLT_c0"
                             aria-expanded="false"
                             class="collapsed"
+                            data-parent="#accordionXLT"
+                            data-toggle="collapse"
                             href="#XLT_c0"
                             role="button">
                             Paint
@@ -1727,15 +1814,15 @@
                   role="img"
                   aria-label="#NAME# | #CITY#, #STATE# | 2026 Ford Ranger Lariat Trim Exterior View"
                   title="#NAME# | #CITY#, #STATE# | 2026 Ford Ranger Lariat Trim Exterior View"
-                  style="background-image: url(&quot;#MISCPATH#images/2026/2026_Ranger/Lariat/4X2/Trim.2026_Ranger_XL.4X2.Shadow_Black.png&quot;); padding-top: 66%"
+                  style="background-image: url(&quot;#MISCPATH#images/2026/2026_Ranger/Lariat/4X2/Trim.2026_Ranger_Lariat.4X2.Shadow_Black.png&quot;); padding-top: 66%"
                   class="img-background img-cover hidden-xs"
                   id="Lariat1"></div>
                 <div
                   role="img"
                   aria-label="#NAME# | #CITY#, #STATE# | 2026 Ford Ranger Lariat Trim Exterior View"
                   title="2026 Ford Ranger Lariat Trim Exterior View"
-                  style="background-image: url(&quot;#MISCPATH#images/2026/2026_Ranger/Lariat/4X2/Trim.2026_Ranger_XL.4X2.Shadow_Black.png&quot;); padding-top: 175px"
-                  class="img-background img-cover hidden-xs"
+                  style="background-image: url(&quot;#MISCPATH#images/2026/2026_Ranger/Lariat/4X2/Trim.2026_Ranger_Lariat.4X2.Shadow_Black.png&quot;); padding-top: 175px"
+                  class="img-background img-cover visible-xs"
                   id="Lariat2"></div>
               </div>
               <div class="flex-item ford-font">
@@ -2234,7 +2321,7 @@
                             class="collapsed"
                             data-parent="#accordionRaptor"
                             data-toggle="collapse"
-                            href="#Lariat_c2"
+                            href="#Raptor_c2"
                             role="button"
                             >Drive</a
                           >
@@ -2285,7 +2372,7 @@
                             <a
                               data-toggle="modal"
                               href="#"
-                              data-target="800A"
+                              data-target="#800A"
                               >Raptor<sup>&reg;</sup> (800A) Equipment Group</a
                             >
                           </p>
