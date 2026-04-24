@@ -741,6 +741,69 @@
   </div>
 </div>
 
+<!-- Convenience modal -->
+<div
+  aria-hidden="true"
+  aria-labelledby="ConvenienceTitle"
+  class="modal"
+  id="Convenience"
+  role="dialog"
+  tabindex="-1">
+  <div
+    class="modal-dialog modal-dialog-centered"
+    role="document"
+    style="vertical-align: middle">
+    <div class="modal-content ford-font">
+      <div class="modal-header">
+        <h5
+          class="modal-title"
+          id="ConvenienceTitle">
+          Convenience Package
+          <button
+            aria-label="Close"
+            class="close"
+            data-dismiss="modal"
+            role="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2026 Ford Bronco Sport Convenience Package"
+          title="#NAME# | #CITY#, #STATE# | 2026 Ford Bronco Sport Convenience Package"
+          style="background-image: url(&quot;#MISCPATH#images/2026/2026_Bronco_Sport/Pkg.Convenience.png&quot;); padding-top: 66%"
+          class="img-background img-cover hidden-xs"></div>
+        <div
+          role="img"
+          aria-label="#NAME# | #CITY#, #STATE# | 2026 Ford Bronco Sport Convenience Package"
+          title="#NAME# | #CITY#, #STATE# | 2026 Ford Bronco Sport Convenience Package"
+          style="background-image: url(&quot;#MISCPATH#images/2026/2026_Bronco_Sport/Pkg.Convenience.png&quot;); padding-top: 175px"
+          class="img-background img-cover margin-bottom-2x visible-xs"></div>
+        <p>Available on Bronco Sport<sup>&reg;</sup> Big Bend<sup>&reg;</sup> and Heritage Edition.</p>
+        <p>Includes:</p>
+        <ul>
+          <li>LED Fog Lamps (Bronco Sport<sup>&reg;</sup> Heritage only)</li>
+          <li>
+            Seats
+            <ul>
+              <li>8-way Power Driver's Seat (Fore/Aft, Up/Down, Recline, Lumbar)</li>
+              <li>Driver and Front Passenger Seat Back Map Pockets (Big Bend<sup>&reg;</sup> only)</li>
+              <li>Heated Driver and Front Passenger Seat</li>
+            </ul>
+          </li>
+          <li>Steering Wheel - Premium Wrapped</li>
+          <li>Flood Light Adjustable - Liftgate (Big Bend<sup>&reg;</sup> only)</li>
+        </ul>
+        <p>
+          <small>Computer-generated image shown. Actual product may vary.</small>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- BlackAppearance modal -->
 <div
   aria-hidden="true"
@@ -1997,7 +2060,7 @@
                       <div
                         aria-labelledby="BigBend_h3"
                         class="panel-collapse collapse"
-                        id="BigBend_c4"
+                        id="BigBend_c3"
                         role="tabpanel">
                         <div class="panel-body">
                           <p>8-Speed Automatic Transmission&nbsp;<span class="bbadge">Included</span></p>
@@ -2045,10 +2108,7 @@
                         </div>
                       </div>
                     </div>
-                    <div
-                      class="panel-heading"
-                      id="BigBend_h5"
-                      role="tab">
+                    <div class="panel panel-default">
                       <div
                         class="panel-heading"
                         id="BigBend_h5"
@@ -2058,6 +2118,8 @@
                             aria-controls="BigBend_c5"
                             aria-expanded="false"
                             class="collapsed"
+                            data-parent="#accordionBigBend"
+                            data-toggle="collapse"
                             href="#BigBend_c5"
                             role="button"
                             >Packages</a
@@ -2142,7 +2204,7 @@
                           <p>
                             <a
                               data-toggle="modal"
-                              data-target="#UnderbodyCourtesyLightKit"
+                              data-target="#UnderbodyCourtesyLight"
                               >Underbody Courtesy Light Kit</a
                             >
                           </p>
