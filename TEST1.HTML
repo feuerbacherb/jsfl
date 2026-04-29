@@ -2,95 +2,241 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JSON with Shared Array Example</title>
+    <title>Mustang Configurator</title>
     <style>
       body {
-        font-family: Arial, sans-serif;
-        margin: 30px;
+        font-family: Arial;
+        padding: 20px;
       }
-      .user-card {
-        background: #f2f2f2;
-        padding: 15px;
+      .group {
+        margin-bottom: 20px;
+      }
+      label {
+        margin-right: 10px;
+      }
+      img {
+        width: 500px;
+        margin-top: 20px;
         border-radius: 10px;
-        margin-top: 15px;
       }
-      ul {
-        padding-left: 20px;
+      .disabled {
+        opacity: 0.4;
+        pointer-events: none;
       }
     </style>
   </head>
   <body>
-    <h1>Select a User</h1>
+    <h2>Mustang Configurator (Declarative Engine)</h2>
 
-    <!-- Radio buttons -->
-    <div id="radioContainer"></div>
+    <div class="group">
+      <h3>Trim</h3>
+      <label
+        ><input
+          type="radio"
+          name="trim"
+          value="EcoBoost" />
+        EcoBoost</label
+      >
+      <label
+        ><input
+          type="radio"
+          name="trim"
+          value="EcoBoostPremium" />
+        EcoBoost Premium</label
+      >
+      <label
+        ><input
+          type="radio"
+          name="trim"
+          value="GT" />
+        GT</label
+      >
+      <label
+        ><input
+          type="radio"
+          name="trim"
+          value="GT_Premium" />
+        GT Premium</label
+      >
+    </div>
 
-    <!-- Display area -->
-    <div id="userDisplay" class="user-card" style="display: none"></div>
+    <div class="group">
+      <h3>Body Style</h3>
+      <label
+        ><input
+          type="radio"
+          name="body"
+          value="Fastback" />
+        Fastback</label
+      >
+      <label
+        ><input
+          type="radio"
+          name="body"
+          value="Convertible" />
+        Convertible</label
+      >
+    </div>
+
+    <div class="group">
+      <h3>Color</h3>
+      <label
+        ><input
+          type="radio"
+          name="color"
+          value="Vapor_Blue_Metallic" />
+        Vapor Blue</label
+      >
+      <label
+        ><input
+          type="radio"
+          name="color"
+          value="Oxford_White" />
+        Oxford White</label
+      >
+      <label
+        ><input
+          type="radio"
+          name="color"
+          value="Shadow_Black" />
+        Shadow Black</label
+      >
+      <label
+        ><input
+          type="radio"
+          name="color"
+          value="Race_Red" />
+        Race Red</label
+      >
+    </div>
+
+    <div class="group">
+      <h3>Decoration</h3>
+      <label
+        ><input
+          type="radio"
+          name="decoration"
+          value="Matte_Black_with_Red_Accent_Stripe" />
+        Matte Stripe</label
+      >
+      <label
+        ><input
+          type="radio"
+          name="decoration"
+          value="Gloss_Gray_Racing_Stripe" />
+        Gray Stripe</label
+      >
+      <label
+        ><input
+          type="radio"
+          name="decoration"
+          value="Opacity_Fade_Stripe" />
+        Fade Stripe</label
+      >
+    </div>
+
+    <img
+      id="carImage"
+      src=""
+      alt="Mustang" />
 
     <script>
-      // JSON data with a common array field "hobbies"
-      const jsonData = `[
-      { 
-        "name": "Alice Johnson", 
-        "age": 28, 
-        "email": "alice@example.com",
-        "hobbies": ["Painting", "Cycling", "Reading"]
-      },
-      { 
-        "name": "Bob Smith", 
-        "age": 35, 
-        "email": "bob@example.com",
-        "hobbies": ["Cooking", "Hiking", "Gaming"]
-      },
-      { 
-        "name": "Charlie Davis", 
-        "age": 42, 
-        "email": "charlie@example.com",
-        "hobbies": ["Golf", "Photography", "Traveling"]
+      const RULES = {
+        trims: {
+          EcoBoost: { body: ["Fastback", "Convertible"], colors: ["ALL"], decoration: "ALL" },
+          EcoBoostPremium: { body: ["Fastback", "Convertible"], colors: ["ALL"], decoration: "ALL" },
+          GT: { body: ["Fastback"], colors: ["NO_VAPOR_BLUE"], decoration: "LIMITED" },
+          GT_Premium: { body: ["Fastback"], colors: ["NO_VAPOR_BLUE"], decoration: "LIMITED" },
+        },
+        colorSets: {
+          ALL: ["Vapor_Blue_Metallic", "Oxford_White", "Shadow_Black", "Race_Red"],
+          NO_VAPOR_BLUE: ["Oxford_White", "Shadow_Black", "Race_Red"],
+        },
+        decorations: {
+          ALL: ["Matte_Black_with_Red_Accent_Stripe", "Gloss_Gray_Racing_Stripe", "Opacity_Fade_Stripe"],
+          LIMITED: ["Gloss_Gray_Racing_Stripe", "Opacity_Fade_Stripe"],
+        },
+      };
+
+      const state = {
+        trim: "EcoBoost",
+        body: "Fastback",
+        color: "Vapor_Blue_Metallic",
+        decoration: "Matte_Black_with_Red_Accent_Stripe",
+      };
+
+      function resolveColors(trim) {
+        const rule = RULES.trims[trim].colors[0];
+        return RULES.colorSets[rule] || RULES.colorSets.ALL;
       }
-    ]`;
 
-      // Parse JSON
-      const users = JSON.parse(jsonData);
+      function resolveBody(trim) {
+        return RULES.trims[trim].body;
+      }
 
-      // Containers
-      const radioContainer = document.getElementById("radioContainer");
-      const userDisplay = document.getElementById("userDisplay");
+      function resolveDecorations(trim) {
+        const rule = RULES.trims[trim].decoration;
+        return RULES.decorations[rule];
+      }
 
-      // Create a radio button for each user
-      users.forEach((user, index) => {
-        const label = document.createElement("label");
-        label.style.display = "block";
-        label.style.marginBottom = "5px";
+      function sanitizeState() {
+        const t = RULES.trims[state.trim];
 
-        const radio = document.createElement("input");
-        radio.type = "radio";
-        radio.name = "user";
-        radio.value = index;
+        if (!t.body.includes(state.body)) state.body = t.body[0];
+        if (!resolveColors(state.trim).includes(state.color)) state.color = resolveColors(state.trim)[0];
+        if (!resolveDecorations(state.trim).includes(state.decoration)) state.decoration = resolveDecorations(state.trim)[0];
+      }
 
-        // On selection, display user's info + hobbies
-        radio.addEventListener("change", () => {
-          const selectedUser = users[index];
-          userDisplay.style.display = "block";
-
-          // Build hobbies list dynamically
-          const hobbyList = selectedUser.hobbies.map((hobby) => `<li>${hobby}</li>`).join("");
-
-          userDisplay.innerHTML = `
-          <h3>${selectedUser.name}</h3>
-          <p>Age: ${selectedUser.age}</p>
-          <p>Email: <a href="mailto:${selectedUser.email}">${selectedUser.email}</a></p>
-          <h4>Hobbies:</h4>
-          <ul>${hobbyList}</ul>
-        `;
+      function renderGroup(name, values, selected) {
+        document.querySelectorAll(`input[name="${name}"]`).forEach((i) => {
+          const valid = values.includes(i.value);
+          i.disabled = !valid;
+          if (!valid) i.checked = false;
+          if (i.value === selected) i.checked = true;
         });
+      }
 
-        label.appendChild(radio);
-        label.append(` ${user.name}`);
-        radioContainer.appendChild(label);
-      });
+      function render() {
+        sanitizeState();
+
+        renderGroup("trim", Object.keys(RULES.trims), state.trim);
+        renderGroup("body", RULES.trims[state.trim].body, state.body);
+        renderGroup("color", resolveColors(state.trim), state.color);
+        renderGroup("decoration", resolveDecorations(state.trim), state.decoration);
+
+        document.getElementById("carImage").src = `images/trim.2026_Mustang_${state.trim}.${state.body}.${state.color}.${state.decoration}.png`;
+      }
+
+      document.querySelectorAll("input[name='trim']").forEach(
+        (i) =>
+          (i.onchange = (e) => {
+            state.trim = e.target.value;
+            render();
+          })
+      );
+      document.querySelectorAll("input[name='body']").forEach(
+        (i) =>
+          (i.onchange = (e) => {
+            state.body = e.target.value;
+            render();
+          })
+      );
+      document.querySelectorAll("input[name='color']").forEach(
+        (i) =>
+          (i.onchange = (e) => {
+            state.color = e.target.value;
+            render();
+          })
+      );
+      document.querySelectorAll("input[name='decoration']").forEach(
+        (i) =>
+          (i.onchange = (e) => {
+            state.decoration = e.target.value;
+            render();
+          })
+      );
+
+      render();
     </script>
   </body>
 </html>
