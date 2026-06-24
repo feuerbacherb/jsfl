@@ -1,654 +1,274 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0" />
-
-    <title>2026 Ford Towing Guide</title>
-
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-
-      body {
-        background: #020617;
-        color: white;
-        font-family: Arial, sans-serif;
-      }
-
-      .glass {
-        background: rgba(15, 23, 42, 0.8);
-        backdrop-filter: blur(14px);
-        border: 1px solid rgba(255, 255, 255, 0.08);
-      }
-
-      .hero-overlay {
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(2, 6, 23, 1));
-      }
-
-      .vehicle-card {
-        transition: 0.25s ease;
-      }
-
-      .vehicle-card:hover {
-        transform: translateY(-4px);
-        border-color: #3b82f6;
-      }
-    </style>
-  </head>
-
-  <body>
-    <!-- ===================================================== -->
-    <!-- HERO -->
-    <!-- ===================================================== -->
-
-    <section class="relative overflow-hidden border-b border-white/10">
-      <div
-        class="absolute inset-0 bg-cover bg-center"
-        style="background-image: url(&quot;https://www.ford.com/cmslibs/content/dam/brand_ford/en_us/brand/trucks/f150/2026/collections/dm/26_FRD_F15_60710.tif/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg&quot;)"></div>
-
-      <div class="absolute inset-0 hero-overlay"></div>
-
-      <div class="relative max-w-7xl mx-auto px-6 py-24">
-        <div class="max-w-3xl">
-          <div class="uppercase tracking-[0.3em] text-blue-400 text-sm font-bold">2026 Ford RV & Trailer Towing Guide</div>
-
-          <h1 class="text-6xl font-black mt-6 leading-tight">
-            Find Your Perfect
-            <span class="block text-blue-500"> Ford Tow Vehicle </span>
-          </h1>
-
-          <p class="text-xl text-slate-300 mt-6 leading-relaxed">Compare towing capacities, payload ratings, axle ratios, GCWR, tow packages, and trailer compatibility across the 2026 Ford lineup.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================================================== -->
-    <!-- TABLE OF CONTENTS -->
-    <!-- ===================================================== -->
-
-    <section class="border-b border-white/10 bg-slate-900/60">
-      <div class="max-w-7xl mx-auto px-6 py-8">
-        <h2 class="text-2xl font-black mb-6">Table of Contents</h2>
-
-        <div class="grid md:grid-cols-3 gap-4">
-          <a
-            href="#selector"
-            class="glass rounded-2xl p-5 hover:bg-slate-800 transition">
-            <div class="font-bold text-lg">Trailer Selector</div>
-          </a>
-
-          <a
-            href="#calculators"
-            class="glass rounded-2xl p-5 hover:bg-slate-800 transition">
-            <div class="font-bold text-lg">Tow Calculators</div>
-          </a>
-
-          <a
-            href="#vehicles"
-            class="glass rounded-2xl p-5 hover:bg-slate-800 transition">
-            <div class="font-bold text-lg">Vehicle Matches</div>
-          </a>
-
-          <a
-            href="#basics"
-            class="glass rounded-2xl p-5 hover:bg-slate-800 transition">
-            <div class="font-bold text-lg">Towing Basics</div>
-          </a>
-
-          <a
-            href="#payload"
-            class="glass rounded-2xl p-5 hover:bg-slate-800 transition">
-            <div class="font-bold text-lg">Payload Explained</div>
-          </a>
-
-          <a
-            href="#gcwr"
-            class="glass rounded-2xl p-5 hover:bg-slate-800 transition">
-            <div class="font-bold text-lg">GCWR & Safety</div>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================================================== -->
-    <!-- MAIN -->
-    <!-- ===================================================== -->
-
-    <main class="max-w-7xl mx-auto px-6 py-14">
-      <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
-        <!-- ================================================= -->
-        <!-- FILTERS -->
-        <!-- ================================================= -->
-
-        <aside
-          id="selector"
-          class="glass rounded-3xl p-6 h-fit sticky top-6">
-          <h2 class="text-3xl font-black mb-8">Trailer Selector</h2>
-
-          <div class="space-y-5">
-            <!-- TRAILER WEIGHT -->
-
-            <div>
-              <label class="block text-sm uppercase tracking-wide text-slate-400 mb-2"> Trailer Weight (lbs) </label>
-
-              <input
-                id="trailerWeight"
-                type="number"
-                value="8500"
-                class="w-full bg-slate-800 border border-white/10 rounded-xl px-4 py-3" />
-            </div>
-
-            <!-- CARGO -->
-
-            <div>
-              <label class="block text-sm uppercase tracking-wide text-slate-400 mb-2"> Passengers + Cargo (lbs) </label>
-
-              <input
-                id="cargoWeight"
-                type="number"
-                value="500"
-                class="w-full bg-slate-800 border border-white/10 rounded-xl px-4 py-3" />
-            </div>
-
-            <!-- FRONTAL AREA -->
-
-            <div>
-              <label class="block text-sm uppercase tracking-wide text-slate-400 mb-2"> Trailer Frontal Area (sq ft) </label>
-
-              <input
-                id="frontalArea"
-                type="number"
-                value="55"
-                class="w-full bg-slate-800 border border-white/10 rounded-xl px-4 py-3" />
-            </div>
-
-            <!-- TERRAIN -->
-
-            <div>
-              <label class="block text-sm uppercase tracking-wide text-slate-400 mb-2"> Terrain </label>
-
-              <select
-                id="terrain"
-                class="w-full bg-slate-800 border border-white/10 rounded-xl px-4 py-3">
-                <option value="flat">Flat</option>
-
-                <option
-                  value="mixed"
-                  selected>
-                  Mixed
-                </option>
-
-                <option value="mountain">Mountainous</option>
-              </select>
-            </div>
-
-            <!-- TOW TYPE -->
-
-            <div>
-              <label class="block text-sm uppercase tracking-wide text-slate-400 mb-2"> Tow Type </label>
-
-              <select
-                id="towType"
-                class="w-full bg-slate-800 border border-white/10 rounded-xl px-4 py-3">
-                <option value="Conventional">Conventional</option>
-
-                <option value="5th-Wheel">5th-Wheel</option>
-              </select>
-            </div>
-
-            <!-- FUEL -->
-
-            <div>
-              <label class="block text-sm uppercase tracking-wide text-slate-400 mb-2"> Fuel Type </label>
-
-              <select
-                id="fuelType"
-                class="w-full bg-slate-800 border border-white/10 rounded-xl px-4 py-3">
-                <option value="All">All</option>
-
-                <option value="Gas">Gas</option>
-
-                <option value="Diesel">Diesel</option>
-
-                <option value="Hybrid">Hybrid</option>
-              </select>
-            </div>
-
-            <button
-              onclick="calculateMatches()"
-              class="w-full bg-blue-600 hover:bg-blue-700 transition py-4 rounded-xl font-bold text-lg">
-              Find Matching Vehicles
-            </button>
-          </div>
-        </aside>
-
-        <!-- ================================================= -->
-        <!-- CONTENT -->
-        <!-- ================================================= -->
-
-        <div class="lg:col-span-3 space-y-12">
-          <!-- =============================================== -->
-          <!-- CALCULATORS -->
-          <!-- =============================================== -->
-
-          <section id="calculators">
-            <h2 class="text-4xl font-black mb-6">Tow Calculators</h2>
-
+iv>
+<div>
+  <div>
+    <div class=""><p class="text-ford-body1-bold font-ford-body1-bold leading-ford-body1-bold text-left no-underline mb-ford-space-lg">Exterior Color</p></div>
+    <div class="gap-x-ford-space-lg mb-ford-space-3xl grid px-[2px] grid-cols-1 gap-y-ford-space-lg">
+      <div class="">
+        <div
+          class="relative flex w-full h-max items-start gap-ford-space-lg lg:hover:ring-2 lg:hover:ring-ford-stroke-interactive rounded-ford-radius-md pt-ford-space-sm pr-ford-space-md pb-ford-space-sm pl-ford-space-sm min-h-[82px] ring-2 ring-ford-stroke-interactive ring-inset"
+          data-testid="step-selection-card-PN4HR"
+          tabindex="0">
+          <div
+            class="flex w-[99px] !h-[66px] items-start rounded-ford-radius-sm aspect-video h-full border-4 border-solid bg-origin-border bg-clip-content"
+            data-testid="step-selection-card-PN4HR-swatch"
+            style="background-image: linear-gradient(to top, #e6e5e1, #e6e5e1aa); border-color: #e6e5e1cc"></div>
+          <div class="flex-1">
             <div
-              id="calculatorGrid"
-              class="grid md:grid-cols-2 xl:grid-cols-4 gap-4"></div>
-          </section>
-
-          <!-- =============================================== -->
-          <!-- VEHICLES -->
-          <!-- =============================================== -->
-
-          <section id="vehicles">
-            <h2 class="text-4xl font-black mb-6">Vehicle Matches</h2>
-
-            <div
-              id="vehicleGrid"
-              class="grid md:grid-cols-2 gap-6"></div>
-          </section>
-        </div>
-      </div>
-    </main>
-
-    <!-- ===================================================== -->
-    <!-- TOWING BASICS -->
-    <!-- ===================================================== -->
-
-    <section
-      id="basics"
-      class="border-t border-white/10 bg-slate-900/50">
-      <div class="max-w-7xl mx-auto px-6 py-20">
-        <h2 class="text-5xl font-black mb-10">Towing Basics</h2>
-
-        <div class="grid md:grid-cols-3 gap-6">
-          <div class="glass rounded-3xl p-6">
-            <h3 class="text-2xl font-black mb-4">Tongue Weight</h3>
-
-            <p class="text-slate-300 leading-relaxed">Ford recommends trailer tongue weight equal to approximately 10% of loaded trailer weight.</p>
-          </div>
-
-          <div class="glass rounded-3xl p-6">
-            <h3 class="text-2xl font-black mb-4">King Pin Weight</h3>
-
-            <p class="text-slate-300 leading-relaxed">5th-wheel and gooseneck trailers should use approximately 15% king pin weight.</p>
-          </div>
-
-          <div class="glass rounded-3xl p-6">
-            <h3 class="text-2xl font-black mb-4">Frontal Area</h3>
-
-            <p class="text-slate-300 leading-relaxed">Larger trailer frontal area increases aerodynamic drag and may reduce towing performance.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================================================== -->
-    <!-- PAYLOAD -->
-    <!-- ===================================================== -->
-
-    <section
-      id="payload"
-      class="border-t border-white/10">
-      <div class="max-w-7xl mx-auto px-6 py-20">
-        <h2 class="text-5xl font-black mb-6">Payload Explained</h2>
-
-        <div class="max-w-4xl text-lg text-slate-300 leading-relaxed space-y-6">
-          <p>Payload includes passengers, cargo, hitch equipment, trailer tongue weight, and accessories added to the vehicle.</p>
-
-          <p>Exceeding payload ratings may negatively affect braking, steering, suspension durability, stability, and towing performance.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================================================== -->
-    <!-- GCWR -->
-    <!-- ===================================================== -->
-
-    <section
-      id="gcwr"
-      class="border-t border-white/10 bg-slate-900/50">
-      <div class="max-w-7xl mx-auto px-6 py-20">
-        <h2 class="text-5xl font-black mb-6">GCWR & Safety</h2>
-
-        <div class="max-w-4xl text-lg text-slate-300 leading-relaxed space-y-6">
-          <p>GCWR stands for Gross Combined Weight Rating. This represents the maximum allowable combined weight of the truck, trailer, passengers, cargo, and accessories.</p>
-
-          <p>Staying below GCWR helps maintain safe braking, handling, cooling performance, transmission durability, and towing stability.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================================================== -->
-    <!-- JAVASCRIPT -->
-    <!-- ===================================================== -->
-
-    <script>
-      /*
-    =========================================================
-    TOWING DATA
-    =========================================================
-    */
-
-      const towingData = [
-        {
-          model: "F-150",
-          trim: "XLT",
-          engine: "3.5L EcoBoost V6",
-          fuel: "Gas",
-          towType: "Conventional",
-          maxTow: 13500,
-          payload: 2440,
-          gcwr: 19400,
-          axle: "3.55",
-          drivetrain: "4x4",
-          cab: "SuperCrew",
-          bed: "5.5'",
-          frontalArea: 65,
-          package: "Max Tow Package",
-
-          image: "https://www.ford.com/cmslibs/content/dam/brand_ford/en_us/brand/trucks/f150/2026/collections/dm/26_FRD_F15_60710.tif/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg",
-        },
-
-        {
-          model: "F-150",
-          trim: "PowerBoost Platinum",
-          engine: "3.5L PowerBoost Hybrid",
-          fuel: "Hybrid",
-          towType: "Conventional",
-          maxTow: 11600,
-          payload: 1740,
-          gcwr: 18400,
-          axle: "3.73",
-          drivetrain: "4x4",
-          cab: "SuperCrew",
-          bed: "5.5'",
-          frontalArea: 65,
-          package: "Tow/Haul Package",
-
-          image: "https://www.ford.com/cmslibs/content/dam/brand_ford/en_us/brand/trucks/f150/2026/collections/dm/26_FRD_F15_60710.tif/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg",
-        },
-
-        {
-          model: "F-250",
-          trim: "Lariat",
-          engine: "6.7L Power Stroke Diesel",
-          fuel: "Diesel",
-          towType: "5th-Wheel",
-          maxTow: 22000,
-          payload: 6952,
-          gcwr: 30000,
-          axle: "3.55",
-          drivetrain: "4x4",
-          cab: "Crew Cab",
-          bed: "6.75'",
-          frontalArea: 75,
-          package: "High Capacity Tow Package",
-
-          image: "https://www.ford.com/cmslibs/content/dam/brand_ford/en_us/brand/trucks/super-duty/2026/collections/dm/26_FRD_SDE_60933.tif/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg",
-        },
-      ];
-
-      /*
-    =========================================================
-    MAIN CALCULATOR
-    =========================================================
-    */
-
-      function calculateMatches() {
-        const trailerWeight = parseInt(document.getElementById("trailerWeight").value);
-
-        const cargoWeight = parseInt(document.getElementById("cargoWeight").value);
-
-        const frontalArea = parseInt(document.getElementById("frontalArea").value);
-
-        const terrain = document.getElementById("terrain").value;
-
-        const towType = document.getElementById("towType").value;
-
-        const fuelType = document.getElementById("fuelType").value;
-
-        /*
-      =====================================================
-      CALCULATIONS
-      =====================================================
-      */
-
-        const tongueWeight = Math.round(trailerWeight * 0.1);
-
-        const kingPinWeight = Math.round(trailerWeight * 0.15);
-
-        let adjustedTowNeed = trailerWeight;
-
-        if (terrain === "mixed") {
-          adjustedTowNeed = Math.round(trailerWeight * 1.1);
-        }
-
-        if (terrain === "mountain") {
-          adjustedTowNeed = Math.round(trailerWeight * 1.25);
-        }
-
-        /*
-      =====================================================
-      FILTER VEHICLES
-      =====================================================
-      */
-
-        const matches = towingData.filter((vehicle) => {
-          const passesTow = vehicle.maxTow >= adjustedTowNeed;
-
-          const passesTowType = vehicle.towType === towType;
-
-          const passesFuel = fuelType === "All" || vehicle.fuel === fuelType;
-
-          const passesFrontalArea = frontalArea <= vehicle.frontalArea;
-
-          return passesTow && passesTowType && passesFuel && passesFrontalArea;
-        });
-
-        /*
-      =====================================================
-      RENDER CALCULATORS
-      =====================================================
-      */
-
-        document.getElementById("calculatorGrid").innerHTML = `
-
-        ${calculatorCard("Tongue Weight", tongueWeight.toLocaleString() + " lbs", "Ford recommends approximately 10% tongue weight.")}
-
-        ${calculatorCard("King Pin Weight", kingPinWeight.toLocaleString() + " lbs", "Ford recommends approximately 15% king pin weight.")}
-
-        ${calculatorCard("Adjusted Tow Need", adjustedTowNeed.toLocaleString() + " lbs", "Adjusted based on terrain.")}
-
-        ${calculatorCard("Matching Vehicles", matches.length, "Vehicles compatible with your trailer.")}
-
-      `;
-
-        /*
-      =====================================================
-      RENDER VEHICLES
-      =====================================================
-      */
-
-        let vehicleHTML = "";
-
-        matches.forEach((vehicle) => {
-          const utilization = trailerWeight / vehicle.maxTow;
-
-          let status = "Excellent Match";
-
-          let statusClass = "bg-green-500/20 border-green-500/30 text-green-300";
-
-          if (utilization > 0.7) {
-            status = "Near Capacity";
-
-            statusClass = "bg-yellow-500/20 border-yellow-500/30 text-yellow-300";
-          }
-
-          if (utilization > 0.9) {
-            status = "Maximum Capacity";
-
-            statusClass = "bg-red-500/20 border-red-500/30 text-red-300";
-          }
-
-          vehicleHTML += `
-
-          <div class="vehicle-card glass rounded-3xl overflow-hidden">
-
-            <img
-              src="${vehicle.image}"
-              class="h-56 w-full object-cover"
-            />
-
-            <div class="p-6">
-
-              <div class="flex justify-between gap-4">
-
-                <div>
-
-                  <div class="uppercase tracking-wide text-sm text-blue-400 font-bold">
-                    ${vehicle.model}
-                  </div>
-
-                  <h3 class="text-3xl font-black mt-1">
-                    ${vehicle.trim}
-                  </h3>
-
-                  <div class="text-slate-400 mt-2">
-                    ${vehicle.engine}
-                  </div>
-
+              class="flex flex-1 self-stretch items-start gap-ford-space-md h-max"
+              data-testid="step-selection-info-PN4HR">
+              <div class="flex flex-1 min-w-0 flex-col items-start gap-ford-space-sm self-stretch">
+                <p
+                  class="text-ford-body2-bold font-ford-body2-bold leading-ford-body2-bold text-left no-underline w-full line-clamp-2 overflow-hidden leading-6 cursor-pointer"
+                  title="Star White Metallic Tri-Coat">
+                  Star White Metallic Tri-Coat
+                </p>
+                <div class="gap-ford-space-sm flex items-center">
+                  <span class="flex items-start"
+                    ><p
+                      class="text-2xl font-semibold font-medium text-2xl leading-8 text-ford-body2-regular !font-ford-body2-regular leading-ford-body2-regular"
+                      data-testid="new-price"
+                      aria-label="Price of Product is $995">
+                      $995
+                    </p></span
+                  >
                 </div>
-
-                <div class="
-                  h-fit
-                  px-3
-                  py-2
-                  rounded-xl
-                  border
-                  text-sm
-                  font-bold
-                  ${statusClass}
-                ">
-                  ${status}
-                </div>
-
               </div>
-
-              <!-- SPECS -->
-
-              <div class="grid grid-cols-2 gap-4 mt-8">
-
-                ${specCard("Max Tow", vehicle.maxTow.toLocaleString() + " lbs")}
-
-                ${specCard("Payload", vehicle.payload.toLocaleString() + " lbs")}
-
-                ${specCard("GCWR", vehicle.gcwr.toLocaleString() + " lbs")}
-
-                ${specCard("Axle Ratio", vehicle.axle)}
-
+              <div class="flex flex-shrink-0 flex-col justify-between items-end self-stretch">
+                <button
+                  class="inline-flex items-center justify-center text-ford-body2-bold leading-ford-body2-bold font-ford-body2-bold capitalize transition-colors ford-component-btn focus:outline-none select-none disabled:pointer-events-none disabled:text-ford-text-subtlest-disabled data-[disabled=true]:pointer-events-none disabled:bg-transparent border-none gap-0 text-ford-text-strong hover:text-ford-text-moderate-default px-0 py-0 h-ford-space-lg rounded-ford-radius-full focus-visible:ring-2 focus-visible:ring-ford-stroke-strongest-focus focus-visible:ring-offset-[10px]"
+                  type="button"
+                  aria-label="Expand">
+                  <span class="flex items-center justify-center gap-2"
+                    ><!--$?--><template id="B:9"></template
+                    ><!--/$--></span
+                  >
+                </button>
               </div>
-
-              <!-- CONFIG -->
-
-              <div class="mt-8 border-t border-white/10 pt-6 space-y-3">
-
-                ${configRow("Tow Type", vehicle.towType)}
-
-                ${configRow("Drivetrain", vehicle.drivetrain)}
-
-                ${configRow("Cab", vehicle.cab)}
-
-                ${configRow("Bed", vehicle.bed)}
-
-                ${configRow("Tow Package", vehicle.package)}
-
-              </div>
-
             </div>
-
           </div>
-
-        `;
-        });
-
-        document.getElementById("vehicleGrid").innerHTML = vehicleHTML;
-      }
-
-      /*
-    =========================================================
-    COMPONENT HELPERS
-    =========================================================
-    */
-
-      function calculatorCard(title, value, description) {
-        return `
-        <div class="glass rounded-2xl p-5">
-
-          <div class="text-sm uppercase tracking-wide text-slate-400">
-            ${title}
-          </div>
-
-          <div class="text-4xl font-black mt-3">
-            ${value}
-          </div>
-
-          <div class="text-slate-400 mt-4 text-sm leading-relaxed">
-            ${description}
-          </div>
-
         </div>
-      `;
-      }
-
-      function specCard(label, value) {
-        return `
-        <div class="bg-slate-800 border border-white/5 rounded-2xl p-4">
-
-          <div class="text-xs uppercase tracking-wide text-slate-400">
-            ${label}
+      </div>
+      <div class="">
+        <div
+          class="relative flex w-full h-max items-start gap-ford-space-lg lg:hover:ring-2 lg:hover:ring-ford-stroke-interactive rounded-ford-radius-md pt-ford-space-sm pr-ford-space-md pb-ford-space-sm pl-ford-space-sm min-h-[82px] ring-1 ring-ford-stroke-subtle(dividers) ring-inset"
+          data-testid="step-selection-card-PN4LH"
+          tabindex="0">
+          <div
+            class="flex w-[99px] !h-[66px] items-start rounded-ford-radius-sm aspect-video h-full border-4 border-solid bg-origin-border bg-clip-content"
+            data-testid="step-selection-card-PN4LH-swatch"
+            style="background-image: linear-gradient(to top, #9ea6b8, #9ea6b8aa); border-color: #9ea6b8cc"></div>
+          <div class="flex-1">
+            <div
+              class="flex flex-1 self-stretch items-start gap-ford-space-md h-max"
+              data-testid="step-selection-info-PN4LH">
+              <div class="flex flex-1 min-w-0 flex-col items-start gap-ford-space-sm self-stretch">
+                <p
+                  class="text-ford-body2-bold font-ford-body2-bold leading-ford-body2-bold text-left no-underline w-full line-clamp-2 overflow-hidden leading-6 cursor-pointer"
+                  title="Glacier Gray Metallic Tri-Coat">
+                  Glacier Gray Metallic Tri-Coat
+                </p>
+                <div class="gap-ford-space-sm flex items-center">
+                  <span class="flex items-start"
+                    ><p
+                      class="text-2xl font-semibold font-medium text-2xl leading-8 text-ford-body2-regular !font-ford-body2-regular leading-ford-body2-regular"
+                      data-testid="new-price"
+                      aria-label="Price of Product is $995">
+                      $995
+                    </p></span
+                  >
+                </div>
+              </div>
+              <div class="flex flex-shrink-0 flex-col justify-between items-end self-stretch">
+                <button
+                  class="inline-flex items-center justify-center text-ford-body2-bold leading-ford-body2-bold font-ford-body2-bold capitalize transition-colors ford-component-btn focus:outline-none select-none disabled:pointer-events-none disabled:text-ford-text-subtlest-disabled data-[disabled=true]:pointer-events-none disabled:bg-transparent border-none gap-0 text-ford-text-strong hover:text-ford-text-moderate-default px-0 py-0 h-ford-space-lg rounded-ford-radius-full focus-visible:ring-2 focus-visible:ring-ford-stroke-strongest-focus focus-visible:ring-offset-[10px]"
+                  type="button"
+                  aria-label="Expand">
+                  <span class="flex items-center justify-center gap-2"
+                    ><!--$?--><template id="B:a"></template
+                    ><!--/$--></span
+                  >
+                </button>
+              </div>
+            </div>
           </div>
-
-          <div class="text-xl font-black mt-2">
-            ${value}
-          </div>
-
         </div>
-      `;
-      }
-
-      function configRow(label, value) {
-        return `
-        <div class="flex justify-between items-center">
-
-          <div class="text-slate-400">
-            ${label}
+      </div>
+      <div class="">
+        <div
+          class="relative flex w-full h-max items-start gap-ford-space-lg lg:hover:ring-2 lg:hover:ring-ford-stroke-interactive rounded-ford-radius-md pt-ford-space-sm pr-ford-space-md pb-ford-space-sm pl-ford-space-sm min-h-[82px] ring-1 ring-ford-stroke-subtle(dividers) ring-inset"
+          data-testid="step-selection-card-PN4JU"
+          tabindex="0">
+          <div
+            class="flex w-[99px] !h-[66px] items-start rounded-ford-radius-sm aspect-video h-full border-4 border-solid bg-origin-border bg-clip-content"
+            data-testid="step-selection-card-PN4JU-swatch"
+            style="background-image: linear-gradient(to top, #57565f, #57565faa); border-color: #57565fcc"></div>
+          <div class="flex-1">
+            <div
+              class="flex flex-1 self-stretch items-start gap-ford-space-md h-max"
+              data-testid="step-selection-info-PN4JU">
+              <div class="flex flex-1 min-w-0 flex-col items-start gap-ford-space-sm self-stretch">
+                <p
+                  class="text-ford-body2-bold font-ford-body2-bold leading-ford-body2-bold text-left no-underline w-full line-clamp-2 overflow-hidden leading-6 cursor-pointer"
+                  title="Dark Matter Gray Metallic">
+                  Dark Matter Gray Metallic
+                </p>
+                <div class="gap-ford-space-sm flex items-center">
+                  <span class="flex items-start"
+                    ><p
+                      class="text-2xl font-semibold font-medium text-2xl leading-8 text-ford-body2-regular !font-ford-body2-regular leading-ford-body2-regular"
+                      data-testid="new-price"
+                      aria-label="Price of Product is $495">
+                      $495
+                    </p></span
+                  >
+                </div>
+              </div>
+              <div class="flex flex-shrink-0 flex-col justify-between items-end self-stretch">
+                <button
+                  class="inline-flex items-center justify-center text-ford-body2-bold leading-ford-body2-bold font-ford-body2-bold capitalize transition-colors ford-component-btn focus:outline-none select-none disabled:pointer-events-none disabled:text-ford-text-subtlest-disabled data-[disabled=true]:pointer-events-none disabled:bg-transparent border-none gap-0 text-ford-text-strong hover:text-ford-text-moderate-default px-0 py-0 h-ford-space-lg rounded-ford-radius-full focus-visible:ring-2 focus-visible:ring-ford-stroke-strongest-focus focus-visible:ring-offset-[10px]"
+                  type="button"
+                  aria-label="Expand">
+                  <span class="flex items-center justify-center gap-2"
+                    ><!--$?--><template id="B:b"></template
+                    ><!--/$--></span
+                  >
+                </button>
+              </div>
+            </div>
           </div>
-
-          <div class="font-bold text-right">
-            ${value}
-          </div>
-
         </div>
-      `;
-      }
-
-      /*
-    =========================================================
-    INITIALIZE
-    =========================================================
-    */
-
-      calculateMatches();
-    </script>
-  </body>
-</html>
+      </div>
+      <div class="">
+        <div
+          class="relative flex w-full h-max items-start gap-ford-space-lg lg:hover:ring-2 lg:hover:ring-ford-stroke-interactive rounded-ford-radius-md pt-ford-space-sm pr-ford-space-md pb-ford-space-sm pl-ford-space-sm min-h-[82px] ring-1 ring-ford-stroke-subtle(dividers) ring-inset"
+          data-testid="step-selection-card-PN4DU"
+          tabindex="0">
+          <div
+            class="flex w-[99px] !h-[66px] items-start rounded-ford-radius-sm aspect-video h-full border-4 border-solid bg-origin-border bg-clip-content"
+            data-testid="step-selection-card-PN4DU-swatch"
+            style="background-image: linear-gradient(to top, #7a3518, #7a3518aa); border-color: #7a3518cc"></div>
+          <div class="flex-1">
+            <div
+              class="flex flex-1 self-stretch items-start gap-ford-space-md h-max"
+              data-testid="step-selection-info-PN4DU">
+              <div class="flex flex-1 min-w-0 flex-col items-start gap-ford-space-sm self-stretch">
+                <p
+                  class="text-ford-body2-bold font-ford-body2-bold leading-ford-body2-bold text-left no-underline w-full line-clamp-2 overflow-hidden leading-6 cursor-pointer"
+                  title="Bronze Fire Metallic Tinted Clearcoat">
+                  Bronze Fire Metallic Tinted Clearcoat
+                </p>
+                <div class="gap-ford-space-sm flex items-center">
+                  <span class="flex items-start"
+                    ><p
+                      class="text-2xl font-semibold font-medium text-2xl leading-8 text-ford-body2-regular !font-ford-body2-regular leading-ford-body2-regular"
+                      data-testid="new-price"
+                      aria-label="Price of Product is $495">
+                      $495
+                    </p></span
+                  >
+                </div>
+              </div>
+              <div class="flex flex-shrink-0 flex-col justify-between items-end self-stretch">
+                <button
+                  class="inline-flex items-center justify-center text-ford-body2-bold leading-ford-body2-bold font-ford-body2-bold capitalize transition-colors ford-component-btn focus:outline-none select-none disabled:pointer-events-none disabled:text-ford-text-subtlest-disabled data-[disabled=true]:pointer-events-none disabled:bg-transparent border-none gap-0 text-ford-text-strong hover:text-ford-text-moderate-default px-0 py-0 h-ford-space-lg rounded-ford-radius-full focus-visible:ring-2 focus-visible:ring-ford-stroke-strongest-focus focus-visible:ring-offset-[10px]"
+                  type="button"
+                  aria-label="Expand">
+                  <span class="flex items-center justify-center gap-2"
+                    ><!--$?--><template id="B:c"></template
+                    ><!--/$--></span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div
+          class="relative flex w-full h-max items-start gap-ford-space-lg lg:hover:ring-2 lg:hover:ring-ford-stroke-interactive rounded-ford-radius-md pt-ford-space-sm pr-ford-space-md pb-ford-space-sm pl-ford-space-sm min-h-[82px] ring-1 ring-ford-stroke-subtle(dividers) ring-inset"
+          data-testid="step-selection-card-PN4GM"
+          tabindex="0">
+          <div
+            class="flex w-[99px] !h-[66px] items-start rounded-ford-radius-sm aspect-video h-full border-4 border-solid bg-origin-border bg-clip-content"
+            data-testid="step-selection-card-PN4GM-swatch"
+            style="background-image: linear-gradient(to top, #1b1b1d, #1b1b1daa); border-color: #1b1b1dcc"></div>
+          <div class="flex-1">
+            <div
+              class="flex flex-1 self-stretch items-start gap-ford-space-md h-max"
+              data-testid="step-selection-info-PN4GM">
+              <div class="flex flex-1 min-w-0 flex-col items-start gap-ford-space-sm self-stretch">
+                <p
+                  class="text-ford-body2-bold font-ford-body2-bold leading-ford-body2-bold text-left no-underline w-full line-clamp-2 overflow-hidden leading-6 cursor-pointer"
+                  title="Agate Black Metallic">
+                  Agate Black Metallic
+                </p>
+                <div class="gap-ford-space-sm flex items-center"><span class="flex items-start"></span></div>
+              </div>
+              <div class="flex flex-shrink-0 flex-col justify-between items-end self-stretch">
+                <button
+                  class="inline-flex items-center justify-center text-ford-body2-bold leading-ford-body2-bold font-ford-body2-bold capitalize transition-colors ford-component-btn focus:outline-none select-none disabled:pointer-events-none disabled:text-ford-text-subtlest-disabled data-[disabled=true]:pointer-events-none disabled:bg-transparent border-none gap-0 text-ford-text-strong hover:text-ford-text-moderate-default px-0 py-0 h-ford-space-lg rounded-ford-radius-full focus-visible:ring-2 focus-visible:ring-ford-stroke-strongest-focus focus-visible:ring-offset-[10px]"
+                  type="button"
+                  aria-label="Expand">
+                  <span class="flex items-center justify-center gap-2"
+                    ><!--$?--><template id="B:d"></template
+                    ><!--/$--></span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class=""><p class="text-ford-body1-bold font-ford-body1-bold leading-ford-body1-bold text-left no-underline mb-ford-space-lg">Roof Color</p></div>
+    <div class="gap-x-ford-space-lg mb-ford-space-3xl grid px-[2px] grid-cols-1 gap-y-ford-space-lg">
+      <div class="">
+        <div
+          class="relative flex w-full h-max items-start gap-ford-space-lg lg:hover:ring-2 lg:hover:ring-ford-stroke-interactive rounded-ford-radius-md pt-ford-space-sm pr-ford-space-md pb-ford-space-sm pl-ford-space-sm min-h-[82px] ring-1 ring-ford-stroke-subtle(dividers) ring-inset"
+          data-testid="step-selection-card-CJDAS"
+          tabindex="0">
+          <div
+            class="flex w-[99px] !h-[66px] items-start rounded-ford-radius-sm aspect-video h-full border-4 border-solid bg-origin-border bg-clip-content"
+            data-testid="step-selection-card-CJDAS-swatch"
+            style="background-image: linear-gradient(to top, #1b1b1d, #1b1b1daa); border-color: #1b1b1dcc"></div>
+          <div class="flex-1">
+            <div
+              class="flex flex-1 self-stretch items-start gap-ford-space-md h-max"
+              data-testid="step-selection-info-CJDAS">
+              <div class="flex flex-1 min-w-0 flex-col items-start gap-ford-space-sm self-stretch">
+                <p
+                  class="text-ford-body2-bold font-ford-body2-bold leading-ford-body2-bold text-left no-underline w-full line-clamp-2 overflow-hidden leading-6 cursor-pointer"
+                  title="Black Painted Roof">
+                  Black Painted Roof
+                </p>
+                <div class="gap-ford-space-sm flex items-center">
+                  <span class="flex items-start"
+                    ><p
+                      class="text-2xl font-semibold font-medium text-2xl leading-8 text-ford-body2-regular !font-ford-body2-regular leading-ford-body2-regular"
+                      data-testid="new-price"
+                      aria-label="Price of Product is $7,550">
+                      $7,550
+                    </p></span
+                  >
+                </div>
+              </div>
+              <div class="flex flex-shrink-0 flex-col justify-between items-end self-stretch">
+                <button
+                  class="inline-flex items-center justify-center text-ford-body2-bold leading-ford-body2-bold font-ford-body2-bold capitalize transition-colors ford-component-btn focus:outline-none select-none disabled:pointer-events-none disabled:text-ford-text-subtlest-disabled data-[disabled=true]:pointer-events-none disabled:bg-transparent border-none gap-0 text-ford-text-strong hover:text-ford-text-moderate-default px-0 py-0 h-ford-space-lg rounded-ford-radius-full focus-visible:ring-2 focus-visible:ring-ford-stroke-strongest-focus focus-visible:ring-offset-[10px]"
+                  type="button"
+                  aria-label="Expand">
+                  <span class="flex items-center justify-center gap-2"
+                    ><!--$?--><template id="B:e"></template
+                    ><!--/$--></span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
