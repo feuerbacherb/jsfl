@@ -137,6 +137,14 @@ button,
   font-weight: 700;
 }
 
+.section-heading h3 {
+  margin: 0 0 12px;
+  color: var(--ford-blue);
+  font-size: clamp(28px, 3vw, 32px);
+  line-height: 1.12;
+  font-weight: 700;
+}
+
 .section-heading p {
   margin: 0;
   color: var(--muted);
@@ -387,6 +395,12 @@ button,
   margin: 0 0 18px;
   color: var(--ford-blue);
   font-size: clamp(30px, 4vw, 44px);
+  line-height: 1.15;
+}
+
+.model-intro h3 {
+  margin: 0 0 18px;
+  font-size: clamp(20px, 4vw, 40px);
   line-height: 1.15;
 }
 
@@ -735,20 +749,26 @@ button,
 
 .service-area {
   padding: 50px 0;
-  background: var(--white);
+  background: var(--off-white);
   border-top: 1px solid var(--border);
 }
 
 .service-area__content {
   max-width: 950px;
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .service-area h2 {
   margin: 0 0 12px;
   color: var(--ford-blue);
   font-size: 28px;
+}
+
+.service-area h3 {
+  margin: 0 0 12px;
+  color: var(--ford-blue);
+  font-size: 24px;
 }
 
 .service-area p {
