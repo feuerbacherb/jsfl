@@ -753,6 +753,17 @@ button,
   border-top: 1px solid var(--border);
 }
 
+.service-area--blue {
+  padding: 50px 0;
+  background: var(--ford-blue);
+  color: var(--white);
+}
+
+.service-area--gray {
+  padding: 50px 0;
+  background: var(--off-white);
+}
+
 .service-area__content {
   max-width: 950px;
   margin: auto;
