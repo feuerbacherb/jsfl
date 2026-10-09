@@ -111,7 +111,7 @@ button,
 }
 
 .section {
-  padding: 72px 0;
+  padding: 54px 0;
 }
 
 .section--gray {
@@ -754,14 +754,18 @@ button,
 }
 
 .service-area--blue {
-  padding: 50px 0;
+  padding: 25px 0;
   background: var(--ford-blue);
   color: var(--white);
 }
 
 .service-area--gray {
-  padding: 50px 0;
+  padding: 25px 0;
   background: var(--off-white);
+}
+
+.service-area--white {
+  padding: 25px 0;
 }
 
 .service-area__content {
@@ -777,7 +781,7 @@ button,
 }
 
 .service-area h3 {
-  margin: 0 0 12px;
+  margin: 12px 0;
   color: var(--ford-blue);
   font-size: 24px;
 }
@@ -785,6 +789,10 @@ button,
 .service-area p {
   margin: 0;
   color: var(--muted);
+}
+
+.service-area--blue li {
+  color: var(--white);
 }
 
 /* ------------------------------
